@@ -1,0 +1,394 @@
+[15-Nov-25 14:13:00] Open DHCP Server Version 1.84 Linux Build 1058 Starting...
+[15-Nov-25 14:13:02] Starting DHCP Service
+[15-Nov-25 14:13:03] Logging: Normal
+[15-Nov-25 14:13:03] icon file: /home/tando/Scriptsie/opendhcp/opendhcp.png
+[15-Nov-25 14:13:03] exe file: /home/tando/Scriptsie/opendhcp/opendhcpd
+[15-Nov-25 14:13:03] ini file: /home/tando/Scriptsie/opendhcp/opendhcp.ini
+[15-Nov-25 14:13:03] log file: /home/tando/Scriptsie/opendhcp/log/opendhcp%Y%m%d.log
+[15-Nov-25 14:13:03] state file: /home/tando/Scriptsie/opendhcp/opendhcp.state
+[15-Nov-25 14:13:03] Default Lease: 36000 (sec)
+[15-Nov-25 14:13:03] Server Name: tando-Latitude-5480
+[15-Nov-25 14:13:03] Lease Status URL: http://192.168.7.1:6789
+[15-Nov-25 14:13:03] Listening On: 192.168.7.1
+[15-Nov-25 14:13:17] HTTP Client 192.168.7.1, Message Receive failed, WSAError 0
+[15-Nov-25 14:14:18] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 14:15:18] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 14:16:18] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 14:17:18] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 14:18:18] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 14:19:18] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 14:20:18] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 14:21:18] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 14:22:18] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 14:23:19] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 14:24:19] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 14:25:19] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 14:26:19] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 14:27:19] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 14:28:19] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 14:29:19] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 14:30:19] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 14:31:19] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 14:32:19] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 14:33:19] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 14:34:19] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 14:35:19] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 14:36:19] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 14:37:19] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 14:38:19] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 14:39:19] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 14:40:19] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 14:41:19] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 14:42:19] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 14:43:19] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 14:44:19] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 14:45:19] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 14:46:19] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 14:47:19] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 14:49:19] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 14:50:20] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 14:51:20] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 14:52:20] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 14:53:20] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 14:54:20] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 14:56:20] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 14:57:20] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 14:58:20] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 14:59:20] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:00:20] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:01:20] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:02:20] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:03:20] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:04:20] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:06:20] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:07:20] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:08:20] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:09:20] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:10:20] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:11:20] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:12:20] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:13:20] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:14:20] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:15:20] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:16:21] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:17:21] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:18:21] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:19:21] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:20:21] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:21:21] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:22:21] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:23:21] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:24:21] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:25:21] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:26:21] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:27:21] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:28:21] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:29:21] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:30:21] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:31:21] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:32:21] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:33:21] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:34:21] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:35:21] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:36:21] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:37:21] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:38:21] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:39:21] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:40:21] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:41:21] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:42:21] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:43:21] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:44:22] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:45:22] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:46:22] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:47:22] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:48:22] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:49:22] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:50:22] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:51:22] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:52:22] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:53:22] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:54:22] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:55:22] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:56:22] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:57:22] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:58:22] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 15:59:22] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:00:22] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:01:22] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:02:22] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:03:23] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:06:23] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:07:23] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:08:23] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:09:23] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:10:23] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:11:23] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:12:23] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:13:23] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:14:23] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:15:23] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:16:23] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:17:23] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:18:23] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:19:23] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:20:23] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:21:23] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:22:23] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:23:24] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:24:24] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:25:24] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:26:24] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:27:24] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:28:24] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:29:24] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:30:24] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:31:24] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:32:24] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:33:24] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:34:24] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:35:24] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:36:24] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:37:24] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:38:24] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:39:24] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:40:24] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:41:24] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:42:24] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:43:24] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:44:24] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:45:24] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:46:25] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:47:25] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:48:25] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:49:25] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:50:25] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:51:25] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:52:25] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:53:25] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:54:25] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:55:25] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:56:25] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:57:25] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:58:25] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 16:59:25] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:00:25] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:01:25] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:02:25] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:03:25] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:04:25] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:05:25] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:06:25] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:07:25] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:08:25] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:09:25] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:10:25] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:11:25] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:12:26] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:13:26] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:15:26] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:16:26] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:17:26] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:18:26] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:19:26] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:20:26] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:21:26] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:22:26] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:23:26] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:24:26] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:25:26] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:26:26] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:27:26] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:28:26] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:29:26] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:30:26] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:31:26] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:32:26] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:33:26] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:34:26] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:35:27] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:36:27] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:37:27] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:38:27] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:39:27] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:40:27] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:41:27] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:42:27] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:43:27] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:44:27] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:45:27] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:46:27] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:47:27] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:48:27] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:49:27] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:50:27] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:51:27] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:52:27] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:53:27] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:54:27] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:55:27] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:56:27] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:57:27] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 17:58:27] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:00:27] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:02:28] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:03:28] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:05:28] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:06:28] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:07:28] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:08:28] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:09:28] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:10:28] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:11:28] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:12:28] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:13:28] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:14:28] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:15:28] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:16:28] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:17:28] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:20:28] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:21:28] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:22:28] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:23:28] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:24:28] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:25:28] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:26:28] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:27:28] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:28:29] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:29:29] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:30:29] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:31:29] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:33:29] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:34:29] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:35:29] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:36:29] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:37:29] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:38:29] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:39:29] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:40:29] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:41:29] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:42:29] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:43:29] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:44:29] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:45:29] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:46:29] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:47:29] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:48:29] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:49:30] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:50:30] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:51:30] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:52:30] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:53:30] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:54:30] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:55:30] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:56:30] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:57:30] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:58:30] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 18:59:30] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 19:00:30] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 19:01:30] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 19:02:30] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 19:03:30] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 19:04:30] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 19:05:30] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 19:06:30] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 19:07:30] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 19:08:30] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 19:10:30] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 19:11:30] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 19:12:30] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 19:13:30] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 19:14:30] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 19:15:31] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 19:16:31] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 19:17:31] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 19:18:31] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 19:19:31] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 19:20:31] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 19:21:31] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 19:22:31] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 19:23:31] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 19:24:31] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 19:25:31] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 19:27:31] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 19:28:31] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 19:29:31] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 19:30:31] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 19:31:31] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 19:32:31] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 19:33:31] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 19:34:31] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 19:35:31] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 19:36:31] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 19:37:32] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 19:38:32] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 19:39:32] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 19:40:32] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 19:41:32] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 19:42:32] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 19:43:32] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 19:44:32] HTTP Client 192.168.7.1, Message Receive failed
+[15-Nov-25 19:45:04] Network changed, re-detecting Listening Interfaces..
+[15-Nov-25 20:24:27] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[15-Nov-25 20:24:27] No Static Interface ready, Waiting...
+[15-Nov-25 20:24:47] Network changed, re-detecting Listening Interfaces..
+[15-Nov-25 20:24:47] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[15-Nov-25 20:24:47] No Static Interface ready, Waiting...
+[15-Nov-25 20:28:04] Closing Network Connections...
+[15-Nov-25 20:28:04] Closing Network Connections...
+[15-Nov-25 20:28:05] OpenDHCP Server Stopped !
+
+[15-Nov-25 20:28:05] OpenDHCP Server Stopped !
+
+[15-Nov-25 21:52:46] Open DHCP Server Version 1.84 Linux Build 1058 Starting...
+[15-Nov-25 21:52:48] Starting DHCP Service
+[15-Nov-25 21:52:49] Logging: Normal
+[15-Nov-25 21:52:49] icon file: /home/tando/Scriptsie/opendhcp/opendhcp.png
+[15-Nov-25 21:52:49] exe file: /home/tando/Scriptsie/opendhcp/opendhcpd
+[15-Nov-25 21:52:49] ini file: /home/tando/Scriptsie/opendhcp/opendhcp.ini
+[15-Nov-25 21:52:49] state file: /home/tando/Scriptsie/opendhcp/opendhcp.state
+[15-Nov-25 21:52:49] log file: /home/tando/Scriptsie/opendhcp/log/opendhcp%Y%m%d.log
+[15-Nov-25 21:52:49] Default Lease: 36000 (sec)
+[15-Nov-25 21:52:49] Server Name: tando-Latitude-5480
+[15-Nov-25 21:52:49] Lease Status URL: http://192.168.7.1:6789
+[15-Nov-25 21:52:49] Listening On: 192.168.7.1
+[15-Nov-25 21:53:09] Network changed, re-detecting Listening Interfaces..
+[15-Nov-25 21:53:11] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[15-Nov-25 21:53:11] No Static Interface ready, Waiting...
+[15-Nov-25 21:53:31] Network changed, re-detecting Listening Interfaces..
+[15-Nov-25 21:53:31] Server Name: tando-Latitude-5480
+[15-Nov-25 21:53:31] Lease Status URL: http://192.168.7.1:6789
+[15-Nov-25 21:53:31] Listening On: 192.168.7.1
+[15-Nov-25 22:25:51] Network changed, re-detecting Listening Interfaces..
+[15-Nov-25 22:25:55] Server Name: tando-Latitude-5480
+[15-Nov-25 22:25:55] Lease Status URL: http://192.168.7.1:6789
+[15-Nov-25 22:25:55] Listening On: 192.168.7.1
+[15-Nov-25 22:26:15] Network changed, re-detecting Listening Interfaces..
+[15-Nov-25 22:26:17] Server Name: tando-Latitude-5480
+[15-Nov-25 22:26:17] Lease Status URL: http://192.168.7.1:6789
+[15-Nov-25 22:26:17] Listening On: 192.168.7.1
+[15-Nov-25 23:02:37] Network changed, re-detecting Listening Interfaces..
+[15-Nov-25 23:02:41] Server Name: tando-Latitude-5480
+[15-Nov-25 23:02:41] Lease Status URL: http://192.168.7.1:6789
+[15-Nov-25 23:02:41] Listening On: 192.168.7.1
+[15-Nov-25 23:05:01] Network changed, re-detecting Listening Interfaces..
+[15-Nov-25 23:05:04] Server Name: tando-Latitude-5480
+[15-Nov-25 23:05:04] Listening On: 192.168.7.1
+[15-Nov-25 23:05:04] Lease Status URL: http://192.168.7.1:6789
+[15-Nov-25 23:11:44] Network changed, re-detecting Listening Interfaces..
+[15-Nov-25 23:11:46] Server Name: tando-Latitude-5480
+[15-Nov-25 23:11:46] Lease Status URL: http://192.168.7.1:6789
+[15-Nov-25 23:11:46] Listening On: 192.168.7.1
+[15-Nov-25 23:12:26] Network changed, re-detecting Listening Interfaces..
+[15-Nov-25 23:12:28] Server Name: tando-Latitude-5480
+[15-Nov-25 23:12:28] Lease Status URL: http://192.168.7.1:6789
+[15-Nov-25 23:12:28] Listening On: 192.168.7.1
+[15-Nov-25 23:13:28] Network changed, re-detecting Listening Interfaces..
+[15-Nov-25 23:13:30] Server Name: tando-Latitude-5480
+[15-Nov-25 23:13:30] Lease Status URL: http://192.168.7.1:6789
+[15-Nov-25 23:13:30] Listening On: 192.168.7.1
+[15-Nov-25 23:17:30] Network changed, re-detecting Listening Interfaces..
+[15-Nov-25 23:17:32] Lease Status URL: http://192.168.7.1:6789
+[15-Nov-25 23:17:32] Listening On: 192.168.7.1
+[15-Nov-25 23:17:32] Server Name: tando-Latitude-5480
+Logging Continued on file /home/tando/Scriptsie/opendhcp/log/opendhcp20251116.log

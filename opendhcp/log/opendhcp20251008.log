@@ -1,0 +1,54 @@
+Open DHCP Server Version 1.84 Linux Build 1058
+
+[08-Oct-25 00:03:09] Network changed, re-detecting Listening Interfaces..
+[08-Oct-25 00:03:09] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[08-Oct-25 00:03:09] No Static Interface ready, Waiting...
+[08-Oct-25 00:07:09] Network changed, re-detecting Listening Interfaces..
+[08-Oct-25 00:07:09] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[08-Oct-25 00:07:09] No Static Interface ready, Waiting...
+[08-Oct-25 00:08:09] Network changed, re-detecting Listening Interfaces..
+[08-Oct-25 00:08:09] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[08-Oct-25 00:08:09] No Static Interface ready, Waiting...
+[08-Oct-25 00:55:09] Network changed, re-detecting Listening Interfaces..
+[08-Oct-25 00:55:09] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[08-Oct-25 00:55:09] No Static Interface ready, Waiting...
+[08-Oct-25 01:07:00] Network changed, re-detecting Listening Interfaces..
+[08-Oct-25 01:07:00] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[08-Oct-25 01:07:00] No Static Interface ready, Waiting...
+[08-Oct-25 13:00:05] No Static Interface ready, Waiting...
+[08-Oct-25 13:00:05] Network changed, re-detecting Listening Interfaces..
+[08-Oct-25 13:00:05] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[08-Oct-25 13:00:25] Network changed, re-detecting Listening Interfaces..
+[08-Oct-25 13:00:25] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[08-Oct-25 13:00:25] No Static Interface ready, Waiting...
+[08-Oct-25 21:24:27] Network changed, re-detecting Listening Interfaces..
+[08-Oct-25 21:24:27] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[08-Oct-25 21:24:27] No Static Interface ready, Waiting...
+[08-Oct-25 21:24:47] Network changed, re-detecting Listening Interfaces..
+[08-Oct-25 21:24:47] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[08-Oct-25 21:24:47] No Static Interface ready, Waiting...
+[08-Oct-25 21:25:47] Network changed, re-detecting Listening Interfaces..
+[08-Oct-25 21:25:47] Server Name: tando-Latitude-5480
+[08-Oct-25 21:25:47] Lease Status URL: http://192.168.7.1:6789
+[08-Oct-25 21:25:47] Listening On: 192.168.7.1
+[08-Oct-25 21:28:19] Host 80:2a:a8:cc:90:ac (UVC-G3-90ac) allotted 192.168.7.102 for 36000 seconds
+[08-Oct-25 21:38:08] Open DHCP Server Version 1.84 Linux Build 1058 Starting...
+[08-Oct-25 21:38:10] Starting DHCP Service
+[08-Oct-25 21:38:11] Logging: Normal
+[08-Oct-25 21:38:11] icon file: /home/tando/Scriptsie/opendhcp/opendhcp.png
+[08-Oct-25 21:38:11] exe file: /home/tando/Scriptsie/opendhcp/opendhcpd
+[08-Oct-25 21:38:11] ini file: /home/tando/Scriptsie/opendhcp/opendhcp.ini
+[08-Oct-25 21:38:11] state file: /home/tando/Scriptsie/opendhcp/opendhcp.state
+[08-Oct-25 21:38:11] log file: /home/tando/Scriptsie/opendhcp/log/opendhcp%Y%m%d.log
+[08-Oct-25 21:38:11] Default Lease: 36000 (sec)
+[08-Oct-25 21:38:11] Server Name: tando-Latitude-5480
+[08-Oct-25 21:38:11] Lease Status URL: http://192.168.7.1:6789
+[08-Oct-25 21:38:11] Listening On: 192.168.7.1
+[08-Oct-25 23:52:00] Network changed, re-detecting Listening Interfaces..
+[08-Oct-25 23:52:10] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[08-Oct-25 23:52:10] No Static Interface ready, Waiting...
+[08-Oct-25 23:52:30] Network changed, re-detecting Listening Interfaces..
+[08-Oct-25 23:52:30] Lease Status URL: http://192.168.7.1:6789
+[08-Oct-25 23:52:30] Server Name: tando-Latitude-5480
+[08-Oct-25 23:52:30] Listening On: 192.168.7.1
+Logging Continued on file /home/tando/Scriptsie/opendhcp/log/opendhcp20251009.log

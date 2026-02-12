@@ -1,0 +1,43 @@
+Open DHCP Server Version 1.84 Linux Build 1058
+
+[09-Oct-25 00:13:29] Host 80:2a:a8:cc:90:ac (UVC-G3-90ac) allotted 192.168.7.102 for 36000 seconds
+[09-Oct-25 02:30:17] Network changed, re-detecting Listening Interfaces..
+[09-Oct-25 02:30:26] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[09-Oct-25 02:30:26] No Static Interface ready, Waiting...
+[09-Oct-25 10:18:22] Closing Network Connections...
+[09-Oct-25 10:18:23] OpenDHCP Server Stopped !
+
+[09-Oct-25 18:48:48] Open DHCP Server Version 1.84 Linux Build 1058 Starting...
+[09-Oct-25 18:48:50] Starting DHCP Service
+[09-Oct-25 18:48:51] Logging: Normal
+[09-Oct-25 18:48:51] icon file: /home/tando/Scriptsie/opendhcp/opendhcp.png
+[09-Oct-25 18:48:51] exe file: /home/tando/Scriptsie/opendhcp/opendhcpd
+[09-Oct-25 18:48:51] ini file: /home/tando/Scriptsie/opendhcp/opendhcp.ini
+[09-Oct-25 18:48:51] log file: /home/tando/Scriptsie/opendhcp/log/opendhcp%Y%m%d.log
+[09-Oct-25 18:48:51] state file: /home/tando/Scriptsie/opendhcp/opendhcp.state
+[09-Oct-25 18:48:51] Default Lease: 36000 (sec)
+[09-Oct-25 18:48:51] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[09-Oct-25 18:48:51] No Static Interface ready, Waiting...
+[09-Oct-25 18:55:31] Network changed, re-detecting Listening Interfaces..
+[09-Oct-25 18:55:31] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[09-Oct-25 18:55:31] No Static Interface ready, Waiting...
+[09-Oct-25 18:55:51] Network changed, re-detecting Listening Interfaces..
+[09-Oct-25 18:55:51] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[09-Oct-25 18:55:51] No Static Interface ready, Waiting...
+[09-Oct-25 18:58:02] Network changed, re-detecting Listening Interfaces..
+[09-Oct-25 18:58:02] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[09-Oct-25 18:58:02] No Static Interface ready, Waiting...
+[09-Oct-25 18:58:22] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[09-Oct-25 18:58:22] No Static Interface ready, Waiting...
+[09-Oct-25 18:58:22] Network changed, re-detecting Listening Interfaces..
+[09-Oct-25 19:16:45] Network changed, re-detecting Listening Interfaces..
+[09-Oct-25 19:16:45] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[09-Oct-25 19:16:45] No Static Interface ready, Waiting...
+[09-Oct-25 19:19:05] Network changed, re-detecting Listening Interfaces..
+[09-Oct-25 19:19:05] Server Name: tando-Latitude-5480
+[09-Oct-25 19:19:05] Lease Status URL: http://192.168.7.1:6789
+[09-Oct-25 19:19:05] Listening On: 192.168.7.1
+[09-Oct-25 19:23:05] Network changed, re-detecting Listening Interfaces..
+[09-Oct-25 19:23:07] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[09-Oct-25 19:23:07] No Static Interface ready, Waiting...
+Logging Continued on file /home/tando/Scriptsie/opendhcp/log/opendhcp20251010.log

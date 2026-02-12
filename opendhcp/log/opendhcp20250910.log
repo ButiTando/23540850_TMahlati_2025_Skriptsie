@@ -1,0 +1,21 @@
+[10-Sep-25 19:04:04] Open DHCP Server Version 1.84 Linux Build 1058 Starting...
+[10-Sep-25 19:04:06] Starting DHCP Service
+[10-Sep-25 19:04:07] Logging: Normal
+[10-Sep-25 19:04:07] icon file: /home/tando/Scriptsie/opendhcp/opendhcp.png
+[10-Sep-25 19:04:07] exe file: /home/tando/Scriptsie/opendhcp/opendhcpd
+[10-Sep-25 19:04:07] ini file: /home/tando/Scriptsie/opendhcp/opendhcp.ini
+[10-Sep-25 19:04:07] state file: /home/tando/Scriptsie/opendhcp/opendhcp.state
+[10-Sep-25 19:04:07] log file: /home/tando/Scriptsie/opendhcp/log/opendhcp%Y%m%d.log
+[10-Sep-25 19:04:07] Default Lease: 36000 (sec)
+[10-Sep-25 19:04:07] Server Name: tando-Latitude-5480
+[10-Sep-25 19:04:07] Lease Status URL: http://192.168.7.1:6789
+[10-Sep-25 19:04:07] Listening On: 192.168.7.1
+[10-Sep-25 19:20:27] Network changed, re-detecting Listening Interfaces..
+[10-Sep-25 19:20:30] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[10-Sep-25 19:20:30] No Static Interface ready, Waiting...
+[10-Sep-25 19:22:10] Closing Network Connections...
+[10-Sep-25 19:22:10] Closing Network Connections...
+[10-Sep-25 19:22:11] OpenDHCP Server Stopped !
+
+[10-Sep-25 19:22:11] OpenDHCP Server Stopped !
+

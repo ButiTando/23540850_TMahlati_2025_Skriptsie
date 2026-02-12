@@ -1,0 +1,223 @@
+[26-Aug-25 15:00:25] Open DHCP Server Version 1.84 Linux Build 1058 Starting...
+[26-Aug-25 15:00:27] Starting DHCP Service
+[26-Aug-25 15:00:28] exe file: /home/tando/Skripsi/opendhcp/opendhcpd
+[26-Aug-25 15:00:28] state file: /home/tando/Skripsi/opendhcp/opendhcp.state
+[26-Aug-25 15:00:28] Logging: Normal
+[26-Aug-25 15:00:28] icon file: /home/tando/Skripsi/opendhcp/opendhcp.png
+[26-Aug-25 15:00:28] ini file: /home/tando/Skripsi/opendhcp/opendhcp.ini
+[26-Aug-25 15:00:28] log file: /home/tando/Skripsi/opendhcp/log/opendhcp%Y%m%d.log
+[26-Aug-25 15:00:28] Warning: Section [LISTEN_ON], Invalid Interface Address 192.168.7.1/24, ignored
+[26-Aug-25 15:00:28] Warning: section [GLOBAL_OPTIONS] option DHCPRange=192.168.7.1-192.168.7.254 not allowed in this section, option ignored
+[26-Aug-25 15:00:28] Listening On: 192.168.7.1
+[26-Aug-25 15:00:28] Listening On: 10.73.177.5
+[26-Aug-25 15:00:28] Default Lease: 36000 (sec)
+[26-Aug-25 15:00:28] Server Name: tando-Latitude-5480
+[26-Aug-25 15:00:28] Lease Status URL: http://192.168.7.1:6789
+[26-Aug-25 15:00:46] Host 80:2a:a8:cc:90:ac (UVC-G3-90ac) allotted 192.168.7.102 for 36000 seconds
+[26-Aug-25 15:01:40] Host 80:2a:a8:cc:90:ac (UVC-G3-90ac) allotted 192.168.7.102 for 36000 seconds
+[26-Aug-25 15:02:48] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 15:04:48] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 15:05:48] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 15:06:48] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 15:07:48] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 15:09:48] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 15:10:48] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 15:11:49] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 15:12:49] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 15:12:51] Host 80:2a:a8:cc:90:ac (UVC-G3-90ac) allotted 192.168.7.102 for 36000 seconds
+[26-Aug-25 15:13:33] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 15:14:07] Host 80:2a:a8:cc:90:ac (UVC-G3-90ac) allotted 192.168.7.102 for 36000 seconds
+[26-Aug-25 15:14:35] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 15:14:57] Host 80:2a:a8:cc:90:ac (UVC-G3-90ac) allotted 192.168.7.102 for 36000 seconds
+[26-Aug-25 15:15:01] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 15:16:01] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 15:17:01] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 15:18:01] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 15:20:14] Host 80:2a:a8:cc:90:ac (UVC-G3-90ac) allotted 192.168.7.102 for 36000 seconds
+[26-Aug-25 15:22:02] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 15:23:02] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 15:24:02] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 15:25:02] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 15:28:02] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 15:29:02] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 15:30:03] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 15:31:03] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 15:32:03] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 15:33:03] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 15:34:03] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 15:35:03] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 15:36:03] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 15:37:03] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 15:38:03] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 15:40:04] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 15:41:04] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 15:42:04] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 15:43:04] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 15:45:04] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 15:46:04] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 15:47:04] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 15:48:04] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 15:49:05] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 15:50:05] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 15:52:05] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 15:53:05] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 15:54:05] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 15:56:05] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 15:57:05] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 15:58:29] Network changed, re-detecting Listening Interfaces..
+[26-Aug-25 15:58:47] Server Name: tando-Latitude-5480
+[26-Aug-25 15:58:47] Lease Status URL: http://192.168.7.1:6789
+[26-Aug-25 15:58:47] Listening On: 192.168.7.1
+[26-Aug-25 15:58:47] Listening On: 10.73.133.128
+[26-Aug-25 15:59:06] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 16:00:06] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 16:01:06] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 16:01:47] Network changed, re-detecting Listening Interfaces..
+[26-Aug-25 16:02:07] Server Name: tando-Latitude-5480
+[26-Aug-25 16:02:07] Lease Status URL: http://192.168.7.1:6789
+[26-Aug-25 16:02:07] Listening On: 192.168.7.1
+[26-Aug-25 16:02:07] Listening On: 10.73.177.5
+[26-Aug-25 16:03:06] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 16:03:27] Network changed, re-detecting Listening Interfaces..
+[26-Aug-25 16:03:48] 10.73.133.128 Port 67 already in use
+[26-Aug-25 16:03:48] Server Name: tando-Latitude-5480
+[26-Aug-25 16:03:48] Lease Status URL: http://192.168.7.1:6789
+[26-Aug-25 16:03:48] Listening On: 192.168.7.1
+[26-Aug-25 16:04:06] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 16:04:28] Retrying failed Listening Interfaces..
+[26-Aug-25 16:04:48] 10.73.133.128 Port 67 already in use
+[26-Aug-25 16:04:48] Server Name: tando-Latitude-5480
+[26-Aug-25 16:04:48] Lease Status URL: http://192.168.7.1:6789
+[26-Aug-25 16:04:48] Listening On: 192.168.7.1
+[26-Aug-25 16:05:06] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 16:05:28] Retrying failed Listening Interfaces..
+[26-Aug-25 16:05:48] Listening On: 192.168.7.1
+[26-Aug-25 16:05:48] Server Name: tando-Latitude-5480
+[26-Aug-25 16:05:48] 10.73.133.128 Port 67 already in use
+[26-Aug-25 16:05:48] Lease Status URL: http://192.168.7.1:6789
+[26-Aug-25 16:06:06] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 16:07:06] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 16:07:08] Retrying failed Listening Interfaces..
+[26-Aug-25 16:07:28] 10.73.133.128 Port 67 already in use
+[26-Aug-25 16:07:28] Lease Status URL: http://192.168.7.1:6789
+[26-Aug-25 16:07:28] Listening On: 192.168.7.1
+[26-Aug-25 16:07:28] Server Name: tando-Latitude-5480
+[26-Aug-25 16:08:06] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 16:09:07] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 16:10:08] Retrying failed Listening Interfaces..
+[26-Aug-25 16:10:27] 10.73.133.128 Port 67 already in use
+[26-Aug-25 16:10:27] Server Name: tando-Latitude-5480
+[26-Aug-25 16:10:27] Lease Status URL: http://192.168.7.1:6789
+[26-Aug-25 16:10:27] Listening On: 192.168.7.1
+[26-Aug-25 16:11:07] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 16:12:07] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 16:13:07] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 16:14:07] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 16:15:07] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 16:15:47] Retrying failed Listening Interfaces..
+[26-Aug-25 16:15:49] 10.73.133.128 Port 67 already in use
+[26-Aug-25 16:15:49] Lease Status URL: http://192.168.7.1:6789
+[26-Aug-25 16:15:49] Server Name: tando-Latitude-5480
+[26-Aug-25 16:15:49] Listening On: 192.168.7.1
+[26-Aug-25 16:16:07] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 16:17:07] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 16:18:07] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 16:19:08] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 16:20:08] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 16:23:08] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 16:24:08] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 16:25:08] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 16:26:08] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 16:26:29] Retrying failed Listening Interfaces..
+[26-Aug-25 16:26:50] 10.73.133.128 Port 67 already in use
+[26-Aug-25 16:26:50] Lease Status URL: http://192.168.7.1:6789
+[26-Aug-25 16:26:50] Listening On: 192.168.7.1
+[26-Aug-25 16:26:50] Server Name: tando-Latitude-5480
+[26-Aug-25 16:27:08] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 16:29:09] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 16:30:09] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 16:31:09] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 16:32:09] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 16:33:09] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 16:34:09] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 16:35:09] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 16:36:09] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 16:37:09] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 16:38:09] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 16:39:09] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 16:40:09] HTTP Client 192.168.7.1, Message Receive failed
+[26-Aug-25 16:40:44] Closing Network Connections...
+[26-Aug-25 16:40:44] Closing Network Connections...
+[26-Aug-25 16:40:45] OpenDHCP Server Stopped !
+
+[26-Aug-25 16:40:45] OpenDHCP Server Stopped !
+
+[26-Aug-25 16:51:00] Open DHCP Server Version 1.84 Linux Build 1058 Starting...
+[26-Aug-25 16:51:02] Starting DHCP Service
+[26-Aug-25 16:51:03] Logging: Normal
+[26-Aug-25 16:51:03] icon file: /home/tando/Skripsi/opendhcp/opendhcp.png
+[26-Aug-25 16:51:03] exe file: /home/tando/Skripsi/opendhcp/opendhcpd
+[26-Aug-25 16:51:03] log file: /home/tando/Skripsi/opendhcp/log/opendhcp%Y%m%d.log
+[26-Aug-25 16:51:03] state file: /home/tando/Skripsi/opendhcp/opendhcp.state
+[26-Aug-25 16:51:03] ini file: /home/tando/Skripsi/opendhcp/opendhcp.ini
+[26-Aug-25 16:51:03] Warning: Section [LISTEN_ON], Invalid Interface Address 192.168.7.1/24, ignored
+[26-Aug-25 16:51:03] Warning: section [GLOBAL_OPTIONS] option DHCPRange=192.168.7.1-192.168.7.254 not allowed in this section, option ignored
+[26-Aug-25 16:51:03] Default Lease: 36000 (sec)
+[26-Aug-25 16:51:03] Server Name: tando-Latitude-5480
+[26-Aug-25 16:51:03] Listening On: 10.73.177.5
+[26-Aug-25 16:51:03] Listening On: 192.168.7.1
+[26-Aug-25 16:51:03] Lease Status URL: http://192.168.7.1:6789
+[26-Aug-25 17:14:03] Network changed, re-detecting Listening Interfaces..
+[26-Aug-25 17:14:07] Server Name: tando-Latitude-5480
+[26-Aug-25 17:14:07] Lease Status URL: http://192.168.7.1:6789
+[26-Aug-25 17:14:07] Listening On: 192.168.7.1
+[26-Aug-25 17:14:07] Listening On: 10.73.133.98
+[26-Aug-25 17:17:27] Network changed, re-detecting Listening Interfaces..
+[26-Aug-25 17:17:29] Lease Status URL: http://192.168.7.1:6789
+[26-Aug-25 17:17:29] Server Name: tando-Latitude-5480
+[26-Aug-25 17:17:29] Listening On: 192.168.7.1
+[26-Aug-25 17:17:29] Listening On: 10.73.177.5
+[26-Aug-25 17:17:49] Network changed, re-detecting Listening Interfaces..
+[26-Aug-25 17:17:51] Server Name: tando-Latitude-5480
+[26-Aug-25 17:17:51] Listening On: 192.168.7.1
+[26-Aug-25 17:17:51] Lease Status URL: http://192.168.7.1:6789
+[26-Aug-25 17:17:51] Listening On: 10.73.133.98
+[26-Aug-25 17:19:31] Network changed, re-detecting Listening Interfaces..
+[26-Aug-25 17:19:33] Server Name: tando-Latitude-5480
+[26-Aug-25 17:19:33] Lease Status URL: http://192.168.7.1:6789
+[26-Aug-25 17:19:33] Listening On: 192.168.7.1
+[26-Aug-25 17:19:33] Listening On: 10.73.177.5
+[26-Aug-25 17:21:53] Network changed, re-detecting Listening Interfaces..
+[26-Aug-25 17:21:55] Lease Status URL: http://192.168.7.1:6789
+[26-Aug-25 17:21:55] Listening On: 192.168.7.1
+[26-Aug-25 17:21:55] Listening On: 10.73.133.98
+[26-Aug-25 17:21:55] Server Name: tando-Latitude-5480
+[26-Aug-25 17:34:35] Network changed, re-detecting Listening Interfaces..
+[26-Aug-25 17:34:38] Server Name: tando-Latitude-5480
+[26-Aug-25 17:34:38] Lease Status URL: http://192.168.7.1:6789
+[26-Aug-25 17:34:38] Listening On: 10.73.177.5
+[26-Aug-25 17:34:38] Listening On: 192.168.7.1
+[26-Aug-25 17:37:18] Network changed, re-detecting Listening Interfaces..
+[26-Aug-25 17:37:20] Server Name: tando-Latitude-5480
+[26-Aug-25 17:37:20] Listening On: 192.168.7.1
+[26-Aug-25 17:37:20] Lease Status URL: http://192.168.7.1:6789
+[26-Aug-25 17:37:20] Listening On: 10.73.133.98
+[26-Aug-25 17:38:40] Network changed, re-detecting Listening Interfaces..
+[26-Aug-25 17:38:42] Server Name: tando-Latitude-5480
+[26-Aug-25 17:38:42] Lease Status URL: http://192.168.7.1:6789
+[26-Aug-25 17:38:42] Listening On: 192.168.7.1
+[26-Aug-25 17:39:02] Network changed, re-detecting Listening Interfaces..
+[26-Aug-25 17:39:04] Server Name: tando-Latitude-5480
+[26-Aug-25 17:39:04] Lease Status URL: http://192.168.7.1:6789
+[26-Aug-25 17:39:04] Listening On: 192.168.7.1
+[26-Aug-25 17:39:04] Listening On: 10.73.177.5
+[26-Aug-25 17:50:44] Network changed, re-detecting Listening Interfaces..
+[26-Aug-25 17:50:47] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[26-Aug-25 17:50:47] Server Name: tando-Latitude-5480
+[26-Aug-25 17:50:47] Listening On: 10.73.177.5
+[26-Aug-25 18:17:59] Closing Network Connections...
+[26-Aug-25 18:17:59] Closing Network Connections...
+[26-Aug-25 18:18:00] OpenDHCP Server Stopped !
+
+[26-Aug-25 18:18:00] OpenDHCP Server Stopped !
+

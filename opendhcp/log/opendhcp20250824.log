@@ -1,0 +1,250 @@
+[24-Aug-25 08:10:39] Open DHCP Server Version 1.84 Linux Build 1058 Starting...
+[24-Aug-25 08:10:41] Starting DHCP Service
+[24-Aug-25 08:10:42] Logging: Normal
+[24-Aug-25 08:10:42] icon file: /home/tando/Downloads/opendhcp/opendhcp.png
+[24-Aug-25 08:10:42] exe file: /home/tando/Downloads/opendhcp/opendhcpd
+[24-Aug-25 08:10:42] ini file: /home/tando/Downloads/opendhcp/opendhcp.ini
+[24-Aug-25 08:10:42] state file: /home/tando/Downloads/opendhcp/opendhcp.state
+[24-Aug-25 08:10:42] log file: /home/tando/Downloads/opendhcp/log/opendhcp%Y%m%d.log
+[24-Aug-25 08:10:42] Warning: No IP Address for DHCP Static Host 00:ff:a4:0e:ef:99 specified
+[24-Aug-25 08:10:42] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:01 specified
+[24-Aug-25 08:10:42] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:02 specified
+[24-Aug-25 08:10:42] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:03 specified
+[24-Aug-25 08:10:42] Default Lease: 36000 (sec)
+[24-Aug-25 08:10:42] Server Name: tando-Latitude-5480
+[24-Aug-25 08:10:42] Lease Status URL: http://192.168.7.1:6789
+[24-Aug-25 08:10:42] Listening On: 10.73.183.205
+[24-Aug-25 08:10:42] Listening On: 192.168.7.1
+[24-Aug-25 08:21:22] Network changed, re-detecting Listening Interfaces..
+[24-Aug-25 08:21:25] Server Name: tando-Latitude-5480
+[24-Aug-25 08:21:25] Lease Status URL: http://10.73.183.205:6789
+[24-Aug-25 08:21:25] Listening On: 10.73.183.205
+[24-Aug-25 08:21:38] Closing Network Connections...
+[24-Aug-25 08:21:39] OpenDHCP Server Stopped !
+
+[24-Aug-25 08:31:01] Open DHCP Server Version 1.84 Linux Build 1058 Starting...
+[24-Aug-25 08:31:03] Starting DHCP Service
+[24-Aug-25 08:31:04] Logging: Normal
+[24-Aug-25 08:31:04] icon file: /home/tando/Downloads/opendhcp/opendhcp.png
+[24-Aug-25 08:31:04] exe file: /home/tando/Downloads/opendhcp/opendhcpd
+[24-Aug-25 08:31:04] ini file: /home/tando/Downloads/opendhcp/opendhcp.ini
+[24-Aug-25 08:31:04] log file: /home/tando/Downloads/opendhcp/log/opendhcp%Y%m%d.log
+[24-Aug-25 08:31:04] state file: /home/tando/Downloads/opendhcp/opendhcp.state
+[24-Aug-25 08:31:04] Warning: No IP Address for DHCP Static Host 00:ff:a4:0e:ef:99 specified
+[24-Aug-25 08:31:04] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:01 specified
+[24-Aug-25 08:31:04] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:02 specified
+[24-Aug-25 08:31:04] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:03 specified
+[24-Aug-25 08:31:04] Default Lease: 36000 (sec)
+[24-Aug-25 08:31:04] Server Name: tando-Latitude-5480
+[24-Aug-25 08:31:04] Listening On: 10.73.183.205
+[24-Aug-25 08:31:04] Lease Status URL: http://10.73.183.205:6789
+[24-Aug-25 08:32:18] Closing Network Connections...
+[24-Aug-25 08:32:19] OpenDHCP Server Stopped !
+
+[24-Aug-25 08:32:26] Open DHCP Server Version 1.84 Linux Build 1058 Starting...
+[24-Aug-25 08:32:28] Starting DHCP Service
+[24-Aug-25 08:32:29] Logging: Normal
+[24-Aug-25 08:32:29] icon file: /home/tando/Downloads/opendhcp/opendhcp.png
+[24-Aug-25 08:32:29] exe file: /home/tando/Downloads/opendhcp/opendhcpd
+[24-Aug-25 08:32:29] ini file: /home/tando/Downloads/opendhcp/opendhcp.ini
+[24-Aug-25 08:32:29] log file: /home/tando/Downloads/opendhcp/log/opendhcp%Y%m%d.log
+[24-Aug-25 08:32:29] state file: /home/tando/Downloads/opendhcp/opendhcp.state
+[24-Aug-25 08:32:29] Warning: No IP Address for DHCP Static Host 00:ff:a4:0e:ef:99 specified
+[24-Aug-25 08:32:29] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:01 specified
+[24-Aug-25 08:32:29] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:02 specified
+[24-Aug-25 08:32:29] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:03 specified
+[24-Aug-25 08:32:29] Default Lease: 36000 (sec)
+[24-Aug-25 08:32:29] Server Name: tando-Latitude-5480
+[24-Aug-25 08:32:29] Lease Status URL: http://10.73.183.205:6789
+[24-Aug-25 08:32:29] Listening On: 10.73.183.205
+[24-Aug-25 08:33:24] HTTP Client 10.73.183.205, Message Receive failed
+[24-Aug-25 08:34:24] HTTP Client 10.73.183.205, Message Receive failed
+[24-Aug-25 08:34:29] Network changed, re-detecting Listening Interfaces..
+[24-Aug-25 08:34:42] Server Name: tando-Latitude-5480
+[24-Aug-25 08:34:42] Listening On: 192.168.7.1
+[24-Aug-25 08:34:42] Lease Status URL: http://192.168.7.1:6789
+[24-Aug-25 08:34:42] Listening On: 10.73.183.205
+[24-Aug-25 08:35:31] No Matching DHCP Range for DHCPDISCOVER for c8:d9:d2:f1:31:5b (DESKTOP-KR4EFJE) from interface 192.168.7.1
+[24-Aug-25 08:35:35] No Matching DHCP Range for DHCPDISCOVER for c8:d9:d2:f1:31:5b (DESKTOP-KR4EFJE) from interface 192.168.7.1
+[24-Aug-25 08:35:39] No Matching DHCP Range for DHCPDISCOVER for c8:d9:d2:f1:31:5b (DESKTOP-KR4EFJE) from interface 192.168.7.1
+[24-Aug-25 08:35:46] No Matching DHCP Range for DHCPDISCOVER for c8:d9:d2:f1:31:5b (DESKTOP-KR4EFJE) from interface 192.168.7.1
+[24-Aug-25 08:36:03] No Matching DHCP Range for DHCPDISCOVER for c8:d9:d2:f1:31:5b (DESKTOP-KR4EFJE) from interface 192.168.7.1
+[24-Aug-25 08:36:15] HTTP Client 192.168.7.1, Message Receive failed
+[24-Aug-25 08:36:31] Closing Network Connections...
+[24-Aug-25 08:36:32] OpenDHCP Server Stopped !
+
+[24-Aug-25 08:36:40] Open DHCP Server Version 1.84 Linux Build 1058 Starting...
+[24-Aug-25 08:36:42] Starting DHCP Service
+[24-Aug-25 08:36:43] Logging: Normal
+[24-Aug-25 08:36:43] icon file: /home/tando/Downloads/opendhcp/opendhcp.png
+[24-Aug-25 08:36:43] exe file: /home/tando/Downloads/opendhcp/opendhcpd
+[24-Aug-25 08:36:43] ini file: /home/tando/Downloads/opendhcp/opendhcp.ini
+[24-Aug-25 08:36:43] log file: /home/tando/Downloads/opendhcp/log/opendhcp%Y%m%d.log
+[24-Aug-25 08:36:43] state file: /home/tando/Downloads/opendhcp/opendhcp.state
+[24-Aug-25 08:36:43] Warning: No IP Address for DHCP Static Host 00:ff:a4:0e:ef:99 specified
+[24-Aug-25 08:36:43] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:01 specified
+[24-Aug-25 08:36:43] Http Interface 192.168.7.1 TCP Port 6789 not available
+[24-Aug-25 08:36:43] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:02 specified
+[24-Aug-25 08:36:43] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:03 specified
+[24-Aug-25 08:36:43] Default Lease: 36000 (sec)
+[24-Aug-25 08:36:43] Server Name: tando-Latitude-5480
+[24-Aug-25 08:36:43] Listening On: 192.168.7.1
+[24-Aug-25 08:36:43] Listening On: 10.73.183.205
+[24-Aug-25 08:36:48] Host c8:d9:d2:f1:31:5b (DESKTOP-KR4EFJE) allotted 192.168.7.2 for 36000 seconds
+[24-Aug-25 08:37:23] Retrying failed Listening Interfaces..
+[24-Aug-25 08:37:29] Server Name: tando-Latitude-5480
+[24-Aug-25 08:37:29] Listening On: 10.73.183.205
+[24-Aug-25 08:37:29] Lease Status URL: http://192.168.7.1:6789
+[24-Aug-25 08:37:29] Listening On: 192.168.7.1
+[24-Aug-25 08:38:36] HTTP Client 192.168.7.1, Message Receive failed
+[24-Aug-25 08:39:36] HTTP Client 192.168.7.1, Message Receive failed
+[24-Aug-25 08:40:36] HTTP Client 192.168.7.1, Message Receive failed
+[24-Aug-25 08:41:36] HTTP Client 192.168.7.1, Message Receive failed
+[24-Aug-25 08:42:36] HTTP Client 192.168.7.1, Message Receive failed
+[24-Aug-25 08:43:02] Closing Network Connections...
+[24-Aug-25 08:43:03] OpenDHCP Server Stopped !
+
+[24-Aug-25 08:43:38] Open DHCP Server Version 1.84 Linux Build 1058 Starting...
+[24-Aug-25 08:43:40] Starting DHCP Service
+[24-Aug-25 08:43:41] Logging: Normal
+[24-Aug-25 08:43:41] icon file: /home/tando/Downloads/opendhcp/opendhcp.png
+[24-Aug-25 08:43:41] exe file: /home/tando/Downloads/opendhcp/opendhcpd
+[24-Aug-25 08:43:41] state file: /home/tando/Downloads/opendhcp/opendhcp.state
+[24-Aug-25 08:43:41] ini file: /home/tando/Downloads/opendhcp/opendhcp.ini
+[24-Aug-25 08:43:41] log file: /home/tando/Downloads/opendhcp/log/opendhcp%Y%m%d.log
+[24-Aug-25 08:43:41] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:01 specified
+[24-Aug-25 08:43:41] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:02 specified
+[24-Aug-25 08:43:41] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:03 specified
+[24-Aug-25 08:43:41] Default Lease: 36000 (sec)
+[24-Aug-25 08:43:41] Http Interface 192.168.7.1 TCP Port 6789 not available
+[24-Aug-25 08:43:41] Listening On: 192.168.7.1
+[24-Aug-25 08:43:41] Server Name: tando-Latitude-5480
+[24-Aug-25 08:43:41] Warning: No IP Address for DHCP Static Host 00:ff:a4:0e:ef:99 specified
+[24-Aug-25 08:43:41] Listening On: 10.73.183.205
+[24-Aug-25 08:44:21] Retrying failed Listening Interfaces..
+[24-Aug-25 08:44:24] Http Interface 192.168.7.1 TCP Port 6789 not available
+[24-Aug-25 08:44:24] Server Name: tando-Latitude-5480
+[24-Aug-25 08:44:24] Listening On: 192.168.7.1
+[24-Aug-25 08:44:24] Listening On: 10.73.183.205
+[24-Aug-25 08:45:04] Retrying failed Listening Interfaces..
+[24-Aug-25 08:45:06] Server Name: tando-Latitude-5480
+[24-Aug-25 08:45:06] Lease Status URL: http://192.168.7.1:6789
+[24-Aug-25 08:45:06] Listening On: 192.168.7.1
+[24-Aug-25 08:45:06] Listening On: 10.73.183.205
+[24-Aug-25 08:45:12] HTTP Client 192.168.7.1, Message Receive failed
+[24-Aug-25 08:45:22] DHCPREQUEST from Host c8:d9:d2:f1:31:5b (DESKTOP-KR4EFJE) without Discover, NAKed
+[24-Aug-25 08:45:22] Host c8:d9:d2:f1:31:5b (DESKTOP-KR4EFJE) allotted 192.168.7.2 for 36000 seconds
+[24-Aug-25 08:46:14] Closing Network Connections...
+[24-Aug-25 08:46:15] OpenDHCP Server Stopped !
+
+[24-Aug-25 08:46:39] Open DHCP Server Version 1.84 Linux Build 1058 Starting...
+[24-Aug-25 08:46:41] Starting DHCP Service
+[24-Aug-25 08:46:42] Logging: Normal
+[24-Aug-25 08:46:42] icon file: /home/tando/Downloads/opendhcp/opendhcp.png
+[24-Aug-25 08:46:42] exe file: /home/tando/Downloads/opendhcp/opendhcpd
+[24-Aug-25 08:46:42] ini file: /home/tando/Downloads/opendhcp/opendhcp.ini
+[24-Aug-25 08:46:42] log file: /home/tando/Downloads/opendhcp/log/opendhcp%Y%m%d.log
+[24-Aug-25 08:46:42] state file: /home/tando/Downloads/opendhcp/opendhcp.state
+[24-Aug-25 08:46:42] Warning: No IP Address for DHCP Static Host 00:ff:a4:0e:ef:99 specified
+[24-Aug-25 08:46:42] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:01 specified
+[24-Aug-25 08:46:42] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:02 specified
+[24-Aug-25 08:46:42] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:03 specified
+[24-Aug-25 08:46:42] Default Lease: 36000 (sec)
+[24-Aug-25 08:46:42] Lease Status URL: http://192.168.7.1:6789
+[24-Aug-25 08:46:42] Server Name: tando-Latitude-5480
+[24-Aug-25 08:46:42] Listening On: 192.168.7.1
+[24-Aug-25 08:46:42] Listening On: 10.73.183.205
+[24-Aug-25 08:47:07] HTTP Client 192.168.7.1, Message Receive failed
+[24-Aug-25 08:47:20] DHCPREQUEST from Host c8:d9:d2:f1:31:5b (DESKTOP-KR4EFJE) without Discover, NAKed
+[24-Aug-25 08:47:20] No Matching DHCP Range for DHCPDISCOVER for c8:d9:d2:f1:31:5b (DESKTOP-KR4EFJE) from interface 192.168.7.1
+[24-Aug-25 08:47:24] No Matching DHCP Range for DHCPDISCOVER for c8:d9:d2:f1:31:5b (DESKTOP-KR4EFJE) from interface 192.168.7.1
+[24-Aug-25 08:47:29] No Matching DHCP Range for DHCPDISCOVER for c8:d9:d2:f1:31:5b (DESKTOP-KR4EFJE) from interface 192.168.7.1
+[24-Aug-25 08:47:37] No Matching DHCP Range for DHCPDISCOVER for c8:d9:d2:f1:31:5b (DESKTOP-KR4EFJE) from interface 192.168.7.1
+[24-Aug-25 08:47:53] No Matching DHCP Range for DHCPDISCOVER for c8:d9:d2:f1:31:5b (DESKTOP-KR4EFJE) from interface 192.168.7.1
+[24-Aug-25 08:48:07] HTTP Client 192.168.7.1, Message Receive failed
+[24-Aug-25 08:48:25] No Matching DHCP Range for DHCPDISCOVER for c8:d9:d2:f1:31:5b (DESKTOP-KR4EFJE) from interface 192.168.7.1
+[24-Aug-25 08:48:29] No Matching DHCP Range for DHCPDISCOVER for c8:d9:d2:f1:31:5b (DESKTOP-KR4EFJE) from interface 192.168.7.1
+[24-Aug-25 08:48:37] No Matching DHCP Range for DHCPDISCOVER for c8:d9:d2:f1:31:5b (DESKTOP-KR4EFJE) from interface 192.168.7.1
+[24-Aug-25 08:48:54] No Matching DHCP Range for DHCPDISCOVER for c8:d9:d2:f1:31:5b (DESKTOP-KR4EFJE) from interface 192.168.7.1
+[24-Aug-25 08:49:07] HTTP Client 192.168.7.1, Message Receive failed
+[24-Aug-25 08:49:34] No Matching DHCP Range for DHCPDISCOVER for c8:d9:d2:f1:31:5b (DESKTOP-KR4EFJE) from interface 192.168.7.1
+[24-Aug-25 08:49:38] No Matching DHCP Range for DHCPDISCOVER for c8:d9:d2:f1:31:5b (DESKTOP-KR4EFJE) from interface 192.168.7.1
+[24-Aug-25 08:49:40] Closing Network Connections...
+[24-Aug-25 08:49:41] OpenDHCP Server Stopped !
+
+[24-Aug-25 08:49:47] Open DHCP Server Version 1.84 Linux Build 1058 Starting...
+[24-Aug-25 08:49:49] Starting DHCP Service
+[24-Aug-25 08:49:50] Logging: Normal
+[24-Aug-25 08:49:50] icon file: /home/tando/Downloads/opendhcp/opendhcp.png
+[24-Aug-25 08:49:50] exe file: /home/tando/Downloads/opendhcp/opendhcpd
+[24-Aug-25 08:49:50] ini file: /home/tando/Downloads/opendhcp/opendhcp.ini
+[24-Aug-25 08:49:50] log file: /home/tando/Downloads/opendhcp/log/opendhcp%Y%m%d.log
+[24-Aug-25 08:49:50] state file: /home/tando/Downloads/opendhcp/opendhcp.state
+[24-Aug-25 08:49:50] Warning: No IP Address for DHCP Static Host 00:ff:a4:0e:ef:99 specified
+[24-Aug-25 08:49:50] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:01 specified
+[24-Aug-25 08:49:50] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:02 specified
+[24-Aug-25 08:49:50] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:03 specified
+[24-Aug-25 08:49:50] Default Lease: 36000 (sec)
+[24-Aug-25 08:49:50] Server Name: tando-Latitude-5480
+[24-Aug-25 08:49:50] Http Interface 192.168.7.1 TCP Port 6789 not available
+[24-Aug-25 08:49:50] Listening On: 192.168.7.1
+[24-Aug-25 08:49:50] Listening On: 10.73.183.205
+[24-Aug-25 08:49:52] Host c8:d9:d2:f1:31:5b (DESKTOP-KR4EFJE) allotted 192.168.7.2 for 36000 seconds
+[24-Aug-25 08:50:30] Retrying failed Listening Interfaces..
+[24-Aug-25 08:50:34] Server Name: tando-Latitude-5480
+[24-Aug-25 08:50:34] Listening On: 192.168.7.1
+[24-Aug-25 08:50:34] Listening On: 10.73.183.205
+[24-Aug-25 08:50:34] Lease Status URL: http://192.168.7.1:6789
+[24-Aug-25 08:50:43] HTTP Client 192.168.7.1, Message Receive failed
+[24-Aug-25 08:51:43] HTTP Client 192.168.7.1, Message Receive failed
+[24-Aug-25 08:52:43] HTTP Client 192.168.7.1, Message Receive failed
+[24-Aug-25 08:53:43] HTTP Client 192.168.7.1, Message Receive failed
+[24-Aug-25 08:54:43] HTTP Client 192.168.7.1, Message Receive failed
+[24-Aug-25 08:56:43] HTTP Client 192.168.7.1, Message Receive failed
+[24-Aug-25 08:57:43] HTTP Client 192.168.7.1, Message Receive failed
+[24-Aug-25 08:58:43] HTTP Client 192.168.7.1, Message Receive failed
+[24-Aug-25 08:59:43] HTTP Client 192.168.7.1, Message Receive failed
+[24-Aug-25 09:00:43] HTTP Client 192.168.7.1, Message Receive failed
+[24-Aug-25 09:01:43] HTTP Client 192.168.7.1, Message Receive failed
+[24-Aug-25 09:02:43] HTTP Client 192.168.7.1, Message Receive failed
+[24-Aug-25 09:03:43] HTTP Client 192.168.7.1, Message Receive failed
+[24-Aug-25 09:04:44] HTTP Client 192.168.7.1, Message Receive failed
+[24-Aug-25 09:06:44] HTTP Client 192.168.7.1, Message Receive failed
+[24-Aug-25 09:07:44] HTTP Client 192.168.7.1, Message Receive failed
+[24-Aug-25 09:08:44] HTTP Client 192.168.7.1, Message Receive failed
+[24-Aug-25 09:09:44] HTTP Client 192.168.7.1, Message Receive failed
+[24-Aug-25 09:10:44] HTTP Client 192.168.7.1, Message Receive failed
+[24-Aug-25 09:11:44] HTTP Client 192.168.7.1, Message Receive failed
+[24-Aug-25 09:12:44] HTTP Client 192.168.7.1, Message Receive failed
+[24-Aug-25 09:13:44] HTTP Client 192.168.7.1, Message Receive failed
+[24-Aug-25 09:15:44] HTTP Client 192.168.7.1, Message Receive failed
+[24-Aug-25 09:16:44] HTTP Client 192.168.7.1, Message Receive failed
+[24-Aug-25 09:17:44] HTTP Client 192.168.7.1, Message Receive failed
+[24-Aug-25 09:18:44] HTTP Client 192.168.7.1, Message Receive failed
+[24-Aug-25 09:19:44] HTTP Client 192.168.7.1, Message Receive failed
+[24-Aug-25 09:20:44] HTTP Client 192.168.7.1, Message Receive failed
+[24-Aug-25 09:21:44] HTTP Client 192.168.7.1, Message Receive failed
+[24-Aug-25 09:22:44] HTTP Client 192.168.7.1, Message Receive failed
+[24-Aug-25 09:23:44] HTTP Client 192.168.7.1, Message Receive failed
+[24-Aug-25 09:24:44] HTTP Client 192.168.7.1, Message Receive failed
+[24-Aug-25 09:25:44] HTTP Client 192.168.7.1, Message Receive failed
+[24-Aug-25 09:26:44] HTTP Client 192.168.7.1, Message Receive failed
+[24-Aug-25 09:27:44] HTTP Client 192.168.7.1, Message Receive failed
+[24-Aug-25 09:28:44] HTTP Client 192.168.7.1, Message Receive failed
+[24-Aug-25 09:29:44] HTTP Client 192.168.7.1, Message Receive failed
+[24-Aug-25 09:30:44] HTTP Client 192.168.7.1, Message Receive failed
+[24-Aug-25 09:31:44] HTTP Client 192.168.7.1, Message Receive failed
+[24-Aug-25 09:32:44] HTTP Client 192.168.7.1, Message Receive failed
+[24-Aug-25 09:33:35] Network changed, re-detecting Listening Interfaces..
+[24-Aug-25 09:33:49] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[24-Aug-25 09:33:49] No Static Interface ready, Waiting...
+[24-Aug-25 13:31:49] Network changed, re-detecting Listening Interfaces..
+[24-Aug-25 13:31:49] Server Name: tando-Latitude-5480
+[24-Aug-25 13:31:49] Listening On: 10.0.0.17
+[24-Aug-25 13:31:49] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[24-Aug-25 13:32:20] Closing Network Connections...
+[24-Aug-25 13:32:20] Closing Network Connections...
+[24-Aug-25 13:32:21] OpenDHCP Server Stopped !
+
+[24-Aug-25 13:32:21] OpenDHCP Server Stopped !
+

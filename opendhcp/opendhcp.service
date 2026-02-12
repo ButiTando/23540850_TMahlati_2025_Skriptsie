@@ -1,0 +1,14 @@
+#/etc/systemd/system/opendhcp.service
+
+[Unit]
+Description=Open Dhcp Server
+After=network.target
+
+[Service]
+Type=forking
+User=root
+ExecStart=/opt/opendhcp/rc.opendhcp start
+ExecStop=/opt/opendhcp/rc.opendhcp stop
+
+[Install]
+WantedBy=multi-user.target

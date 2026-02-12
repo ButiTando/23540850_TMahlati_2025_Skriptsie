@@ -1,0 +1,280 @@
+[07-Sep-25 01:26:56] Open DHCP Server Version 1.84 Linux Build 1058 Starting...
+[07-Sep-25 01:26:58] Starting DHCP Service
+[07-Sep-25 01:26:59] Logging: Normal
+[07-Sep-25 01:26:59] icon file: /home/tando/Scriptsie/opendhcp/opendhcp.png
+[07-Sep-25 01:26:59] exe file: /home/tando/Scriptsie/opendhcp/opendhcpd
+[07-Sep-25 01:26:59] ini file: /home/tando/Scriptsie/opendhcp/opendhcp.ini
+[07-Sep-25 01:26:59] log file: /home/tando/Scriptsie/opendhcp/log/opendhcp%Y%m%d.log
+[07-Sep-25 01:26:59] state file: /home/tando/Scriptsie/opendhcp/opendhcp.state
+[07-Sep-25 01:26:59] Warning: Section [LISTEN_ON], Invalid Interface Address 192.168.7.1/24, ignored
+[07-Sep-25 01:26:59] Warning: section [GLOBAL_OPTIONS] option DHCPRange=192.168.7.1-192.168.7.254 not allowed in this section, option ignored
+[07-Sep-25 01:26:59] Default Lease: 36000 (sec)
+[07-Sep-25 01:26:59] Server Name: tando-Latitude-5480
+[07-Sep-25 01:26:59] Listening On: 192.168.7.1
+[07-Sep-25 01:26:59] Lease Status URL: http://192.168.7.1:6789
+[07-Sep-25 01:26:59] Listening On: 10.73.177.5
+[07-Sep-25 01:27:59] Network changed, re-detecting Listening Interfaces..
+[07-Sep-25 01:28:12] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[07-Sep-25 01:28:12] Listening On: 10.73.177.5
+[07-Sep-25 01:28:12] Server Name: tando-Latitude-5480
+[07-Sep-25 01:31:52] Network changed, re-detecting Listening Interfaces..
+[07-Sep-25 01:31:54] Server Name: tando-Latitude-5480
+[07-Sep-25 01:31:54] Lease Status URL: http://192.168.7.1:6789
+[07-Sep-25 01:31:54] Listening On: 10.73.177.5
+[07-Sep-25 01:31:54] Listening On: 192.168.7.1
+[07-Sep-25 01:34:23] HTTP Client 192.168.7.1, Message Receive failed
+[07-Sep-25 01:36:24] HTTP Client 192.168.7.1, Message Receive failed
+[07-Sep-25 01:37:24] HTTP Client 192.168.7.1, Message Receive failed
+[07-Sep-25 01:38:24] HTTP Client 192.168.7.1, Message Receive failed
+[07-Sep-25 01:38:34] Network changed, re-detecting Listening Interfaces..
+[07-Sep-25 01:38:46] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[07-Sep-25 01:38:46] Server Name: tando-Latitude-5480
+[07-Sep-25 01:38:46] Listening On: 10.73.177.5
+[07-Sep-25 01:42:18] Closing Network Connections...
+[07-Sep-25 01:42:19] OpenDHCP Server Stopped !
+
+[07-Sep-25 02:03:40] Open DHCP Server Version 1.84 Linux Build 1058 Starting...
+[07-Sep-25 02:03:42] Starting DHCP Service
+[07-Sep-25 02:03:43] Logging: Normal
+[07-Sep-25 02:03:43] icon file: /home/tando/Scriptsie/opendhcp/opendhcp.png
+[07-Sep-25 02:03:43] state file: /home/tando/Scriptsie/opendhcp/opendhcp.state
+[07-Sep-25 02:03:43] Warning: Section [LISTEN_ON], Invalid Interface Address 192.168.7.1/24, ignored
+[07-Sep-25 02:03:43] exe file: /home/tando/Scriptsie/opendhcp/opendhcpd
+[07-Sep-25 02:03:43] ini file: /home/tando/Scriptsie/opendhcp/opendhcp.ini
+[07-Sep-25 02:03:43] log file: /home/tando/Scriptsie/opendhcp/log/opendhcp%Y%m%d.log
+[07-Sep-25 02:03:43] Warning: section [GLOBAL_OPTIONS] option DHCPRange=192.168.7.1-192.168.7.254 not allowed in this section, option ignored
+[07-Sep-25 02:03:43] Default Lease: 36000 (sec)
+[07-Sep-25 02:03:43] Server Name: tando-Latitude-5480
+[07-Sep-25 02:03:43] Lease Status URL: http://192.168.7.1:6789
+[07-Sep-25 02:03:43] Listening On: 192.168.7.1
+[07-Sep-25 02:03:43] Listening On: 10.73.177.5
+[07-Sep-25 02:06:01] HTTP Client 192.168.7.1, Message Receive failed
+[07-Sep-25 02:08:01] HTTP Client 192.168.7.1, Message Receive failed
+[07-Sep-25 02:10:01] HTTP Client 192.168.7.1, Message Receive failed
+[07-Sep-25 02:13:01] HTTP Client 192.168.7.1, Message Receive failed
+[07-Sep-25 02:14:01] HTTP Client 192.168.7.1, Message Receive failed
+[07-Sep-25 02:14:43] Closing Network Connections...
+[07-Sep-25 02:14:44] OpenDHCP Server Stopped !
+
+[07-Sep-25 02:15:26] Open DHCP Server Version 1.84 Linux Build 1058 Starting...
+[07-Sep-25 02:15:28] Starting DHCP Service
+[07-Sep-25 02:15:29] Logging: Normal
+[07-Sep-25 02:15:29] icon file: /home/tando/Scriptsie/opendhcp/opendhcp.png
+[07-Sep-25 02:15:29] ini file: /home/tando/Scriptsie/opendhcp/opendhcp.ini
+[07-Sep-25 02:15:29] log file: /home/tando/Scriptsie/opendhcp/log/opendhcp%Y%m%d.log
+[07-Sep-25 02:15:29] state file: /home/tando/Scriptsie/opendhcp/opendhcp.state
+[07-Sep-25 02:15:29] exe file: /home/tando/Scriptsie/opendhcp/opendhcpd
+[07-Sep-25 02:15:29] Warning: section [GLOBAL_OPTIONS] option DHCPRange=192.168.7.1-192.168.7.254 not allowed in this section, option ignored
+[07-Sep-25 02:15:29] Default Lease: 36000 (sec)
+[07-Sep-25 02:15:29] Listening On: 192.168.7.1
+[07-Sep-25 02:15:29] Server Name: tando-Latitude-5480
+[07-Sep-25 02:15:29] Lease Status URL: http://192.168.7.1:6789
+[07-Sep-25 02:17:03] Closing Network Connections...
+[07-Sep-25 02:17:04] OpenDHCP Server Stopped !
+
+[07-Sep-25 02:17:08] Open DHCP Server Version 1.84 Linux Build 1058 Starting...
+[07-Sep-25 02:17:10] Starting DHCP Service
+[07-Sep-25 02:17:11] icon file: /home/tando/Scriptsie/opendhcp/opendhcp.png
+[07-Sep-25 02:17:11] ini file: /home/tando/Scriptsie/opendhcp/opendhcp.ini
+[07-Sep-25 02:17:11] log file: /home/tando/Scriptsie/opendhcp/log/opendhcp%Y%m%d.log
+[07-Sep-25 02:17:11] state file: /home/tando/Scriptsie/opendhcp/opendhcp.state
+[07-Sep-25 02:17:11] Logging: Normal
+[07-Sep-25 02:17:11] exe file: /home/tando/Scriptsie/opendhcp/opendhcpd
+[07-Sep-25 02:17:11] Warning: section [GLOBAL_OPTIONS] option DHCPRange=192.168.7.2-192.168.7.254 not allowed in this section, option ignored
+[07-Sep-25 02:17:11] Default Lease: 36000 (sec)
+[07-Sep-25 02:17:11] Server Name: tando-Latitude-5480
+[07-Sep-25 02:17:11] Lease Status URL: http://192.168.7.1:6789
+[07-Sep-25 02:17:11] Listening On: 192.168.7.1
+[07-Sep-25 02:17:31] Closing Network Connections...
+[07-Sep-25 02:17:32] OpenDHCP Server Stopped !
+
+[07-Sep-25 02:17:42] Open DHCP Server Version 1.84 Linux Build 1058 Starting...
+[07-Sep-25 02:17:44] Starting DHCP Service
+[07-Sep-25 02:17:45] icon file: /home/tando/Scriptsie/opendhcp/opendhcp.png
+[07-Sep-25 02:17:45] state file: /home/tando/Scriptsie/opendhcp/opendhcp.state
+[07-Sep-25 02:17:45] log file: /home/tando/Scriptsie/opendhcp/log/opendhcp%Y%m%d.log
+[07-Sep-25 02:17:45] Logging: Normal
+[07-Sep-25 02:17:45] Warning: section [GLOBAL_OPTIONS] option DHCPRange=192.168.7.2-192.168.7.254 not allowed in this section, option ignored
+[07-Sep-25 02:17:45] exe file: /home/tando/Scriptsie/opendhcp/opendhcpd
+[07-Sep-25 02:17:45] ini file: /home/tando/Scriptsie/opendhcp/opendhcp.ini
+[07-Sep-25 02:17:45] Default Lease: 36000 (sec)
+[07-Sep-25 02:17:45] Server Name: tando-Latitude-5480
+[07-Sep-25 02:17:45] Lease Status URL: http://192.168.7.1:6789
+[07-Sep-25 02:17:45] Listening On: 192.168.7.1
+[07-Sep-25 02:19:34] HTTP Client 192.168.7.1, Message Receive failed
+[07-Sep-25 02:20:35] HTTP Client 192.168.7.1, Message Receive failed
+[07-Sep-25 02:21:10] Closing Network Connections...
+[07-Sep-25 02:21:10] Closing Network Connections...
+[07-Sep-25 02:21:11] OpenDHCP Server Stopped !
+
+[07-Sep-25 02:21:11] OpenDHCP Server Stopped !
+
+[07-Sep-25 02:21:15] Open DHCP Server Version 1.84 Linux Build 1058 Starting...
+[07-Sep-25 02:21:17] Starting DHCP Service
+[07-Sep-25 02:21:18] Logging: Normal
+[07-Sep-25 02:21:18] icon file: /home/tando/Scriptsie/opendhcp/opendhcp.png
+[07-Sep-25 02:21:18] exe file: /home/tando/Scriptsie/opendhcp/opendhcpd
+[07-Sep-25 02:21:18] ini file: /home/tando/Scriptsie/opendhcp/opendhcp.ini
+[07-Sep-25 02:21:18] log file: /home/tando/Scriptsie/opendhcp/log/opendhcp%Y%m%d.log
+[07-Sep-25 02:21:18] state file: /home/tando/Scriptsie/opendhcp/opendhcp.state
+[07-Sep-25 02:21:18] Default Lease: 36000 (sec)
+[07-Sep-25 02:21:18] Server Name: tando-Latitude-5480
+[07-Sep-25 02:21:18] Http Interface 192.168.7.1 TCP Port 6789 not available
+[07-Sep-25 02:21:18] Listening On: 192.168.7.1
+[07-Sep-25 02:21:58] Retrying failed Listening Interfaces..
+[07-Sep-25 02:22:01] Http Interface 192.168.7.1 TCP Port 6789 not available
+[07-Sep-25 02:22:01] Server Name: tando-Latitude-5480
+[07-Sep-25 02:22:01] Listening On: 192.168.7.1
+[07-Sep-25 02:22:26] Closing Network Connections...
+[07-Sep-25 02:22:27] Closing Network Connections...
+[07-Sep-25 02:22:27] OpenDHCP Server Stopped !
+
+[07-Sep-25 02:22:28] OpenDHCP Server Stopped !
+
+[07-Sep-25 02:27:13] Open DHCP Server Version 1.84 Linux Build 1058 Starting...
+[07-Sep-25 02:27:15] Starting DHCP Service
+[07-Sep-25 02:27:16] icon file: /home/tando/Scriptsie/opendhcp/opendhcp.png
+[07-Sep-25 02:27:16] ini file: /home/tando/Scriptsie/opendhcp/opendhcp.ini
+[07-Sep-25 02:27:16] log file: /home/tando/Scriptsie/opendhcp/log/opendhcp%Y%m%d.log
+[07-Sep-25 02:27:16] Logging: Normal
+[07-Sep-25 02:27:16] exe file: /home/tando/Scriptsie/opendhcp/opendhcpd
+[07-Sep-25 02:27:16] state file: /home/tando/Scriptsie/opendhcp/opendhcp.state
+[07-Sep-25 02:27:16] Warning: section [GLOBAL_OPTIONS] option DHCPRange=192.168.7.1-192.168.7.254 not allowed in this section, option ignored
+[07-Sep-25 02:27:16] Default Lease: 36000 (sec)
+[07-Sep-25 02:27:16] Server Name: tando-Latitude-5480
+[07-Sep-25 02:27:16] Lease Status URL: http://192.168.7.1:6789
+[07-Sep-25 02:27:16] Listening On: 192.168.7.1
+[07-Sep-25 02:30:10] Closing Network Connections...
+[07-Sep-25 02:30:11] OpenDHCP Server Stopped !
+
+[07-Sep-25 02:30:15] Open DHCP Server Version 1.84 Linux Build 1058 Starting...
+[07-Sep-25 02:30:17] Starting DHCP Service
+[07-Sep-25 02:30:18] icon file: /home/tando/Scriptsie/opendhcp/opendhcp.png
+[07-Sep-25 02:30:18] exe file: /home/tando/Scriptsie/opendhcp/opendhcpd
+[07-Sep-25 02:30:18] ini file: /home/tando/Scriptsie/opendhcp/opendhcp.ini
+[07-Sep-25 02:30:18] Logging: Normal
+[07-Sep-25 02:30:18] log file: /home/tando/Scriptsie/opendhcp/log/opendhcp%Y%m%d.log
+[07-Sep-25 02:30:18] state file: /home/tando/Scriptsie/opendhcp/opendhcp.state
+[07-Sep-25 02:30:18] Default Lease: 36000 (sec)
+[07-Sep-25 02:30:18] Server Name: tando-Latitude-5480
+[07-Sep-25 02:30:18] Listening On: 192.168.7.1
+[07-Sep-25 02:30:18] Lease Status URL: http://192.168.7.1:6789
+[07-Sep-25 02:31:02] Closing Network Connections...
+[07-Sep-25 02:31:03] OpenDHCP Server Stopped !
+
+[07-Sep-25 02:31:08] Open DHCP Server Version 1.84 Linux Build 1058 Starting...
+[07-Sep-25 02:31:10] Starting DHCP Service
+[07-Sep-25 02:31:11] Logging: Normal
+[07-Sep-25 02:31:11] log file: /home/tando/Scriptsie/opendhcp/log/opendhcp%Y%m%d.log
+[07-Sep-25 02:31:11] exe file: /home/tando/Scriptsie/opendhcp/opendhcpd
+[07-Sep-25 02:31:11] ini file: /home/tando/Scriptsie/opendhcp/opendhcp.ini
+[07-Sep-25 02:31:11] state file: /home/tando/Scriptsie/opendhcp/opendhcp.state
+[07-Sep-25 02:31:11] icon file: /home/tando/Scriptsie/opendhcp/opendhcp.png
+[07-Sep-25 02:31:11] Default Lease: 36000 (sec)
+[07-Sep-25 02:31:11] Server Name: tando-Latitude-5480
+[07-Sep-25 02:31:11] Lease Status URL: http://192.168.7.1:6789
+[07-Sep-25 02:31:11] Listening On: 192.168.7.1
+[07-Sep-25 02:34:03] No Matching DHCP Range for DHCPDISCOVER for 00:80:e1:00:00:00 () from interface 192.168.7.1
+[07-Sep-25 02:34:34] No Matching DHCP Range for DHCPDISCOVER for 00:80:e1:00:00:00 () from interface 192.168.7.1
+[07-Sep-25 02:42:05] Closing Network Connections...
+[07-Sep-25 02:42:06] OpenDHCP Server Stopped !
+
+[07-Sep-25 02:43:13] Open DHCP Server Version 1.84 Linux Build 1058 Starting...
+[07-Sep-25 02:43:15] Starting DHCP Service
+[07-Sep-25 02:43:16] Logging: Normal
+[07-Sep-25 02:43:16] icon file: /home/tando/Scriptsie/opendhcp/opendhcp.png
+[07-Sep-25 02:43:16] exe file: /home/tando/Scriptsie/opendhcp/opendhcpd
+[07-Sep-25 02:43:16] ini file: /home/tando/Scriptsie/opendhcp/opendhcp.ini
+[07-Sep-25 02:43:16] log file: /home/tando/Scriptsie/opendhcp/log/opendhcp%Y%m%d.log
+[07-Sep-25 02:43:16] state file: /home/tando/Scriptsie/opendhcp/opendhcp.state
+[07-Sep-25 02:43:16] Default Lease: 36000 (sec)
+[07-Sep-25 02:43:16] Server Name: tando-Latitude-5480
+[07-Sep-25 02:43:16] Lease Status URL: http://192.168.7.1:6789
+[07-Sep-25 02:43:16] Listening On: 192.168.7.1
+[07-Sep-25 02:54:14] No Matching DHCP Range for DHCPDISCOVER for 00:80:e1:00:00:00 () from interface 192.168.7.1
+[07-Sep-25 02:54:16] Network changed, re-detecting Listening Interfaces..
+[07-Sep-25 02:54:35] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[07-Sep-25 02:54:35] No Static Interface ready, Waiting...
+[07-Sep-25 02:54:55] Network changed, re-detecting Listening Interfaces..
+[07-Sep-25 02:54:55] Server Name: tando-Latitude-5480
+[07-Sep-25 02:54:55] Lease Status URL: http://192.168.7.1:6789
+[07-Sep-25 02:54:55] Listening On: 192.168.7.1
+[07-Sep-25 02:59:25] Closing Network Connections...
+[07-Sep-25 02:59:26] OpenDHCP Server Stopped !
+
+[07-Sep-25 02:59:35] Open DHCP Server Version 1.84 Linux Build 1058 Starting...
+[07-Sep-25 02:59:37] Starting DHCP Service
+[07-Sep-25 02:59:38] Logging: Normal
+[07-Sep-25 02:59:38] log file: /home/tando/Scriptsie/opendhcp/log/opendhcp%Y%m%d.log
+[07-Sep-25 02:59:38] state file: /home/tando/Scriptsie/opendhcp/opendhcp.state
+[07-Sep-25 02:59:38] icon file: /home/tando/Scriptsie/opendhcp/opendhcp.png
+[07-Sep-25 02:59:38] exe file: /home/tando/Scriptsie/opendhcp/opendhcpd
+[07-Sep-25 02:59:38] ini file: /home/tando/Scriptsie/opendhcp/opendhcp.ini
+[07-Sep-25 02:59:38] Default Lease: 36000 (sec)
+[07-Sep-25 02:59:38] Server Name: tando-Latitude-5480
+[07-Sep-25 02:59:38] Lease Status URL: http://192.168.7.1:6789
+[07-Sep-25 02:59:38] Listening On: 192.168.7.1
+[07-Sep-25 02:59:48] HTTP Client 192.168.7.1, Message Receive failed
+[07-Sep-25 03:00:38] Network changed, re-detecting Listening Interfaces..
+[07-Sep-25 03:00:48] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[07-Sep-25 03:00:48] No Static Interface ready, Waiting...
+[07-Sep-25 03:01:08] Network changed, re-detecting Listening Interfaces..
+[07-Sep-25 03:01:08] Http Interface 192.168.7.1 TCP Port 6789 not available
+[07-Sep-25 03:01:08] Server Name: tando-Latitude-5480
+[07-Sep-25 03:01:08] Listening On: 192.168.7.1
+[07-Sep-25 03:01:48] Retrying failed Listening Interfaces..
+[07-Sep-25 03:01:50] Http Interface 192.168.7.1 TCP Port 6789 not available
+[07-Sep-25 03:01:50] Listening On: 192.168.7.1
+[07-Sep-25 03:01:50] Server Name: tando-Latitude-5480
+[07-Sep-25 03:02:30] Retrying failed Listening Interfaces..
+[07-Sep-25 03:02:33] Server Name: tando-Latitude-5480
+[07-Sep-25 03:02:33] Listening On: 192.168.7.1
+[07-Sep-25 03:02:33] Lease Status URL: http://192.168.7.1:6789
+[07-Sep-25 03:15:13] Network changed, re-detecting Listening Interfaces..
+[07-Sep-25 03:15:15] Server Name: tando-Latitude-5480
+[07-Sep-25 03:15:15] Lease Status URL: http://192.168.7.1:6789
+[07-Sep-25 03:15:15] Listening On: 192.168.7.1
+[07-Sep-25 03:16:35] Network changed, re-detecting Listening Interfaces..
+[07-Sep-25 03:16:37] Lease Status URL: http://192.168.7.1:6789
+[07-Sep-25 03:16:37] Server Name: tando-Latitude-5480
+[07-Sep-25 03:16:37] Listening On: 192.168.7.1
+[07-Sep-25 03:16:57] Network changed, re-detecting Listening Interfaces..
+[07-Sep-25 03:16:59] Lease Status URL: http://192.168.7.1:6789
+[07-Sep-25 03:16:59] Listening On: 192.168.7.1
+[07-Sep-25 03:16:59] Server Name: tando-Latitude-5480
+[07-Sep-25 03:17:19] Network changed, re-detecting Listening Interfaces..
+[07-Sep-25 03:17:21] Server Name: tando-Latitude-5480
+[07-Sep-25 03:17:21] Listening On: 192.168.7.1
+[07-Sep-25 03:17:21] Lease Status URL: http://192.168.7.1:6789
+[07-Sep-25 03:18:01] Network changed, re-detecting Listening Interfaces..
+[07-Sep-25 03:18:03] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[07-Sep-25 03:18:03] No Static Interface ready, Waiting...
+[07-Sep-25 03:18:23] Network changed, re-detecting Listening Interfaces..
+[07-Sep-25 03:18:23] Server Name: tando-Latitude-5480
+[07-Sep-25 03:18:23] Lease Status URL: http://192.168.7.1:6789
+[07-Sep-25 03:18:23] Listening On: 192.168.7.1
+[07-Sep-25 03:24:41] HTTP Client 192.168.7.1, Message Receive failed
+[07-Sep-25 03:25:41] HTTP Client 192.168.7.1, Message Receive failed
+[07-Sep-25 03:26:41] HTTP Client 192.168.7.1, Message Receive failed
+[07-Sep-25 03:27:41] HTTP Client 192.168.7.1, Message Receive failed
+[07-Sep-25 03:28:41] HTTP Client 192.168.7.1, Message Receive failed
+[07-Sep-25 03:29:42] HTTP Client 192.168.7.1, Message Receive failed
+[07-Sep-25 03:30:42] HTTP Client 192.168.7.1, Message Receive failed
+[07-Sep-25 03:32:42] HTTP Client 192.168.7.1, Message Receive failed
+[07-Sep-25 03:33:42] HTTP Client 192.168.7.1, Message Receive failed
+[07-Sep-25 03:36:42] HTTP Client 192.168.7.1, Message Receive failed
+[07-Sep-25 03:37:42] HTTP Client 192.168.7.1, Message Receive failed
+[07-Sep-25 03:38:42] HTTP Client 192.168.7.1, Message Receive failed
+[07-Sep-25 03:39:43] HTTP Client 192.168.7.1, Message Receive failed
+[07-Sep-25 03:41:43] HTTP Client 192.168.7.1, Message Receive failed
+[07-Sep-25 03:43:43] HTTP Client 192.168.7.1, Message Receive failed
+[07-Sep-25 03:45:43] HTTP Client 192.168.7.1, Message Receive failed
+[07-Sep-25 03:47:23] Network changed, re-detecting Listening Interfaces..
+[07-Sep-25 03:47:43] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[07-Sep-25 03:47:43] No Static Interface ready, Waiting...
+[07-Sep-25 03:56:03] Network changed, re-detecting Listening Interfaces..
+[07-Sep-25 03:56:03] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[07-Sep-25 03:56:03] No Static Interface ready, Waiting...
+[07-Sep-25 03:56:26] Network changed, re-detecting Listening Interfaces..
+[07-Sep-25 03:56:26] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[07-Sep-25 03:56:26] No Static Interface ready, Waiting...

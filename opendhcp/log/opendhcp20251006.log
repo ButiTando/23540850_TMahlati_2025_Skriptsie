@@ -1,0 +1,11 @@
+Open DHCP Server Version 1.84 Linux Build 1058
+
+[06-Oct-25 00:32:38] Network changed, re-detecting Listening Interfaces..
+[06-Oct-25 00:32:38] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[06-Oct-25 00:32:38] No Static Interface ready, Waiting...
+[06-Oct-25 00:33:35] Closing Network Connections...
+[06-Oct-25 00:33:35] Closing Network Connections...
+[06-Oct-25 00:33:36] OpenDHCP Server Stopped !
+
+[06-Oct-25 00:33:36] OpenDHCP Server Stopped !
+

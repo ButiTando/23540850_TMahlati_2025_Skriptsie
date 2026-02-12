@@ -1,0 +1,62 @@
+Open DHCP Server Version 1.84 Linux Build 1058
+
+[16-Nov-25 00:04:12] Network changed, re-detecting Listening Interfaces..
+[16-Nov-25 00:04:17] Server Name: tando-Latitude-5480
+[16-Nov-25 00:04:17] Lease Status URL: http://192.168.7.1:6789
+[16-Nov-25 00:04:17] Listening On: 192.168.7.1
+[16-Nov-25 00:04:37] Network changed, re-detecting Listening Interfaces..
+[16-Nov-25 00:04:39] Server Name: tando-Latitude-5480
+[16-Nov-25 00:04:39] Lease Status URL: http://192.168.7.1:6789
+[16-Nov-25 00:04:39] Listening On: 192.168.7.1
+[16-Nov-25 00:05:19] Network changed, re-detecting Listening Interfaces..
+[16-Nov-25 00:05:21] Server Name: tando-Latitude-5480
+[16-Nov-25 00:05:21] Lease Status URL: http://192.168.7.1:6789
+[16-Nov-25 00:05:21] Listening On: 192.168.7.1
+[16-Nov-25 00:07:21] Network changed, re-detecting Listening Interfaces..
+[16-Nov-25 00:07:23] Server Name: tando-Latitude-5480
+[16-Nov-25 00:07:23] Listening On: 192.168.7.1
+[16-Nov-25 00:07:23] Lease Status URL: http://192.168.7.1:6789
+[16-Nov-25 01:53:03] Network changed, re-detecting Listening Interfaces..
+[16-Nov-25 01:53:11] Server Name: tando-Latitude-5480
+[16-Nov-25 01:53:11] Lease Status URL: http://192.168.7.1:6789
+[16-Nov-25 01:53:11] Listening On: 192.168.7.1
+[16-Nov-25 01:54:11] Network changed, re-detecting Listening Interfaces..
+[16-Nov-25 01:54:13] Server Name: tando-Latitude-5480
+[16-Nov-25 01:54:13] Lease Status URL: http://192.168.7.1:6789
+[16-Nov-25 01:54:13] Listening On: 192.168.7.1
+[16-Nov-25 02:02:33] Network changed, re-detecting Listening Interfaces..
+[16-Nov-25 02:02:36] Server Name: tando-Latitude-5480
+[16-Nov-25 02:02:36] Lease Status URL: http://192.168.7.1:6789
+[16-Nov-25 02:02:36] Listening On: 192.168.7.1
+[16-Nov-25 02:05:36] Network changed, re-detecting Listening Interfaces..
+[16-Nov-25 02:05:38] Server Name: tando-Latitude-5480
+[16-Nov-25 02:05:38] Lease Status URL: http://192.168.7.1:6789
+[16-Nov-25 02:05:38] Listening On: 192.168.7.1
+[16-Nov-25 02:10:58] Network changed, re-detecting Listening Interfaces..
+[16-Nov-25 02:11:00] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[16-Nov-25 02:11:00] No Static Interface ready, Waiting...
+[16-Nov-25 02:13:40] Network changed, re-detecting Listening Interfaces..
+[16-Nov-25 02:13:40] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[16-Nov-25 02:13:40] No Static Interface ready, Waiting...
+[16-Nov-25 04:49:03] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[16-Nov-25 04:49:03] No Static Interface ready, Waiting...
+[16-Nov-25 04:49:03] Network changed, re-detecting Listening Interfaces..
+[16-Nov-25 04:49:23] Network changed, re-detecting Listening Interfaces..
+[16-Nov-25 04:49:23] No Static Interface ready, Waiting...
+[16-Nov-25 04:49:23] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[16-Nov-25 06:49:03] No Static Interface ready, Waiting...
+[16-Nov-25 06:49:03] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[16-Nov-25 06:49:03] Network changed, re-detecting Listening Interfaces..
+[16-Nov-25 14:12:43] Network changed, re-detecting Listening Interfaces..
+[16-Nov-25 14:12:43] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[16-Nov-25 14:12:43] No Static Interface ready, Waiting...
+[16-Nov-25 14:15:43] Network changed, re-detecting Listening Interfaces..
+[16-Nov-25 14:15:43] Server Name: tando-Latitude-5480
+[16-Nov-25 14:15:43] Lease Status URL: http://192.168.7.1:6789
+[16-Nov-25 14:15:43] Listening On: 192.168.7.1
+[16-Nov-25 18:46:23] Network changed, re-detecting Listening Interfaces..
+[16-Nov-25 18:46:40] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[16-Nov-25 18:46:40] No Static Interface ready, Waiting...
+[16-Nov-25 18:48:22] Closing Network Connections...
+[16-Nov-25 18:48:23] OpenDHCP Server Stopped !
+

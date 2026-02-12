@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "time.h": "c",
+        "stdlib.h": "c",
+        "version.h": "c",
+        "tcp_server.h": "c",
+        "socket.h": "c"
+    }
+}

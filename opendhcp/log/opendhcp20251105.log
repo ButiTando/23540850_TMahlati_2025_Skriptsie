@@ -1,0 +1,9 @@
+Open DHCP Server Version 1.84 Linux Build 1058
+
+[05-Nov-25 15:19:06] Network changed, re-detecting Listening Interfaces..
+[05-Nov-25 15:19:07] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[05-Nov-25 15:19:07] No Static Interface ready, Waiting...
+[05-Nov-25 15:19:27] Network changed, re-detecting Listening Interfaces..
+[05-Nov-25 15:19:27] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[05-Nov-25 15:19:27] No Static Interface ready, Waiting...
+Logging Continued on file /home/tando/Scriptsie/opendhcp/log/opendhcp20251106.log

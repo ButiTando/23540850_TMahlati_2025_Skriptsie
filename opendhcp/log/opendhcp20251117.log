@@ -1,0 +1,13 @@
+[17-Nov-25 23:48:37] Open DHCP Server Version 1.84 Linux Build 1058 Starting...
+[17-Nov-25 23:48:39] Starting DHCP Service
+[17-Nov-25 23:48:40] Logging: Normal
+[17-Nov-25 23:48:40] icon file: /home/tando/Scriptsie/opendhcp/opendhcp.png
+[17-Nov-25 23:48:40] exe file: /home/tando/Scriptsie/opendhcp/opendhcpd
+[17-Nov-25 23:48:40] ini file: /home/tando/Scriptsie/opendhcp/opendhcp.ini
+[17-Nov-25 23:48:40] state file: /home/tando/Scriptsie/opendhcp/opendhcp.state
+[17-Nov-25 23:48:40] log file: /home/tando/Scriptsie/opendhcp/log/opendhcp%Y%m%d.log
+[17-Nov-25 23:48:40] Default Lease: 36000 (sec)
+[17-Nov-25 23:48:40] Server Name: tando-Latitude-5480
+[17-Nov-25 23:48:40] Lease Status URL: http://192.168.7.1:6789
+[17-Nov-25 23:48:40] Listening On: 192.168.7.1
+Logging Continued on file /home/tando/Scriptsie/opendhcp/log/opendhcp20251118.log

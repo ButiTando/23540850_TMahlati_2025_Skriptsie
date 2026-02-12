@@ -1,0 +1,169 @@
+[07-Oct-25 13:49:28] Open DHCP Server Version 1.84 Linux Build 1058 Starting...
+[07-Oct-25 13:49:30] Starting DHCP Service
+[07-Oct-25 13:49:31] Logging: Normal
+[07-Oct-25 13:49:31] icon file: /home/tando/Scriptsie/opendhcp/opendhcp.png
+[07-Oct-25 13:49:31] exe file: /home/tando/Scriptsie/opendhcp/opendhcpd
+[07-Oct-25 13:49:31] ini file: /home/tando/Scriptsie/opendhcp/opendhcp.ini
+[07-Oct-25 13:49:31] log file: /home/tando/Scriptsie/opendhcp/log/opendhcp%Y%m%d.log
+[07-Oct-25 13:49:31] state file: /home/tando/Scriptsie/opendhcp/opendhcp.state
+[07-Oct-25 13:49:31] Default Lease: 36000 (sec)
+[07-Oct-25 13:49:31] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[07-Oct-25 13:49:31] No Static Interface ready, Waiting...
+[07-Oct-25 13:51:31] Network changed, re-detecting Listening Interfaces..
+[07-Oct-25 13:51:31] Server Name: tando-Latitude-5480
+[07-Oct-25 13:51:31] Listening On: 192.168.7.1
+[07-Oct-25 13:51:31] Lease Status URL: http://192.168.7.1:6789
+[07-Oct-25 13:51:32] DHCPREQUEST from Host b8:27:eb:d5:c9:2c (pi2) without Discover, NAKed
+[07-Oct-25 13:51:37] DHCPREQUEST from Host b8:27:eb:d5:c9:2c (pi2) without Discover, NAKed
+[07-Oct-25 13:51:37] Host b8:27:eb:d5:c9:2c (pi2) allotted 192.168.7.5 for 36000 seconds
+[07-Oct-25 14:04:31] Network changed, re-detecting Listening Interfaces..
+[07-Oct-25 14:04:39] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[07-Oct-25 14:04:39] No Static Interface ready, Waiting...
+[07-Oct-25 14:05:19] Network changed, re-detecting Listening Interfaces..
+[07-Oct-25 14:05:19] Server Name: tando-Latitude-5480
+[07-Oct-25 14:05:19] Lease Status URL: http://192.168.7.1:6789
+[07-Oct-25 14:05:19] Listening On: 192.168.7.1
+[07-Oct-25 14:05:20] Host b8:27:eb:d5:c9:2c (pi2) allotted 192.168.7.5 for 36000 seconds
+[07-Oct-25 14:05:20] Host b8:27:eb:d5:c9:2c (pi2) allotted 192.168.7.5 for 36000 seconds
+[07-Oct-25 14:05:20] Host b8:27:eb:d5:c9:2c (pi2) allotted 192.168.7.5 for 36000 seconds
+[07-Oct-25 14:05:59] Network changed, re-detecting Listening Interfaces..
+[07-Oct-25 14:06:01] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[07-Oct-25 14:06:01] No Static Interface ready, Waiting...
+[07-Oct-25 14:30:37] Network changed, re-detecting Listening Interfaces..
+[07-Oct-25 14:30:37] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[07-Oct-25 14:30:37] No Static Interface ready, Waiting...
+[07-Oct-25 14:30:57] Network changed, re-detecting Listening Interfaces..
+[07-Oct-25 14:30:57] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[07-Oct-25 14:30:57] No Static Interface ready, Waiting...
+[07-Oct-25 14:50:37] Network changed, re-detecting Listening Interfaces..
+[07-Oct-25 14:50:37] Server Name: tando-Latitude-5480
+[07-Oct-25 14:50:37] Lease Status URL: http://192.168.7.1:6789
+[07-Oct-25 14:50:37] Listening On: 192.168.7.1
+[07-Oct-25 15:23:17] Network changed, re-detecting Listening Interfaces..
+[07-Oct-25 15:23:20] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[07-Oct-25 15:23:20] No Static Interface ready, Waiting...
+[07-Oct-25 15:23:43] Network changed, re-detecting Listening Interfaces..
+[07-Oct-25 15:23:43] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[07-Oct-25 15:23:43] No Static Interface ready, Waiting...
+[07-Oct-25 15:24:03] Network changed, re-detecting Listening Interfaces..
+[07-Oct-25 15:24:03] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[07-Oct-25 15:24:03] No Static Interface ready, Waiting...
+[07-Oct-25 17:46:14] Network changed, re-detecting Listening Interfaces..
+[07-Oct-25 17:46:14] Server Name: tando-Latitude-5480
+[07-Oct-25 17:46:14] Lease Status URL: http://192.168.7.1:6789
+[07-Oct-25 17:46:14] Listening On: 192.168.7.1
+[07-Oct-25 18:00:14] Network changed, re-detecting Listening Interfaces..
+[07-Oct-25 18:00:16] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[07-Oct-25 18:00:16] No Static Interface ready, Waiting...
+[07-Oct-25 18:20:16] Network changed, re-detecting Listening Interfaces..
+[07-Oct-25 18:20:16] Server Name: tando-Latitude-5480
+[07-Oct-25 18:20:16] Lease Status URL: http://192.168.7.1:6789
+[07-Oct-25 18:20:16] Listening On: 192.168.7.1
+[07-Oct-25 18:52:16] Network changed, re-detecting Listening Interfaces..
+[07-Oct-25 18:52:20] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[07-Oct-25 18:52:20] No Static Interface ready, Waiting...
+[07-Oct-25 18:52:40] Network changed, re-detecting Listening Interfaces..
+[07-Oct-25 18:52:40] Listening On: 192.168.7.1
+[07-Oct-25 18:52:40] Server Name: tando-Latitude-5480
+[07-Oct-25 18:52:40] Lease Status URL: http://192.168.7.1:6789
+[07-Oct-25 19:00:40] Network changed, re-detecting Listening Interfaces..
+[07-Oct-25 19:00:42] No Static Interface ready, Waiting...
+[07-Oct-25 19:00:42] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[07-Oct-25 19:21:02] Network changed, re-detecting Listening Interfaces..
+[07-Oct-25 19:21:02] Server Name: tando-Latitude-5480
+[07-Oct-25 19:21:02] Lease Status URL: http://192.168.7.1:6789
+[07-Oct-25 19:21:02] Listening On: 192.168.7.1
+[07-Oct-25 19:22:02] Network changed, re-detecting Listening Interfaces..
+[07-Oct-25 19:22:04] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[07-Oct-25 19:22:04] No Static Interface ready, Waiting...
+[07-Oct-25 19:22:24] Listening On: 192.168.7.1
+[07-Oct-25 19:22:24] Network changed, re-detecting Listening Interfaces..
+[07-Oct-25 19:22:24] Server Name: tando-Latitude-5480
+[07-Oct-25 19:22:24] Lease Status URL: http://192.168.7.1:6789
+[07-Oct-25 19:41:44] Network changed, re-detecting Listening Interfaces..
+[07-Oct-25 19:41:47] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[07-Oct-25 19:41:47] No Static Interface ready, Waiting...
+[07-Oct-25 19:42:07] Lease Status URL: http://192.168.7.1:6789
+[07-Oct-25 19:42:07] Network changed, re-detecting Listening Interfaces..
+[07-Oct-25 19:42:07] Server Name: tando-Latitude-5480
+[07-Oct-25 19:42:07] Listening On: 192.168.7.1
+[07-Oct-25 19:48:27] Network changed, re-detecting Listening Interfaces..
+[07-Oct-25 19:48:30] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[07-Oct-25 19:48:30] No Static Interface ready, Waiting...
+[07-Oct-25 19:49:30] Network changed, re-detecting Listening Interfaces..
+[07-Oct-25 19:49:30] Server Name: tando-Latitude-5480
+[07-Oct-25 19:49:30] Lease Status URL: http://192.168.7.1:6789
+[07-Oct-25 19:49:30] Listening On: 192.168.7.1
+[07-Oct-25 19:52:30] Network changed, re-detecting Listening Interfaces..
+[07-Oct-25 19:52:32] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[07-Oct-25 19:52:32] No Static Interface ready, Waiting...
+[07-Oct-25 19:53:34] Network changed, re-detecting Listening Interfaces..
+[07-Oct-25 19:53:34] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[07-Oct-25 19:53:34] No Static Interface ready, Waiting...
+[07-Oct-25 19:53:54] Network changed, re-detecting Listening Interfaces..
+[07-Oct-25 19:53:54] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[07-Oct-25 19:53:54] No Static Interface ready, Waiting...
+[07-Oct-25 20:11:15] Network changed, re-detecting Listening Interfaces..
+[07-Oct-25 20:11:15] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[07-Oct-25 20:11:15] No Static Interface ready, Waiting...
+[07-Oct-25 20:54:55] Network changed, re-detecting Listening Interfaces..
+[07-Oct-25 20:54:55] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[07-Oct-25 20:54:55] No Static Interface ready, Waiting...
+[07-Oct-25 21:00:35] Network changed, re-detecting Listening Interfaces..
+[07-Oct-25 21:00:35] Listening On: 192.168.7.1
+[07-Oct-25 21:00:35] Server Name: tando-Latitude-5480
+[07-Oct-25 21:00:35] Lease Status URL: http://192.168.7.1:6789
+[07-Oct-25 21:04:35] Network changed, re-detecting Listening Interfaces..
+[07-Oct-25 21:04:37] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[07-Oct-25 21:04:37] No Static Interface ready, Waiting...
+[07-Oct-25 21:04:57] Network changed, re-detecting Listening Interfaces..
+[07-Oct-25 21:04:57] Server Name: tando-Latitude-5480
+[07-Oct-25 21:04:57] Lease Status URL: http://192.168.7.1:6789
+[07-Oct-25 21:04:57] Listening On: 192.168.7.1
+[07-Oct-25 21:10:17] Network changed, re-detecting Listening Interfaces..
+[07-Oct-25 21:10:19] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[07-Oct-25 21:10:19] No Static Interface ready, Waiting...
+[07-Oct-25 21:10:39] Server Name: tando-Latitude-5480
+[07-Oct-25 21:10:39] Listening On: 192.168.7.1
+[07-Oct-25 21:10:39] Network changed, re-detecting Listening Interfaces..
+[07-Oct-25 21:10:39] Lease Status URL: http://192.168.7.1:6789
+[07-Oct-25 21:15:19] Network changed, re-detecting Listening Interfaces..
+[07-Oct-25 21:15:21] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[07-Oct-25 21:15:21] No Static Interface ready, Waiting...
+[07-Oct-25 21:15:41] Network changed, re-detecting Listening Interfaces..
+[07-Oct-25 21:15:41] Server Name: tando-Latitude-5480
+[07-Oct-25 21:15:41] Lease Status URL: http://192.168.7.1:6789
+[07-Oct-25 21:15:41] Listening On: 192.168.7.1
+[07-Oct-25 21:23:41] Network changed, re-detecting Listening Interfaces..
+[07-Oct-25 21:23:44] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[07-Oct-25 21:23:44] No Static Interface ready, Waiting...
+[07-Oct-25 21:24:04] Network changed, re-detecting Listening Interfaces..
+[07-Oct-25 21:24:04] Server Name: tando-Latitude-5480
+[07-Oct-25 21:24:04] Lease Status URL: http://192.168.7.1:6789
+[07-Oct-25 21:24:04] Listening On: 192.168.7.1
+[07-Oct-25 21:35:24] Network changed, re-detecting Listening Interfaces..
+[07-Oct-25 21:35:26] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[07-Oct-25 21:35:26] No Static Interface ready, Waiting...
+[07-Oct-25 21:35:46] Network changed, re-detecting Listening Interfaces..
+[07-Oct-25 21:35:46] Server Name: tando-Latitude-5480
+[07-Oct-25 21:35:46] Lease Status URL: http://192.168.7.1:6789
+[07-Oct-25 21:35:46] Listening On: 192.168.7.1
+[07-Oct-25 21:37:26] Network changed, re-detecting Listening Interfaces..
+[07-Oct-25 21:37:28] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[07-Oct-25 21:37:28] No Static Interface ready, Waiting...
+[07-Oct-25 23:32:29] Network changed, re-detecting Listening Interfaces..
+[07-Oct-25 23:32:29] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[07-Oct-25 23:32:29] No Static Interface ready, Waiting...
+[07-Oct-25 23:32:49] Network changed, re-detecting Listening Interfaces..
+[07-Oct-25 23:32:49] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[07-Oct-25 23:32:49] No Static Interface ready, Waiting...
+[07-Oct-25 23:53:09] Network changed, re-detecting Listening Interfaces..
+[07-Oct-25 23:53:09] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[07-Oct-25 23:53:09] No Static Interface ready, Waiting...
+[07-Oct-25 23:53:49] Network changed, re-detecting Listening Interfaces..
+[07-Oct-25 23:53:49] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[07-Oct-25 23:53:49] No Static Interface ready, Waiting...
+[07-Oct-25 23:55:29] Network changed, re-detecting Listening Interfaces..
+[07-Oct-25 23:55:29] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[07-Oct-25 23:55:29] No Static Interface ready, Waiting...
+Logging Continued on file /home/tando/Scriptsie/opendhcp/log/opendhcp20251008.log

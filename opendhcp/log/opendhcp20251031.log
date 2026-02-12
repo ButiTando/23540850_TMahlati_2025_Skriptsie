@@ -1,0 +1,23 @@
+Open DHCP Server Version 1.84 Linux Build 1058
+
+[31-Oct-25 00:01:49] Network changed, re-detecting Listening Interfaces..
+[31-Oct-25 00:02:04] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[31-Oct-25 00:02:04] No Static Interface ready, Waiting...
+[31-Oct-25 00:02:24] Network changed, re-detecting Listening Interfaces..
+[31-Oct-25 00:02:24] Http Interface 192.168.7.1 TCP Port 6789 not available
+[31-Oct-25 00:02:24] Server Name: tando-Latitude-5480
+[31-Oct-25 00:02:24] Listening On: 192.168.7.1
+[31-Oct-25 00:03:04] Retrying failed Listening Interfaces..
+[31-Oct-25 00:03:06] Server Name: tando-Latitude-5480
+[31-Oct-25 00:03:06] Lease Status URL: http://192.168.7.1:6789
+[31-Oct-25 00:03:06] Listening On: 192.168.7.1
+[31-Oct-25 00:03:20] Host 80:2a:a8:cc:90:ac (UVC-G3-90ac) allotted 192.168.7.102 for 36000 seconds
+[31-Oct-25 00:22:46] Network changed, re-detecting Listening Interfaces..
+[31-Oct-25 00:22:52] Warning: Section [HTTP_INTERFACE], HTTPServer=192.168.7.1:6789 not available, ignored
+[31-Oct-25 00:22:52] No Static Interface ready, Waiting...
+[31-Oct-25 02:48:52] Closing Network Connections...
+[31-Oct-25 02:48:52] Closing Network Connections...
+[31-Oct-25 02:48:53] OpenDHCP Server Stopped !
+
+[31-Oct-25 02:48:53] OpenDHCP Server Stopped !
+
