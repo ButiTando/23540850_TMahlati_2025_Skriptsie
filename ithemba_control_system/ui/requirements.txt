@@ -1,0 +1,7 @@
+# Python dependencies for the Scriptsie tkinter UI.
+# Install with:  pip install -r requirements.txt
+
+numpy==2.2.6
+opencv-python==4.12.0.88
+pillow==11.3.0
+requests==2.34.2
