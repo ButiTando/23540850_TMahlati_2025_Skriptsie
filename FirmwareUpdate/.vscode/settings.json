@@ -1,0 +1,20 @@
+{
+    // Use CMakePresets.json rather than CMake Tools' classic mode. Without this
+    // the extension configures into its default ${workspaceFolder}/build, while
+    // the presets build into build/<presetName> -- so a build finds no cache
+    // there and fails with "could not load cache".
+    "cmake.useCMakePresets": "always",
+
+    // Keeps the Makefile's BUILD_DIR=build from colliding with CMake's trees.
+    "cmake.buildDirectory": "${workspaceFolder}/build/${buildType}",
+
+    "cmake.generator": "Ninja",
+
+    // The build already emits compile_commands.json; don't let CMake Tools
+    // copy it somewhere else and compete with c_cpp_properties.json.
+    "C_Cpp.default.compileCommands": "${workspaceFolder}/build/Debug/compile_commands.json",
+
+    "files.associations": {
+        "*.ld": "linkerscript"
+    }
+}

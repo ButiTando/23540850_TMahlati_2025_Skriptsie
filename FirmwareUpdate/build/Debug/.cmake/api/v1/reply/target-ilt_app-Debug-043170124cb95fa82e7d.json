@@ -1,0 +1,294 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "ILT_OS/Applications/Blinky/CMakeFiles/ilt_app.dir/./BlinkyApp.cpp.obj"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"target_compile_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"ILT_OS/Applications/Blinky/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 29,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 39,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 33,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++17"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-mcpu=cortex-m7"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-mfpu=fpv5-d16"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-mfloat-abi=hard"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-fno-rtti"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-fno-threadsafe-statics"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-fno-use-cxa-atexit"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-g3"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-gdwarf-2"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "BLINKY_LED=LD2"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "BLINKY_PERIOD_MS=500"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "BLINKY_STACK_BYTES=512"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "STM32F767xx"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "USE_HAL_DRIVER"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/ILT_OS/Applications/Blinky"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Core/Inc"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/ILT_OS/Lib"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Drivers/STM32F7xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Drivers/CMSIS/Device/ST/STM32F7xx/Include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Drivers/CMSIS/Include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/LWIP/App"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/LWIP/Target"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/LwIP/src/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/LwIP/system"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/FreeRTOS/Source/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Drivers/BSP/Components/lan8742"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/LwIP/src/include/netif/ppp"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/LwIP/src/include/lwip"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/LwIP/src/include/lwip/apps"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/LwIP/src/include/lwip/priv"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/LwIP/src/include/lwip/prot"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/LwIP/src/include/netif"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/LwIP/src/include/compat/posix"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/LwIP/src/include/compat/posix/arpa"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/LwIP/src/include/compat/posix/net"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/LwIP/src/include/compat/posix/sys"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/LwIP/src/include/compat/stdc"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/LwIP/system/arch"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "ilt_app::@1e636c42b36880b84468",
+	"name" : "ilt_app",
+	"paths" : 
+	{
+		"build" : "ILT_OS/Applications/Blinky",
+		"source" : "ILT_OS/Applications/Blinky"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ILT_OS/Applications/Blinky/BlinkyApp.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

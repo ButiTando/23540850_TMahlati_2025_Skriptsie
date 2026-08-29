@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ILT_OS/Applications/Blinky",
+		"source" : "ILT_OS/Applications/Blinky"
+	}
+}

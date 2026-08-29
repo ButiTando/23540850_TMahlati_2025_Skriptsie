@@ -4,13 +4,56 @@ cmake_minimum_required(VERSION 3.22)
 # Mirrors the CubeMX-generated Makefile; keep the two in sync when CubeMX
 # regenerates the project.
 #
-#   cmake -B build -G Ninja -DCMAKE_TOOLCHAIN_FILE=cmake/arm-none-eabi-gcc.cmake
-#   cmake --build build
+#   cmake --preset Debug
+#   cmake --build --preset Debug
+#
+# or explicitly:
+#
+#   cmake -B build/Debug -G Ninja -DCMAKE_TOOLCHAIN_FILE=cmake/arm-none-eabi-gcc.cmake
+#   cmake --build build/Debug
 
-project(FirmwareUpdate C ASM)
+# --- must be set before project() -------------------------------------------
+# We target bare metal, so CMake's default compiler probe -- which links a full
+# hosted executable -- cannot succeed: newlib's exit/_close/_sbrk have no
+# implementation until our own syscalls.c and the linker script are in play.
+# Building a static library for the probe instead is the supported workaround.
+#
+# The toolchain file sets this too, but it is repeated here deliberately: the
+# VS Code CMake Tools extension configures with a bare
+# -DCMAKE_C_COMPILER=... and no -DCMAKE_TOOLCHAIN_FILE, so without this the
+# probe fails before project() ever returns.
+set(CMAKE_TRY_COMPILE_TARGET_TYPE STATIC_LIBRARY)
+
+if(NOT CMAKE_SYSTEM_NAME)
+    set(CMAKE_SYSTEM_NAME Generic)
+    set(CMAKE_SYSTEM_PROCESSOR arm)
+endif()
+
+# Fall back to the toolchain from PATH when no compiler was supplied at all.
+if(NOT CMAKE_C_COMPILER AND NOT CMAKE_TOOLCHAIN_FILE)
+    set(CMAKE_C_COMPILER   arm-none-eabi-gcc)
+    set(CMAKE_ASM_COMPILER arm-none-eabi-gcc)
+endif()
+# ----------------------------------------------------------------------------
+
+project(FirmwareUpdate C CXX ASM)
+
+# Run the preprocessor over .s files, matching the Makefile's
+# "AS = arm-none-eabi-gcc -x assembler-with-cpp". Set here as well as in the
+# toolchain file so it survives a configure that bypasses the toolchain file.
+string(APPEND CMAKE_ASM_FLAGS " -x assembler-with-cpp")
+
+if(NOT CMAKE_OBJCOPY)
+    find_program(CMAKE_OBJCOPY arm-none-eabi-objcopy REQUIRED)
+endif()
+if(NOT CMAKE_SIZE)
+    find_program(CMAKE_SIZE arm-none-eabi-size REQUIRED)
+endif()
 
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_C_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # Emit compile_commands.json for the VS Code C/C++ extension and clangd.
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
@@ -24,147 +67,60 @@ set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32F767XX_FLASH.ld)
 #######################################
 # sources
 #######################################
-set(C_SOURCES
-    Core/Src/main.c
-    Core/Src/gpio.c
-    Core/Src/usart.c
-    Core/Src/usb_otg.c
-    Core/Src/stm32f7xx_it.c
-    Core/Src/stm32f7xx_hal_msp.c
-    Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c
-    Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c
-    Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c
-    Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c
-    Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c
-    Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c
-    Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c
-    Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c
-    Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c
-    Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c
-    Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c
-    Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c
-    Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c
-    Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.c
-    Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_eth.c
-    Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c
-    Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart_ex.c
-    Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c
-    Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c
-    Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c
-    Core/Src/system_stm32f7xx.c
-    Core/Src/sysmem.c
-    Core/Src/syscalls.c
-    Core/Src/freertos.c
-    Core/Src/stm32f7xx_hal_timebase_tim.c
-    LWIP/App/lwip.c
-    LWIP/Target/ethernetif.c
-    Drivers/BSP/Components/lan8742/lan8742.c
-    Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c
-    Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c
-    Middlewares/Third_Party/FreeRTOS/Source/croutine.c
-    Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
-    Middlewares/Third_Party/FreeRTOS/Source/list.c
-    Middlewares/Third_Party/FreeRTOS/Source/queue.c
-    Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
-    Middlewares/Third_Party/FreeRTOS/Source/tasks.c
-    Middlewares/Third_Party/FreeRTOS/Source/timers.c
-    Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c
-    Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
-    Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1/port.c
-    Middlewares/Third_Party/LwIP/src/netif/ppp/auth.c
-    Middlewares/Third_Party/LwIP/src/netif/ppp/ccp.c
-    Middlewares/Third_Party/LwIP/src/netif/ppp/chap_ms.c
-    Middlewares/Third_Party/LwIP/src/netif/ppp/chap-md5.c
-    Middlewares/Third_Party/LwIP/src/netif/ppp/chap-new.c
-    Middlewares/Third_Party/LwIP/src/netif/ppp/demand.c
-    Middlewares/Third_Party/LwIP/src/netif/ppp/eap.c
-    Middlewares/Third_Party/LwIP/src/netif/ppp/eui64.c
-    Middlewares/Third_Party/LwIP/src/netif/ppp/fsm.c
-    Middlewares/Third_Party/LwIP/src/netif/ppp/ipcp.c
-    Middlewares/Third_Party/LwIP/src/netif/ppp/ipv6cp.c
-    Middlewares/Third_Party/LwIP/src/netif/ppp/lcp.c
-    Middlewares/Third_Party/LwIP/src/netif/ppp/magic.c
-    Middlewares/Third_Party/LwIP/src/netif/ppp/mppe.c
-    Middlewares/Third_Party/LwIP/src/netif/ppp/multilink.c
-    Middlewares/Third_Party/LwIP/src/netif/ppp/ppp.c
-    Middlewares/Third_Party/LwIP/src/netif/ppp/pppapi.c
-    Middlewares/Third_Party/LwIP/src/netif/ppp/pppcrypt.c
-    Middlewares/Third_Party/LwIP/src/netif/ppp/pppoe.c
-    Middlewares/Third_Party/LwIP/src/netif/ppp/pppol2tp.c
-    Middlewares/Third_Party/LwIP/src/netif/ppp/pppos.c
-    Middlewares/Third_Party/LwIP/src/netif/ppp/upap.c
-    Middlewares/Third_Party/LwIP/src/netif/ppp/utils.c
-    Middlewares/Third_Party/LwIP/src/netif/ppp/vj.c
-    Middlewares/Third_Party/LwIP/src/netif/bridgeif.c
-    Middlewares/Third_Party/LwIP/src/netif/bridgeif_fdb.c
-    Middlewares/Third_Party/LwIP/src/netif/ethernet.c
-    Middlewares/Third_Party/LwIP/src/netif/lowpan6.c
-    Middlewares/Third_Party/LwIP/src/netif/lowpan6_ble.c
-    Middlewares/Third_Party/LwIP/src/netif/lowpan6_common.c
-    Middlewares/Third_Party/LwIP/src/netif/slipif.c
-    Middlewares/Third_Party/LwIP/src/netif/zepif.c
-    Middlewares/Third_Party/LwIP/src/netif/ppp/ecp.c
-    Middlewares/Third_Party/LwIP/src/api/sockets.c
-    Middlewares/Third_Party/LwIP/src/api/err.c
-    Middlewares/Third_Party/LwIP/src/api/api_msg.c
-    Middlewares/Third_Party/LwIP/src/api/netbuf.c
-    Middlewares/Third_Party/LwIP/src/api/netifapi.c
-    Middlewares/Third_Party/LwIP/src/api/tcpip.c
-    Middlewares/Third_Party/LwIP/src/api/api_lib.c
-    Middlewares/Third_Party/LwIP/src/api/netdb.c
-    Middlewares/Third_Party/LwIP/src/api/if_api.c
-    Middlewares/Third_Party/LwIP/src/core/tcp.c
-    Middlewares/Third_Party/LwIP/src/core/sys.c
-    Middlewares/Third_Party/LwIP/src/core/stats.c
-    Middlewares/Third_Party/LwIP/src/core/memp.c
-    Middlewares/Third_Party/LwIP/src/core/udp.c
-    Middlewares/Third_Party/LwIP/src/core/raw.c
-    Middlewares/Third_Party/LwIP/src/core/altcp.c
-    Middlewares/Third_Party/LwIP/src/core/mem.c
-    Middlewares/Third_Party/LwIP/src/core/altcp_alloc.c
-    Middlewares/Third_Party/LwIP/src/core/def.c
-    Middlewares/Third_Party/LwIP/src/core/inet_chksum.c
-    Middlewares/Third_Party/LwIP/src/core/ip.c
-    Middlewares/Third_Party/LwIP/src/core/altcp_tcp.c
-    Middlewares/Third_Party/LwIP/src/core/timeouts.c
-    Middlewares/Third_Party/LwIP/src/core/tcp_in.c
-    Middlewares/Third_Party/LwIP/src/core/init.c
-    Middlewares/Third_Party/LwIP/src/core/tcp_out.c
-    Middlewares/Third_Party/LwIP/src/core/pbuf.c
-    Middlewares/Third_Party/LwIP/src/core/dns.c
-    Middlewares/Third_Party/LwIP/src/core/netif.c
-    Middlewares/Third_Party/LwIP/src/core/ipv4/dhcp.c
-    Middlewares/Third_Party/LwIP/src/core/ipv4/ip4.c
-    Middlewares/Third_Party/LwIP/src/core/ipv4/ip4_addr.c
-    Middlewares/Third_Party/LwIP/src/core/ipv4/ip4_frag.c
-    Middlewares/Third_Party/LwIP/src/core/ipv4/etharp.c
-    Middlewares/Third_Party/LwIP/src/core/ipv4/igmp.c
-    Middlewares/Third_Party/LwIP/src/core/ipv4/autoip.c
-    Middlewares/Third_Party/LwIP/src/core/ipv4/icmp.c
-    Middlewares/Third_Party/LwIP/src/core/ipv6/ip6.c
-    Middlewares/Third_Party/LwIP/src/core/ipv6/nd6.c
-    Middlewares/Third_Party/LwIP/src/core/ipv6/ip6_addr.c
-    Middlewares/Third_Party/LwIP/src/core/ipv6/dhcp6.c
-    Middlewares/Third_Party/LwIP/src/core/ipv6/ip6_frag.c
-    Middlewares/Third_Party/LwIP/src/core/ipv6/inet6.c
-    Middlewares/Third_Party/LwIP/src/core/ipv6/ethip6.c
-    Middlewares/Third_Party/LwIP/src/core/ipv6/icmp6.c
-    Middlewares/Third_Party/LwIP/src/core/ipv6/mld6.c
-    Middlewares/Third_Party/LwIP/system/OS/sys_arch.c
-    Middlewares/Third_Party/LwIP/src/apps/mqtt/mqtt.c
+# Globbed rather than listed. CONFIGURE_DEPENDS makes CMake re-run the glob at
+# build time, so adding or deleting a .c file is picked up without a manual
+# reconfigure.
+#
+# Drivers/CMSIS is deliberately NOT globbed: it ships the CMSIS DSP and NN
+# libraries plus their test suites (490 .c files) which this firmware does not
+# build. CMSIS contributes headers only -- the one CMSIS-related source we do
+# compile, system_stm32f7xx.c, lives in Core/Src.
+file(GLOB_RECURSE C_SOURCES CONFIGURE_DEPENDS
+    ${CMAKE_SOURCE_DIR}/Core/Src/*.c
+    ${CMAKE_SOURCE_DIR}/Drivers/BSP/*.c
+    ${CMAKE_SOURCE_DIR}/Drivers/STM32F7xx_HAL_Driver/Src/*.c
+    ${CMAKE_SOURCE_DIR}/ILT_OS/Lib/*.c
+    ${CMAKE_SOURCE_DIR}/LWIP/*.c
+    ${CMAKE_SOURCE_DIR}/Middlewares/*.c
 )
 
-set(ASM_SOURCES
-    startup_stm32f767xx.s
+file(GLOB_RECURSE CXX_SOURCES CONFIGURE_DEPENDS
+    ${CMAKE_SOURCE_DIR}/Core/Src/*.cpp
+    ${CMAKE_SOURCE_DIR}/ILT_OS/Lib/*.cpp
 )
 
-add_executable(${PROJECT_NAME}.elf ${C_SOURCES} ${ASM_SOURCES})
+file(GLOB ASM_SOURCES CONFIGURE_DEPENDS
+    ${CMAKE_SOURCE_DIR}/*.s
+)
+
+list(LENGTH C_SOURCES _n_c)
+list(LENGTH CXX_SOURCES _n_cxx)
+message(STATUS "FirmwareUpdate: ${_n_c} C sources, ${_n_cxx} C++ sources, linker script ${LINKER_SCRIPT}")
+
+# Cortex-M7 with the double-precision FPU, hard float ABI.
+set(MCU_FLAGS
+    -mcpu=cortex-m7
+    -mthumb
+    -mfpu=fpv5-d16
+    -mfloat-abi=hard
+)
+
+add_executable(${PROJECT_NAME}.elf ${C_SOURCES} ${CXX_SOURCES} ${ASM_SOURCES})
 
 #######################################
 # includes and defines
 #######################################
-target_include_directories(${PROJECT_NAME}.elf PRIVATE
+#######################################
+# platform: what every translation unit in this firmware needs
+#######################################
+# An INTERFACE target so the selected application compiles with exactly the same
+# include paths, defines and MCU flags as the firmware itself. Without this an
+# application subdirectory would build for the host ABI and fail to link.
+add_library(ilt_platform INTERFACE)
+
+target_include_directories(ilt_platform INTERFACE
     ${CMAKE_SOURCE_DIR}/Core/Inc
+    ${CMAKE_SOURCE_DIR}/ILT_OS/Lib
     ${CMAKE_SOURCE_DIR}/Drivers/STM32F7xx_HAL_Driver/Inc
     ${CMAKE_SOURCE_DIR}/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy
     ${CMAKE_SOURCE_DIR}/Drivers/CMSIS/Device/ST/STM32F7xx/Include
@@ -191,7 +147,7 @@ target_include_directories(${PROJECT_NAME}.elf PRIVATE
     ${CMAKE_SOURCE_DIR}/Middlewares/Third_Party/LwIP/system/arch
 )
 
-target_compile_definitions(${PROJECT_NAME}.elf PRIVATE
+target_compile_definitions(ilt_platform INTERFACE
     USE_HAL_DRIVER
     STM32F767xx
 )
@@ -199,26 +155,55 @@ target_compile_definitions(${PROJECT_NAME}.elf PRIVATE
 #######################################
 # compile options
 #######################################
-# Cortex-M7 with the double-precision FPU, hard float ABI.
-set(MCU_FLAGS
-    -mcpu=cortex-m7
-    -mthumb
-    -mfpu=fpv5-d16
-    -mfloat-abi=hard
-)
-
-target_compile_options(${PROJECT_NAME}.elf PRIVATE
+target_compile_options(ilt_platform INTERFACE
     ${MCU_FLAGS}
     -Wall
     # Place each function/datum in its own section so --gc-sections can drop
     # everything the firmware does not reference.
     -fdata-sections
     -ffunction-sections
+    # Bare metal: no unwinder, no type-info tables, and no __cxa_guard_*
+    # locking around function-local statics.
+    $<$<COMPILE_LANGUAGE:CXX>:-fno-exceptions>
+    $<$<COMPILE_LANGUAGE:CXX>:-fno-rtti>
+    $<$<COMPILE_LANGUAGE:CXX>:-fno-threadsafe-statics>
+    $<$<COMPILE_LANGUAGE:CXX>:-fno-use-cxa-atexit>
     $<$<CONFIG:Debug>:-Og>
     $<$<CONFIG:Debug>:-g3>
     $<$<CONFIG:Debug>:-gdwarf-2>
     $<$<CONFIG:Release>:-Os>
 )
+
+#######################################
+# application selection
+#######################################
+# Exactly one application from ILT_OS/Applications is built into the image.
+# Its own CMakeLists.txt declares the flags that shape it, e.g.
+#   cmake --preset Debug -DILT_APP=Blinky -DBLINKY_LED=LD3
+set(ILT_APP "Blinky" CACHE STRING
+    "Application under ILT_OS/Applications to build into the image")
+
+file(GLOB _ilt_app_dirs RELATIVE ${CMAKE_SOURCE_DIR}/ILT_OS/Applications
+     ${CMAKE_SOURCE_DIR}/ILT_OS/Applications/*)
+set(_ilt_apps "")
+foreach(_d ${_ilt_app_dirs})
+    if(EXISTS ${CMAKE_SOURCE_DIR}/ILT_OS/Applications/${_d}/CMakeLists.txt)
+        list(APPEND _ilt_apps ${_d})
+    endif()
+endforeach()
+set_property(CACHE ILT_APP PROPERTY STRINGS ${_ilt_apps})
+
+if(NOT ILT_APP IN_LIST _ilt_apps)
+    message(FATAL_ERROR
+            "ILT_APP='${ILT_APP}' not found. Available: ${_ilt_apps}")
+endif()
+
+message(STATUS "Application: ${ILT_APP}")
+add_subdirectory(ILT_OS/Applications/${ILT_APP})
+
+# ilt_app is an OBJECT library, so this splices its objects straight into the
+# executable -- no archive member selection to reason about.
+target_link_libraries(${PROJECT_NAME}.elf PRIVATE ilt_platform ilt_app)
 
 #######################################
 # link options

@@ -3,33 +3,32 @@
     "configurations": [
         {
             "name": "STM32F767 (arm-none-eabi)",
+            // compileCommands is authoritative: CMake regenerates it on every
+            // configure, so new files and new -I flags are picked up with no
+            // edit here. includePath is only the fallback for files not yet
+            // in that database.
+            "compileCommands": "${workspaceFolder}/build/Debug/compile_commands.json",
             "includePath": [
-                "${workspaceFolder}/Core/Inc",
-                "${workspaceFolder}/Drivers/STM32F7xx_HAL_Driver/Inc",
-                "${workspaceFolder}/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy",
-                "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32F7xx/Include",
-                "${workspaceFolder}/Drivers/CMSIS/Include",
-                "${workspaceFolder}/Drivers/BSP/Components/lan8742",
-                "${workspaceFolder}/LWIP/App",
-                "${workspaceFolder}/LWIP/Target",
-                "${workspaceFolder}/Middlewares/Third_Party/LwIP/src/include",
-                "${workspaceFolder}/Middlewares/Third_Party/LwIP/src/include/lwip",
-                "${workspaceFolder}/Middlewares/Third_Party/LwIP/src/include/lwip/apps",
-                "${workspaceFolder}/Middlewares/Third_Party/LwIP/src/include/lwip/priv",
-                "${workspaceFolder}/Middlewares/Third_Party/LwIP/src/include/lwip/prot",
-                "${workspaceFolder}/Middlewares/Third_Party/LwIP/src/include/netif",
-                "${workspaceFolder}/Middlewares/Third_Party/LwIP/src/include/netif/ppp",
-                "${workspaceFolder}/Middlewares/Third_Party/LwIP/src/include/compat/posix",
-                "${workspaceFolder}/Middlewares/Third_Party/LwIP/src/include/compat/posix/arpa",
-                "${workspaceFolder}/Middlewares/Third_Party/LwIP/src/include/compat/posix/net",
-                "${workspaceFolder}/Middlewares/Third_Party/LwIP/src/include/compat/posix/sys",
-                "${workspaceFolder}/Middlewares/Third_Party/LwIP/src/include/compat/stdc",
-                "${workspaceFolder}/Middlewares/Third_Party/LwIP/system",
-                "${workspaceFolder}/Middlewares/Third_Party/LwIP/system/arch",
-                "${workspaceFolder}/Middlewares/Third_Party/FreeRTOS/Source/include",
-                "${workspaceFolder}/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2",
-                "${workspaceFolder}/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1"
+                // Fallback only. compileCommands above provides the exact -I
+                // flags for every file CMake builds; this catches anything not
+                // yet in that database (a new .cpp before the next configure).
+                "${workspaceFolder}/**"
             ],
+            "browse": {
+                // Drivers/CMSIS/DSP and NN hold ~690 files this firmware never
+                // builds; excluding them keeps the symbol database fast.
+                "path": [
+                    "${workspaceFolder}/Core",
+                    "${workspaceFolder}/ILT_OS",
+                    "${workspaceFolder}/LWIP",
+                    "${workspaceFolder}/Drivers/STM32F7xx_HAL_Driver",
+                    "${workspaceFolder}/Drivers/BSP",
+                    "${workspaceFolder}/Drivers/CMSIS/Include",
+                    "${workspaceFolder}/Drivers/CMSIS/Device",
+                    "${workspaceFolder}/Middlewares"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            },
             "defines": [
                 "USE_HAL_DRIVER",
                 "STM32F767xx"
@@ -42,7 +41,7 @@
                 "-mfloat-abi=hard"
             ],
             "cStandard": "gnu11",
-            "cppStandard": "gnu++14",
+            "cppStandard": "gnu++17",
             "intelliSenseMode": "linux-gcc-arm"
         }
     ]
