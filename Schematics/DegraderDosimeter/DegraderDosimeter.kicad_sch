@@ -1,0 +1,693 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "f3c83d46-b432-4960-ae55-27eb620ca6d0")
+	(paper "A4")
+	(title_block
+		(rev "0.0.1")
+		(company "Tando Mahlati")
+		(comment 1 "Inspired by STM32 MB1137")
+	)
+	(lib_symbols)
+	(sheet
+		(at 40.072 110.422)
+		(size 33.048 7.804)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "294b011c-708b-4455-a545-397dc0fda3f9")
+		(property "Sheetname" "PulseShaper1"
+			(at 40.072 109.7104 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PulseShaper1.kicad_sch"
+			(at 40.072 118.8106 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3.3V" input
+			(at 54.072 110.422 90)
+			(uuid "de6bb6bb-19a2-4bc2-95cb-92712458255b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "pulse_out1" input
+			(at 73.12 114.046 0)
+			(uuid "8856d45c-fd27-4e88-8f38-33855e57686a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 228.516 28.646)
+		(size 22.944 31.652)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "29cc5153-f00a-421d-a7d0-f0b15c27dbc7")
+		(property "Sheetname" "Ethernet"
+			(at 228.516 27.9344 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Ethernet.kicad_sch"
+			(at 228.516 60.8826 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RMII_TX_EN" input
+			(at 228.516 31.85 180)
+			(uuid "cbbf1e27-d28f-4e0f-8282-b317bb4459bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RMII_CRS_DV" input
+			(at 228.516 47.09 180)
+			(uuid "790e972d-ae05-47ba-9989-811101b786d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RMII_REF_CLK" input
+			(at 228.516 55.98 180)
+			(uuid "c9c52dc2-392e-47a6-b97f-8d2aa1f28c12")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RMII_TXD0" input
+			(at 228.516 34.898 180)
+			(uuid "f6246455-52b0-4948-9d27-41e8853d1b3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RMII_MDC" input
+			(at 228.516 49.884 180)
+			(uuid "b16a1033-df20-4ff0-8e73-4846aa41f4d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RMII_RXD1" input
+			(at 228.516 44.296 180)
+			(uuid "f7225210-774d-4aee-bfec-3b2dd9d00d1e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RMII_TXD1" input
+			(at 228.516 37.946 180)
+			(uuid "ec6f9d25-8084-421e-af57-5688209f0f04")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RMII_MDIO" input
+			(at 228.516 52.932 180)
+			(uuid "3a7d3db1-c2a8-43e4-8265-93522836ea44")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RMII_RXD0" input
+			(at 228.516 42.01 180)
+			(uuid "ebc53cad-a5bc-4e6f-bc0a-bbac40b5989a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NRST" input
+			(at 228.516 58.774 180)
+			(uuid "52b3aa0e-f689-43c8-b765-fba9e3684535")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 90.394 110.236)
+		(size 33.048 7.804)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4fc04668-2325-4f37-9a5d-a55eae913bea")
+		(property "Sheetname" "PulseShaper4"
+			(at 90.394 109.5244 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PulseShaper1.kicad_sch"
+			(at 90.394 118.6246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3.3V" input
+			(at 104.394 110.236 90)
+			(uuid "c982764a-14a3-4931-a521-786614ac388f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "pulse_out1" input
+			(at 123.442 113.86 0)
+			(uuid "f5651db8-77ba-4cd3-b930-da84f26a472d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 40.356 147.32)
+		(size 33.048 7.804)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "52c48d56-b871-43a0-bb91-c37bbd4846ad")
+		(property "Sheetname" "PulseShaper3"
+			(at 40.356 146.6084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PulseShaper1.kicad_sch"
+			(at 40.356 155.7086 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3.3V" input
+			(at 54.356 147.32 90)
+			(uuid "cbd088e4-c1f2-40a2-af34-16b2d0f51b9b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "pulse_out1" input
+			(at 73.404 150.944 0)
+			(uuid "6cae21f5-8b04-4da1-a056-c334837ce833")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 148.496 67.124)
+		(size 47 27)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "596b959a-2521-47dc-a05e-2cfbc5d24db0")
+		(property "Sheetname" "MCU_H723"
+			(at 148.496 66.4124 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU_H723.kicad_sch"
+			(at 148.496 94.7086 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 90.394 147.32)
+		(size 33.048 7.804)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a40a36e8-4c2c-4a22-8762-1534ef4f419c")
+		(property "Sheetname" "PulseShaper6"
+			(at 90.394 146.6084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PulseShaper1.kicad_sch"
+			(at 90.394 155.7086 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3.3V" input
+			(at 104.394 147.32 90)
+			(uuid "e7a291a1-5a55-46dc-947b-9200bce1dfd1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "pulse_out1" input
+			(at 123.442 150.944 0)
+			(uuid "e56f7fac-fbc7-4180-bc4f-af5fe65cbdfe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 39.34 30.458)
+		(size 29 16.372)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ad3f19ac-af46-441e-8be8-2329fde7a5e2")
+		(property "Sheetname" "Power supply"
+			(at 39.34 29.7464 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_supply.kicad_sch"
+			(at 39.34 47.4146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3.3V" input
+			(at 68.34 38.84 0)
+			(uuid "2d860270-ff43-43b2-b0dd-8095af375e6d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3V3" input
+			(at 68.34 43.92 0)
+			(uuid "679183fd-31cd-4bb2-9e0c-c56a4f2756cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5V" input
+			(at 68.34 33.76 0)
+			(uuid "802127cc-1dcf-4d6e-9d17-483e14d13c30")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCC" input
+			(at 39.34 38.84 180)
+			(uuid "2360e318-65bf-417b-a889-b013258fa0b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 40.102 128.524)
+		(size 33.048 7.804)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "fb510832-7aa6-4626-bdb2-b62cfe0a2e25")
+		(property "Sheetname" "PulseShaper2"
+			(at 40.102 127.8124 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PulseShaper1.kicad_sch"
+			(at 40.102 136.9126 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3.3V" input
+			(at 54.102 128.524 90)
+			(uuid "e37bbccc-cc83-4a50-b6c8-782605918fe1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "pulse_out1" input
+			(at 73.15 132.148 0)
+			(uuid "e7b97bb4-95e2-4a7f-a216-776cbe6a2688")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 90.14 128.016)
+		(size 33.048 7.804)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "fe12e946-6cd2-4e9c-83fe-ac47fefba060")
+		(property "Sheetname" "PulseShaper5"
+			(at 90.14 127.3044 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PulseShaper1.kicad_sch"
+			(at 90.14 136.4046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3.3V" input
+			(at 104.14 128.016 90)
+			(uuid "0eeedaea-a0b4-453e-9bfa-6d951dc1d2df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "pulse_out1" input
+			(at 123.188 131.64 0)
+			(uuid "2ada6d4b-dedb-49b1-a24b-529987bbf3b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
