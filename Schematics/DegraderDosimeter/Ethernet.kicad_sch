@@ -10393,7 +10393,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Crystal"
+		(property "Value" "25.000MHz"
 			(at 49.234 127.2539 90)
 			(show_name no)
 			(do_not_autoplace no)
