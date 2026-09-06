@@ -1831,7 +1831,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15f3303b-3d1e-4785-8c44-446b6d5ece1e")
-		(property "Reference" "R31"
+		(property "Reference" "R30"
 			(at 173.482 98.044 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1893,27 +1893,27 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/294b011c-708b-4455-a545-397dc0fda3f9"
-					(reference "R31")
+					(reference "R30")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/4fc04668-2325-4f37-9a5d-a55eae913bea"
-					(reference "R46")
+					(reference "R45")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/52c48d56-b871-43a0-bb91-c37bbd4846ad"
-					(reference "R41")
+					(reference "R40")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/a40a36e8-4c2c-4a22-8762-1534ef4f419c"
-					(reference "R56")
+					(reference "R55")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/fb510832-7aa6-4626-bdb2-b62cfe0a2e25"
-					(reference "R36")
+					(reference "R35")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/fe12e946-6cd2-4e9c-83fe-ac47fefba060"
-					(reference "R51")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -1931,7 +1931,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f87b26b-8519-4961-93dc-a449ecbac30a")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR044"
 			(at 74.168 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -1991,27 +1991,27 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/294b011c-708b-4455-a545-397dc0fda3f9"
-					(reference "#PWR024")
+					(reference "#PWR044")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/4fc04668-2325-4f37-9a5d-a55eae913bea"
-					(reference "#PWR040")
+					(reference "#PWR062")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/52c48d56-b871-43a0-bb91-c37bbd4846ad"
-					(reference "#PWR034")
+					(reference "#PWR056")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/a40a36e8-4c2c-4a22-8762-1534ef4f419c"
-					(reference "#PWR052")
+					(reference "#PWR074")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/fb510832-7aa6-4626-bdb2-b62cfe0a2e25"
-					(reference "#PWR028")
+					(reference "#PWR050")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/fe12e946-6cd2-4e9c-83fe-ac47fefba060"
-					(reference "#PWR046")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -2029,7 +2029,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2146aa55-d3ce-4bf1-85f6-8506c4892253")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR049"
 			(at 202.692 118.618 0)
 			(hide yes)
 			(show_name no)
@@ -2089,27 +2089,27 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/294b011c-708b-4455-a545-397dc0fda3f9"
-					(reference "#PWR023")
+					(reference "#PWR049")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/4fc04668-2325-4f37-9a5d-a55eae913bea"
-					(reference "#PWR045")
+					(reference "#PWR067")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/52c48d56-b871-43a0-bb91-c37bbd4846ad"
-					(reference "#PWR039")
+					(reference "#PWR061")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/a40a36e8-4c2c-4a22-8762-1534ef4f419c"
-					(reference "#PWR057")
+					(reference "#PWR079")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/fb510832-7aa6-4626-bdb2-b62cfe0a2e25"
-					(reference "#PWR033")
+					(reference "#PWR055")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/fe12e946-6cd2-4e9c-83fe-ac47fefba060"
-					(reference "#PWR051")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -2126,7 +2126,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4ba8ffc6-942c-4a42-8bc4-7e56890d5dd2")
-		(property "Reference" "R28"
+		(property "Reference" "R27"
 			(at 102.362 86.106 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2188,19 +2188,19 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/294b011c-708b-4455-a545-397dc0fda3f9"
-					(reference "R28")
+					(reference "R27")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/4fc04668-2325-4f37-9a5d-a55eae913bea"
-					(reference "R43")
+					(reference "R42")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/52c48d56-b871-43a0-bb91-c37bbd4846ad"
-					(reference "R38")
+					(reference "R37")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/a40a36e8-4c2c-4a22-8762-1534ef4f419c"
-					(reference "R53")
+					(reference "R52")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/fb510832-7aa6-4626-bdb2-b62cfe0a2e25"
@@ -2208,7 +2208,7 @@
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/fe12e946-6cd2-4e9c-83fe-ac47fefba060"
-					(reference "R48")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -2225,7 +2225,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "544032cf-4546-4cb1-9ff9-18df438b27a5")
-		(property "Reference" "C27"
+		(property "Reference" "C45"
 			(at 133.858 64.516 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2289,27 +2289,27 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/294b011c-708b-4455-a545-397dc0fda3f9"
-					(reference "C27")
+					(reference "C45")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/4fc04668-2325-4f37-9a5d-a55eae913bea"
-					(reference "C32")
+					(reference "C51")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/52c48d56-b871-43a0-bb91-c37bbd4846ad"
-					(reference "C30")
+					(reference "C49")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/a40a36e8-4c2c-4a22-8762-1534ef4f419c"
-					(reference "C36")
+					(reference "C55")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/fb510832-7aa6-4626-bdb2-b62cfe0a2e25"
-					(reference "C28")
+					(reference "C47")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/fe12e946-6cd2-4e9c-83fe-ac47fefba060"
-					(reference "C34")
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -2691,7 +2691,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8be72425-8bf4-4988-8243-38e4cf522601")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR045"
 			(at 92.202 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -2751,27 +2751,27 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/294b011c-708b-4455-a545-397dc0fda3f9"
-					(reference "#PWR025")
+					(reference "#PWR045")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/4fc04668-2325-4f37-9a5d-a55eae913bea"
-					(reference "#PWR041")
+					(reference "#PWR063")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/52c48d56-b871-43a0-bb91-c37bbd4846ad"
-					(reference "#PWR035")
+					(reference "#PWR057")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/a40a36e8-4c2c-4a22-8762-1534ef4f419c"
-					(reference "#PWR053")
+					(reference "#PWR075")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/fb510832-7aa6-4626-bdb2-b62cfe0a2e25"
-					(reference "#PWR029")
+					(reference "#PWR051")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/fe12e946-6cd2-4e9c-83fe-ac47fefba060"
-					(reference "#PWR047")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -2891,7 +2891,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99358e28-d79c-44bf-87b9-4b792155bbdf")
-		(property "Reference" "R29"
+		(property "Reference" "R28"
 			(at 127 98.044 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2953,27 +2953,27 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/294b011c-708b-4455-a545-397dc0fda3f9"
-					(reference "R29")
+					(reference "R28")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/4fc04668-2325-4f37-9a5d-a55eae913bea"
-					(reference "R44")
+					(reference "R43")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/52c48d56-b871-43a0-bb91-c37bbd4846ad"
-					(reference "R39")
+					(reference "R38")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/a40a36e8-4c2c-4a22-8762-1534ef4f419c"
-					(reference "R54")
+					(reference "R53")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/fb510832-7aa6-4626-bdb2-b62cfe0a2e25"
-					(reference "R34")
+					(reference "R33")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/fe12e946-6cd2-4e9c-83fe-ac47fefba060"
-					(reference "R49")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -2991,7 +2991,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99b0d821-040f-4881-878e-9b29dda69fd4")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR047"
 			(at 140.716 78.486 0)
 			(hide yes)
 			(show_name no)
@@ -3051,27 +3051,27 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/294b011c-708b-4455-a545-397dc0fda3f9"
-					(reference "#PWR027")
+					(reference "#PWR047")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/4fc04668-2325-4f37-9a5d-a55eae913bea"
-					(reference "#PWR043")
+					(reference "#PWR065")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/52c48d56-b871-43a0-bb91-c37bbd4846ad"
-					(reference "#PWR037")
+					(reference "#PWR059")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/a40a36e8-4c2c-4a22-8762-1534ef4f419c"
-					(reference "#PWR055")
+					(reference "#PWR077")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/fb510832-7aa6-4626-bdb2-b62cfe0a2e25"
-					(reference "#PWR031")
+					(reference "#PWR053")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/fe12e946-6cd2-4e9c-83fe-ac47fefba060"
-					(reference "#PWR049")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -3089,7 +3089,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a8e0c1a-dc94-40ef-bece-96e9733fcd64")
-		(property "Reference" "R30"
+		(property "Reference" "R29"
 			(at 165.608 73.914 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3151,27 +3151,27 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/294b011c-708b-4455-a545-397dc0fda3f9"
-					(reference "R30")
+					(reference "R29")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/4fc04668-2325-4f37-9a5d-a55eae913bea"
-					(reference "R45")
+					(reference "R44")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/52c48d56-b871-43a0-bb91-c37bbd4846ad"
-					(reference "R40")
+					(reference "R39")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/a40a36e8-4c2c-4a22-8762-1534ef4f419c"
-					(reference "R55")
+					(reference "R54")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/fb510832-7aa6-4626-bdb2-b62cfe0a2e25"
-					(reference "R35")
+					(reference "R34")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/fe12e946-6cd2-4e9c-83fe-ac47fefba060"
-					(reference "R50")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -3189,7 +3189,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6056e15-0c5f-433b-970c-459816f8b292")
-		(property "Reference" "C26"
+		(property "Reference" "C46"
 			(at 165.1 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3253,27 +3253,27 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/294b011c-708b-4455-a545-397dc0fda3f9"
-					(reference "C26")
+					(reference "C46")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/4fc04668-2325-4f37-9a5d-a55eae913bea"
-					(reference "C33")
+					(reference "C52")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/52c48d56-b871-43a0-bb91-c37bbd4846ad"
-					(reference "C31")
+					(reference "C50")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/a40a36e8-4c2c-4a22-8762-1534ef4f419c"
-					(reference "C37")
+					(reference "C56")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/fb510832-7aa6-4626-bdb2-b62cfe0a2e25"
-					(reference "C29")
+					(reference "C48")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/fe12e946-6cd2-4e9c-83fe-ac47fefba060"
-					(reference "C35")
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -3291,7 +3291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4d6c192-0f09-4f34-a9ee-02cd34736c0c")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR048"
 			(at 161.798 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -3351,27 +3351,27 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/294b011c-708b-4455-a545-397dc0fda3f9"
-					(reference "#PWR022")
+					(reference "#PWR048")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/4fc04668-2325-4f37-9a5d-a55eae913bea"
-					(reference "#PWR044")
+					(reference "#PWR066")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/52c48d56-b871-43a0-bb91-c37bbd4846ad"
-					(reference "#PWR038")
+					(reference "#PWR060")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/a40a36e8-4c2c-4a22-8762-1534ef4f419c"
-					(reference "#PWR056")
+					(reference "#PWR078")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/fb510832-7aa6-4626-bdb2-b62cfe0a2e25"
-					(reference "#PWR032")
+					(reference "#PWR054")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/fe12e946-6cd2-4e9c-83fe-ac47fefba060"
-					(reference "#PWR050")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -3389,7 +3389,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c92eb4eb-abe3-4d4b-8017-4eb6046d6e33")
-		(property "Reference" "R33"
+		(property "Reference" "R31"
 			(at 195.834 63.754 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3451,27 +3451,27 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/294b011c-708b-4455-a545-397dc0fda3f9"
-					(reference "R33")
+					(reference "R31")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/4fc04668-2325-4f37-9a5d-a55eae913bea"
-					(reference "R47")
+					(reference "R46")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/52c48d56-b871-43a0-bb91-c37bbd4846ad"
-					(reference "R42")
+					(reference "R41")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/a40a36e8-4c2c-4a22-8762-1534ef4f419c"
-					(reference "R57")
+					(reference "R56")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/fb510832-7aa6-4626-bdb2-b62cfe0a2e25"
-					(reference "R37")
+					(reference "R36")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/fe12e946-6cd2-4e9c-83fe-ac47fefba060"
-					(reference "R52")
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -3489,7 +3489,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ceb24b79-afc7-4aee-ac8c-101ed7ecef8d")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR046"
 			(at 128.016 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -3549,27 +3549,27 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/294b011c-708b-4455-a545-397dc0fda3f9"
-					(reference "#PWR026")
+					(reference "#PWR046")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/4fc04668-2325-4f37-9a5d-a55eae913bea"
-					(reference "#PWR042")
+					(reference "#PWR064")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/52c48d56-b871-43a0-bb91-c37bbd4846ad"
-					(reference "#PWR036")
+					(reference "#PWR058")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/a40a36e8-4c2c-4a22-8762-1534ef4f419c"
-					(reference "#PWR054")
+					(reference "#PWR076")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/fb510832-7aa6-4626-bdb2-b62cfe0a2e25"
-					(reference "#PWR030")
+					(reference "#PWR052")
 					(unit 1)
 				)
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/fe12e946-6cd2-4e9c-83fe-ac47fefba060"
-					(reference "#PWR048")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)

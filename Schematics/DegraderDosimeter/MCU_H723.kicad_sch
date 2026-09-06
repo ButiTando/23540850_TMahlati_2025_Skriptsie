@@ -10629,7 +10629,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00187362-9aa9-44bd-8d3d-aa9a008f666e")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR026"
 			(at 201.422 42.672 0)
 			(hide yes)
 			(show_name no)
@@ -10689,7 +10689,7 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/596b959a-2521-47dc-a05e-2cfbc5d24db0"
-					(reference "#PWR069")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -10706,7 +10706,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "01ce4712-0ba1-493b-8b54-55cc0da525ba")
-		(property "Reference" "C48"
+		(property "Reference" "C21"
 			(at 344.17 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10770,7 +10770,7 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/596b959a-2521-47dc-a05e-2cfbc5d24db0"
-					(reference "C48")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -10788,7 +10788,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03a2031c-3b7b-4e9e-8544-0839113c2838")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR023"
 			(at 157.988 243.078 0)
 			(hide yes)
 			(show_name no)
@@ -10848,7 +10848,7 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/596b959a-2521-47dc-a05e-2cfbc5d24db0"
-					(reference "#PWR058")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -10865,7 +10865,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0ae9888b-8c0d-4dfe-b58f-60264b2fd00f")
-		(property "Reference" "C43"
+		(property "Reference" "C28"
 			(at 382.016 44.958 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10929,7 +10929,7 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/596b959a-2521-47dc-a05e-2cfbc5d24db0"
-					(reference "C43")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -10946,7 +10946,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1097a68a-3466-448e-bb58-8f89fcfa95ac")
-		(property "Reference" "C40"
+		(property "Reference" "C19"
 			(at 343.662 44.958 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11010,7 +11010,7 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/596b959a-2521-47dc-a05e-2cfbc5d24db0"
-					(reference "C40")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -11028,7 +11028,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14d659ee-5d11-4151-979d-f59d1768112e")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR025"
 			(at 177.546 52.832 0)
 			(hide yes)
 			(show_name no)
@@ -11088,7 +11088,7 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/596b959a-2521-47dc-a05e-2cfbc5d24db0"
-					(reference "#PWR071")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -11106,7 +11106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1517c29e-d1da-4c55-adee-3d143338f2aa")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR034"
 			(at 370.078 61.214 0)
 			(hide yes)
 			(show_name no)
@@ -11166,7 +11166,7 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/596b959a-2521-47dc-a05e-2cfbc5d24db0"
-					(reference "#PWR061")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -11184,7 +11184,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18f7e629-11c9-4a1c-9937-110046616d76")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR033"
 			(at 370.078 38.862 0)
 			(hide yes)
 			(show_name no)
@@ -11244,7 +11244,7 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/596b959a-2521-47dc-a05e-2cfbc5d24db0"
-					(reference "#PWR062")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -11262,7 +11262,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "190a79eb-cb66-4c8d-b762-3330df202a94")
-		(property "Reference" "U5"
+		(property "Reference" "U4"
 			(at 218.8053 236.982 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11753,7 +11753,7 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/596b959a-2521-47dc-a05e-2cfbc5d24db0"
-					(reference "U5")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -11770,7 +11770,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1a21376c-9eb0-49a1-860d-9808680ff5c7")
-		(property "Reference" "C53"
+		(property "Reference" "C11"
 			(at 106.934 109.982 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11834,7 +11834,7 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/596b959a-2521-47dc-a05e-2cfbc5d24db0"
-					(reference "C53")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -11851,7 +11851,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b924e76-1a12-4275-9a21-1f243ea719d1")
-		(property "Reference" "C56"
+		(property "Reference" "C16"
 			(at 185.674 49.022 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11915,7 +11915,7 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/596b959a-2521-47dc-a05e-2cfbc5d24db0"
-					(reference "C56")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -11933,7 +11933,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b42e9bd-db90-4f5f-868b-0ad7b68627c8")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR035"
 			(at 370.078 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -11993,7 +11993,7 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/596b959a-2521-47dc-a05e-2cfbc5d24db0"
-					(reference "#PWR063")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -12011,7 +12011,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30197f4a-aa1f-4e84-8c5a-3a57a585854e")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR027"
 			(at 214.122 251.206 0)
 			(hide yes)
 			(show_name no)
@@ -12071,7 +12071,7 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/596b959a-2521-47dc-a05e-2cfbc5d24db0"
-					(reference "#PWR017")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -12089,7 +12089,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "354303ac-22ce-42ec-ab53-6bba7372d009")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR032"
 			(at 327.152 56.642 0)
 			(hide yes)
 			(show_name no)
@@ -12149,7 +12149,7 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/596b959a-2521-47dc-a05e-2cfbc5d24db0"
-					(reference "#PWR068")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -12254,7 +12254,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c9c434a-2c24-4b9f-afe4-460f74599e27")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR037"
 			(at 370.586 115.824 0)
 			(hide yes)
 			(show_name no)
@@ -12314,7 +12314,7 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/596b959a-2521-47dc-a05e-2cfbc5d24db0"
-					(reference "#PWR065")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -12331,7 +12331,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4972b7c4-aead-4e5f-b1c3-6b29311bd515")
-		(property "Reference" "C42"
+		(property "Reference" "C25"
 			(at 369.062 44.958 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12395,7 +12395,7 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/596b959a-2521-47dc-a05e-2cfbc5d24db0"
-					(reference "C42")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -12412,7 +12412,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5acda155-8977-4f60-825c-b5d16ea4d621")
-		(property "Reference" "C12"
+		(property "Reference" "C13"
 			(at 145.034 229.362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12476,7 +12476,7 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/596b959a-2521-47dc-a05e-2cfbc5d24db0"
-					(reference "C12")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -12493,7 +12493,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "64a2e3ab-da00-4f10-aa9f-cc982b2b0651")
-		(property "Reference" "C52"
+		(property "Reference" "C18"
 			(at 319.786 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12557,7 +12557,7 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/596b959a-2521-47dc-a05e-2cfbc5d24db0"
-					(reference "C52")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -12574,7 +12574,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "67b759aa-87c3-429f-80e7-55c48eb3a955")
-		(property "Reference" "C55"
+		(property "Reference" "C17"
 			(at 300.482 42.926 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12638,7 +12638,7 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/596b959a-2521-47dc-a05e-2cfbc5d24db0"
-					(reference "C55")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -12656,7 +12656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "687ccdc7-9cd1-4832-942f-de8d0254f26d")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR019"
 			(at 100.076 98.298 0)
 			(hide yes)
 			(show_name no)
@@ -12716,7 +12716,7 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/596b959a-2521-47dc-a05e-2cfbc5d24db0"
-					(reference "#PWR073")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -12733,7 +12733,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6c249098-2022-4853-b136-b84b45bdda1f")
-		(property "Reference" "C50"
+		(property "Reference" "C27"
 			(at 369.57 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12797,7 +12797,7 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/596b959a-2521-47dc-a05e-2cfbc5d24db0"
-					(reference "C50")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -12814,7 +12814,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "76281628-5373-4307-b6a8-ec60aebcf735")
-		(property "Reference" "C39"
+		(property "Reference" "C14"
 			(at 155.956 54.102 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12878,7 +12878,7 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/596b959a-2521-47dc-a05e-2cfbc5d24db0"
-					(reference "C39")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -12896,7 +12896,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7993f78a-57f5-431f-a1f5-c05fa26180c8")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR036"
 			(at 370.078 98.552 0)
 			(hide yes)
 			(show_name no)
@@ -12956,7 +12956,7 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/596b959a-2521-47dc-a05e-2cfbc5d24db0"
-					(reference "#PWR064")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -12974,7 +12974,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8629fe88-7f22-4df5-a903-13661ce9c42c")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR022"
 			(at 131.064 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -13034,7 +13034,7 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/596b959a-2521-47dc-a05e-2cfbc5d24db0"
-					(reference "#PWR077")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -13052,7 +13052,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8cac130f-8a97-4451-bcd1-ba49db67f7d2")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR021"
 			(at 119.888 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -13112,7 +13112,7 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/596b959a-2521-47dc-a05e-2cfbc5d24db0"
-					(reference "#PWR060")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -13130,7 +13130,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9665e378-ca3a-4028-96eb-1597245adff7")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR020"
 			(at 100.076 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -13190,7 +13190,7 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/596b959a-2521-47dc-a05e-2cfbc5d24db0"
-					(reference "#PWR072")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -13207,7 +13207,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "96c13128-205c-4b5d-bb35-e26333cf3509")
-		(property "Reference" "C38"
+		(property "Reference" "C15"
 			(at 155.956 229.362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13271,7 +13271,7 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/596b959a-2521-47dc-a05e-2cfbc5d24db0"
-					(reference "C38")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -13288,7 +13288,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9c1ecbb7-8303-47d8-8eee-7034f5e80215")
-		(property "Reference" "C49"
+		(property "Reference" "C24"
 			(at 357.124 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13352,7 +13352,7 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/596b959a-2521-47dc-a05e-2cfbc5d24db0"
-					(reference "C49")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -13369,7 +13369,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9c92359f-3803-4787-968e-c183a0a2de62")
-		(property "Reference" "C44"
+		(property "Reference" "C20"
 			(at 343.662 82.296 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13433,7 +13433,7 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/596b959a-2521-47dc-a05e-2cfbc5d24db0"
-					(reference "C44")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -13451,7 +13451,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e4d9729-1af6-4e2e-8b90-760388e8e353")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR029"
 			(at 307.848 41.402 0)
 			(hide yes)
 			(show_name no)
@@ -13511,7 +13511,7 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/596b959a-2521-47dc-a05e-2cfbc5d24db0"
-					(reference "#PWR074")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -13529,7 +13529,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1c37198-db87-4f21-aa45-2e323c128062")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR031"
 			(at 327.152 41.656 0)
 			(hide yes)
 			(show_name no)
@@ -13589,7 +13589,7 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/596b959a-2521-47dc-a05e-2cfbc5d24db0"
-					(reference "#PWR067")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -13606,7 +13606,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a5f30084-44df-4397-8952-45bce6773337")
-		(property "Reference" "C45"
+		(property "Reference" "C23"
 			(at 356.616 82.296 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13670,7 +13670,7 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/596b959a-2521-47dc-a05e-2cfbc5d24db0"
-					(reference "C45")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -13687,7 +13687,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a9b3b0e9-f204-4a8a-90da-8924ac1b1cc7")
-		(property "Reference" "C51"
+		(property "Reference" "C30"
 			(at 382.524 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13751,7 +13751,7 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/596b959a-2521-47dc-a05e-2cfbc5d24db0"
-					(reference "C51")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -13851,7 +13851,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bef8d319-a2c3-4ff4-ac0c-3a99974e142e")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR024"
 			(at 165.608 56.896 0)
 			(hide yes)
 			(show_name no)
@@ -13911,7 +13911,7 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/596b959a-2521-47dc-a05e-2cfbc5d24db0"
-					(reference "#PWR059")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -13928,7 +13928,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d1b7e1d2-0636-454f-9ef6-888774e5c925")
-		(property "Reference" "C41"
+		(property "Reference" "C22"
 			(at 356.616 44.958 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13992,7 +13992,7 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/596b959a-2521-47dc-a05e-2cfbc5d24db0"
-					(reference "C41")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -14010,7 +14010,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9bacc63-ef28-41f0-8f6a-62e66c181fdb")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR028"
 			(at 231.902 42.672 0)
 			(hide yes)
 			(show_name no)
@@ -14070,7 +14070,7 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/596b959a-2521-47dc-a05e-2cfbc5d24db0"
-					(reference "#PWR076")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -14088,7 +14088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e17d7608-67a3-4e45-9bdf-673a76076354")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR030"
 			(at 307.848 56.388 0)
 			(hide yes)
 			(show_name no)
@@ -14148,7 +14148,7 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/596b959a-2521-47dc-a05e-2cfbc5d24db0"
-					(reference "#PWR075")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -14165,7 +14165,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e1cacd38-53e6-4e37-99fe-3b710003d0d2")
-		(property "Reference" "C46"
+		(property "Reference" "C26"
 			(at 369.062 82.296 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14229,7 +14229,7 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/596b959a-2521-47dc-a05e-2cfbc5d24db0"
-					(reference "C46")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -14246,7 +14246,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e7c3a59a-f4fb-47d3-8d20-9efddc3f890a")
-		(property "Reference" "R58"
+		(property "Reference" "R21"
 			(at 113.792 69.342 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14310,7 +14310,7 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/596b959a-2521-47dc-a05e-2cfbc5d24db0"
-					(reference "R58")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -14328,7 +14328,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8d45f00-9344-4f17-92c9-ceedacf37311")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR038"
 			(at 370.586 138.176 0)
 			(hide yes)
 			(show_name no)
@@ -14388,7 +14388,7 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/596b959a-2521-47dc-a05e-2cfbc5d24db0"
-					(reference "#PWR066")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -14405,7 +14405,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ec156a98-e935-4e65-9273-080784f8b53d")
-		(property "Reference" "C47"
+		(property "Reference" "C29"
 			(at 382.016 82.296 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14469,7 +14469,7 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/596b959a-2521-47dc-a05e-2cfbc5d24db0"
-					(reference "C47")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -14566,7 +14566,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f96ed6f2-72ab-46c8-b5f5-9ae024554407")
-		(property "Reference" "C54"
+		(property "Reference" "C12"
 			(at 107.188 92.964 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14630,7 +14630,7 @@
 		(instances
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/596b959a-2521-47dc-a05e-2cfbc5d24db0"
-					(reference "C54")
+					(reference "C12")
 					(unit 1)
 				)
 			)
