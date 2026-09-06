@@ -41,6 +41,6 @@
   (pad "13" thru_hole circle (at 4.580001 5.679999) (size 1.524 1.524) (drill 0.9652) (layers *.Cu *.Mask))
   (pad "14" thru_hole circle (at 6.870002 5.679999) (size 1.524 1.524) (drill 0.9652) (layers *.Cu *.Mask))
   (pad "15" thru_hole circle (at 9.160002 5.679999) (size 1.524 1.524) (drill 0.9652) (layers *.Cu *.Mask))
-  (pad "16" thru_hole circle (at -7.979999 2.839999) (size 3.556 3.556) (drill 3.048) (layers *.Cu *.Mask))
-  (pad "17" thru_hole circle (at 17.140001 2.839999) (size 3.556 3.556) (drill 3.048) (layers *.Cu *.Mask))
+  (pad "SH" thru_hole circle (at -7.979999 2.839999) (size 3.556 3.556) (drill 3.048) (layers *.Cu *.Mask))
+  (pad "SH" thru_hole circle (at 17.140001 2.839999) (size 3.556 3.556) (drill 3.048) (layers *.Cu *.Mask))
 )
