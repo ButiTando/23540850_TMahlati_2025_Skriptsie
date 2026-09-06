@@ -10404,7 +10404,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_Abracon_ABM10-4Pin_2.5x2.0mm"
+		(property "Footprint" "Crystal:Crystal_SMD_Abracon_ABM3-2Pin_5.0x3.2mm_HandSoldering"
 			(at 44.704 125.984 0)
 			(hide yes)
 			(show_name no)
@@ -10990,7 +10990,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "FerriteBead_Small"
+		(property "Value" "600R@100MHz"
 			(at 186.182 23.114 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13091,7 +13091,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small_US"
+		(property "Value" "33"
 			(at 36.576 109.982 90)
 			(show_name no)
 			(do_not_autoplace no)
