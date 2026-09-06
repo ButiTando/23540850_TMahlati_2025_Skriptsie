@@ -14497,7 +14497,7 @@
 				)
 			)
 		)
-		(property "Value" "FerriteBead_Small"
+		(property "Value" "600R@100MHz"
 			(at 214.8459 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14507,7 +14507,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Ferrite_THT:LairdTech_28C0236-0JW-10"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 214.884 45.212 90)
 			(hide yes)
 			(show_name no)
