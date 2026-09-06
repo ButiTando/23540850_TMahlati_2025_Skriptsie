@@ -87,4 +87,9 @@
       (xy -2.50081 2.50081)
     ) (layer F.CrtYd) (width 0.01)
   )
+  (model "${KIPRJMOD}/Libs/A4988SETTR_T/DRIVER-A4988SETTR-T_QFN28_.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
