@@ -2,4 +2,6 @@
 	(version 7)
 	(lib (name "Pulse Transformer") (type "KiCad") (uri "${KIPRJMOD}/Libs/H1102NL/KiCADv6/2026-09-05_11-34-02.kicad_sym") (options "") (descr ""))
 	(lib (name "ADA4891-2ARZ-R7") (type "KiCad") (uri "${KIPRJMOD}/Libs/ADA4891-2ARZ-R7") (options "") (descr ""))
+	(lib (name "A4988") (type "KiCad") (uri "${KIPRJMOD}/Libs/A4988SETTR_T/DRIVER-A4988SETTR-T_QFN28_.kicad_sym") (options "") (descr ""))
+	(lib (name "LM60430DRPKR") (type "KiCad") (uri "${KIPRJMOD}/Libs/LM60430DRPKR/KiCADv6/2026-09-05_16-20-19.kicad_sym") (options "") (descr ""))
 )
