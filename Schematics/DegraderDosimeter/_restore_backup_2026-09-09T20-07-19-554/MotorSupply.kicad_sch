@@ -1,0 +1,10890 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e")
+	(paper "A3")
+	(title_block
+		(title "9-24 V input, 12 V buck-boost and 5 V buck")
+		(rev "0.0.1")
+		(company "Tando Mahlati")
+	)
+	(lib_symbols
+		(symbol "Regulator_Switching:LM5176PWP"
+		(property "Reference" "U"
+			(at -12.7 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM5176PWP"
+			(at -12.7 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:HTSSOP-28-1EP_4.4x9.7mm_P0.65mm_EP3.4x9.5mm_ThermalVias"
+			(at 17.78 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm5176.pdf"
+			(at 50.8 -11.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "55-V wide Vin synchronous 4-switch Buck-Boost controller, HTSSOP-28 package"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "Buck Boost step-up step-down"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "HTSSOP*4.4x9.7mm*P0.65*ThermalVias*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(embedded_fonts no)
+	
+				(symbol "LM5176PWP_0_1"
+			(rectangle
+				(start -12.7 20.32)
+				(end 12.7 -20.32)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+				(symbol "LM5176PWP_1_1"
+			(pin input line
+				(at -17.78 12.7 0)
+				(length 5.08)
+				(name "EN/UVLO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 5.08 25.4 270)
+				(length 5.08)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 2.54 25.4 270)
+				(length 5.08)
+				(name "VISNS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 5.08 0)
+				(length 5.08)
+				(name "MODE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -17.78 0 0)
+				(length 5.08)
+				(name "DITH"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 2.54 0)
+				(length 5.08)
+				(name "RT/SYNC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -17.78 -2.54 0)
+				(length 5.08)
+				(name "SLOPE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -17.78 10.16 0)
+				(length 5.08)
+				(name "SS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -17.78 7.62 0)
+				(length 5.08)
+				(name "COMP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -7.62 -25.4 90)
+				(length 5.08)
+				(name "AGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 17.78 0 180)
+				(length 5.08)
+				(name "FB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 12.7 180)
+				(length 5.08)
+				(name "VOSNS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 17.78 -15.24 180)
+				(length 5.08)
+				(name "ISNS(-)"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 17.78 -17.78 180)
+				(length 5.08)
+				(name "ISNS(+)"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 -7.62 0)
+				(length 5.08)
+				(name "CSG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 -5.08 0)
+				(length 5.08)
+				(name "CS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 -2.54 180)
+				(length 5.08)
+				(name "PGOOD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 -10.16 180)
+				(length 5.08)
+				(name "SW2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 -5.08 180)
+				(length 5.08)
+				(name "HDRV2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 17.78 -7.62 180)
+				(length 5.08)
+				(name "BOOT2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 -12.7 180)
+				(length 5.08)
+				(name "LDRV2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -5.08 -25.4 90)
+				(length 5.08)
+				(name "PGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 17.78 17.78 180)
+				(length 5.08)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 17.78 15.24 180)
+				(length 5.08)
+				(name "BIAS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 2.54 180)
+				(length 5.08)
+				(name "LDRV1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 17.78 7.62 180)
+				(length 5.08)
+				(name "BOOT1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 10.16 180)
+				(length 5.08)
+				(name "HDRV1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 5.08 180)
+				(length 5.08)
+				(name "SW1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -25.4 90)
+				(length 5.08)
+				(name "PowerPAD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)	)
+		(symbol "Transistor_FET:Q_NMOS_GDS"
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "Q"
+			(at 5.08 1.905 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_NMOS_GDS"
+			(at 5.08 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 5.08 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, gate/drain/source"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Q_NMOS_GDS_0_1"
+			(polyline
+				(pts
+					(xy 0.254 1.905) (xy 0.254 -1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.254 0) (xy -2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 2.286) (xy 0.762 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 0.508) (xy 0.762 -0.508)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -1.27) (xy 0.762 -2.286)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 1.651 0)
+				(radius 2.794)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 2.54) (xy 2.54 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 1.778)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 2.54 -1.778)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.921 0.381) (xy 3.683 0.381)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Q_NMOS_GDS_1_1"
+			(pin input line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 5.08 270)
+				(length 2.54)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -5.08 90)
+				(length 2.54)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+		(symbol "Device:L"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "L"
+			(at -1.27 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "L"
+			(at 1.905 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "inductor choke coil reactor magnetic"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "L_0_1"
+			(arc
+				(start 0 2.54)
+				(mid 0.6323 1.905)
+				(end 0 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 1.27)
+				(mid 0.6323 0.635)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.6323 -0.635)
+				(end 0 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.27)
+				(mid 0.6323 -1.905)
+				(end 0 -2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "L_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+		(symbol "Device:R_US"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 2.54 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_US"
+			(at -2.54 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 1.016 -0.254 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "R res resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "R_US_0_1"
+			(polyline
+				(pts
+					(xy 0 2.286) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.286) (xy 0 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R_US_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+		(symbol "Device:D_Schottky"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "D"
+			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "diode Schottky"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "D_Schottky_0_1"
+			(polyline
+				(pts
+					(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0) (xy -1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "D_Schottky_1_1"
+			(pin passive line
+				(at -3.81 0 0)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+		(symbol "Device:C"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 0.635 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 0.635 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0.9652 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "cap capacitor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "C_0_1"
+			(polyline
+				(pts
+					(xy -2.032 0.762) (xy 2.032 0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 -0.762) (xy 2.032 -0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+		(symbol "Device:C_Polarized"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 0.635 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Polarized"
+			(at 0.635 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0.9652 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "cap capacitor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "CP_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "C_Polarized_0_1"
+			(rectangle
+				(start -2.286 0.508)
+				(end 2.286 1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.778 2.286) (xy -0.762 2.286)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 2.794) (xy -1.27 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 2.286 -0.508)
+				(end -2.286 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "C_Polarized_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+		(symbol "LM60430DRPKR:LM60430DRPKR" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at 0 2.54 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Value" "LM60430DRPKR" (id 1) (at 0 0 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Footprint" "RPK0013A-MFG" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27) italic) hide)
+    )
+    (property "Datasheet" "https://www.ti.com/lit/gpn/lm60430" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27) italic) hide)
+    )
+    (property "ki_keywords" "LM60430DRPKR" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_locked" "" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "RPK0013A-MFG" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "LM60430DRPKR_0_1"
+      (polyline
+        (pts
+          (xy 0 -33.02)
+          (xy 27.94 -33.02)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 27.94 -33.02)
+          (xy 27.94 5.08)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 27.94 5.08)
+          (xy 0 5.08)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 5.08)
+          (xy 0 -33.02)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (pin power_in line (at 33.02 -25.4 180) (length 5.08)
+        (name "PGND" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at -5.08 0 0) (length 5.08)
+        (name "VIN" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at -5.08 -30.48 0) (length 5.08)
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at 33.02 0 180) (length 5.08)
+        (name "BOOT" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at -5.08 -7.62 0) (length 5.08)
+        (name "VCC" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 33.02 -22.86 180) (length 5.08)
+        (name "AGND" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at 33.02 -10.16 180) (length 5.08)
+        (name "FB" (effects (font (size 1.27 1.27))))
+        (number "7" (effects (font (size 1.27 1.27))))
+      )
+      (pin open_collector line (at 33.02 -15.24 180) (length 5.08)
+        (name "PG" (effects (font (size 1.27 1.27))))
+        (number "8" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line (at -5.08 -12.7 0) (length 5.08)
+        (name "EN" (effects (font (size 1.27 1.27))))
+        (number "9" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at -5.08 -2.54 0) (length 5.08)
+        (name "VIN" (effects (font (size 1.27 1.27))))
+        (number "10" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 33.02 -27.94 180) (length 5.08)
+        (name "PGND" (effects (font (size 1.27 1.27))))
+        (number "11" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at 33.02 -5.08 180) (length 5.08)
+        (name "SW" (effects (font (size 1.27 1.27))))
+        (number "12" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 33.02 -30.48 180) (length 5.08)
+        (name "PGND" (effects (font (size 1.27 1.27))))
+        (number "13" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+		(symbol "power:GND"
+		(power global)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "#PWR"
+			(at 0 -6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 0 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "global power"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "GND_0_1"
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "GND_1_1"
+			(pin power_in line
+				(at 0 0 270)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	)
+	(symbol
+		(lib_id "Regulator_Switching:LM5176PWP")
+		(at 175 120 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "abedf713-8ce9-4a4e-9bc1-92affe4c29b0")
+		(property "Reference" "U20"
+			(at 175 90 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM5176PWP"
+			(at 175 92.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:HTSSOP-28-1EP_4.4x9.7mm_P0.65mm_EP3.4x9.5mm_ThermalVias"
+			(at 175 120 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175 120 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C442493"
+			(at 175 120 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "22a55ab8-dc63-43db-947b-2008993bfbbb")
+		)
+		(pin "2"
+			(uuid "38c126a2-94c0-4035-b07f-9651cc72607c")
+		)
+		(pin "3"
+			(uuid "2dad1119-a0e3-4bc7-b4b8-f3cb57d8f124")
+		)
+		(pin "4"
+			(uuid "07dc9d20-3e12-43a2-ba01-eddbfdd35c4b")
+		)
+		(pin "5"
+			(uuid "4decc504-5c89-4f84-9d51-d429b2b8a224")
+		)
+		(pin "6"
+			(uuid "84324e40-5973-4060-adfa-63b3dd48051c")
+		)
+		(pin "7"
+			(uuid "945cc469-2a69-4f67-bab3-b75f35536f34")
+		)
+		(pin "8"
+			(uuid "96114196-f088-4732-b8fd-7f58a49007ee")
+		)
+		(pin "9"
+			(uuid "f4bdd039-0ad0-481a-bd54-a4d1f68a7071")
+		)
+		(pin "10"
+			(uuid "99e59135-f0a8-44f3-894c-c809ea9703ca")
+		)
+		(pin "11"
+			(uuid "9396ad46-8949-411c-9ce6-71724d35af4c")
+		)
+		(pin "12"
+			(uuid "c4c02bf5-1172-42f1-b947-d5ed51c8d1c0")
+		)
+		(pin "13"
+			(uuid "ce2b470d-fc4d-4dcb-8bed-126e80ca2005")
+		)
+		(pin "14"
+			(uuid "b9238c9b-fc63-47a3-9644-0f373827d82d")
+		)
+		(pin "15"
+			(uuid "2d6fae9d-7e75-411f-84b4-4b818ff10fc4")
+		)
+		(pin "16"
+			(uuid "d814bcfa-37cb-4bd1-aae5-b91ef2028158")
+		)
+		(pin "17"
+			(uuid "f80e766f-89c2-4cfc-b7e8-c668474d1d13")
+		)
+		(pin "18"
+			(uuid "7cc54444-218a-492e-93a3-c1f392bd94d7")
+		)
+		(pin "19"
+			(uuid "371654fe-b9ef-4a8a-9725-a41dbbca8339")
+		)
+		(pin "20"
+			(uuid "a65d4586-79b7-4550-ab48-b435830cdff1")
+		)
+		(pin "21"
+			(uuid "3794466e-3be3-4f08-86e9-56d718afd4a5")
+		)
+		(pin "22"
+			(uuid "c0b277a5-9f8f-4cd6-b954-97ebf4dc6541")
+		)
+		(pin "23"
+			(uuid "cd5a0aef-936e-49c8-8d0a-0c111570858b")
+		)
+		(pin "24"
+			(uuid "92b42637-a923-4245-b724-1df5cb5cdfff")
+		)
+		(pin "25"
+			(uuid "ca64fac8-260f-4df3-bc6b-39d6ba5c9048")
+		)
+		(pin "26"
+			(uuid "0afa30ba-68db-4d98-b517-90898ada0665")
+		)
+		(pin "27"
+			(uuid "fe4fe937-001b-4e2f-993b-85586a9e725d")
+		)
+		(pin "28"
+			(uuid "a53aeb22-2d83-4f01-88b2-52dab03c396f")
+		)
+		(pin "29"
+			(uuid "40afaed1-ed49-4348-aff5-fc88d7039f66")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "U20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 157.22 107.3) (xy 153.41 107.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9adcb128-ef3d-4dc1-a417-e187a5ed93aa")
+	)
+	(label "UVLO"
+		(at 153.41 107.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e4d2a3ad-3954-47e0-a86e-66f8ae4cfef7")
+	)
+	(wire
+		(pts
+			(xy 180.08 94.6) (xy 180.08 90.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0b3705d-8ea6-4951-a6bd-1bafb2ba647a")
+	)
+	(label "VIN_IC"
+		(at 180.08 90.79 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "49e2ca06-a09e-4291-a818-6bd309e3fa36")
+	)
+	(wire
+		(pts
+			(xy 177.54 94.6) (xy 177.54 90.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bba82587-c156-4a13-9709-bd9dd630a296")
+	)
+	(label "VIN"
+		(at 177.54 90.79 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0f41e1df-d97b-4caa-b022-b087167ea3d2")
+	)
+	(wire
+		(pts
+			(xy 157.22 114.92) (xy 153.41 114.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "088e015e-290c-45ef-b8eb-1f7b8c72fbd3")
+	)
+	(label "MODE"
+		(at 153.41 114.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c619a745-83a8-4f1e-bfc1-62ace07fbd6f")
+	)
+	(wire
+		(pts
+			(xy 157.22 120) (xy 153.41 120)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d96ec49-ac98-44bc-976b-fd511898609c")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 153.41 120 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2015e14-f6ff-4caa-9372-8871434fc6da")
+		(property "Reference" "#PWR0301"
+			(at 153.41 126.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.41 124.318 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.41 120 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.41 120 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4e51a246-3bfc-4b04-bd80-c31d67189cb2")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "#PWR0301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 157.22 117.46) (xy 153.41 117.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cc34f33-545a-4172-977d-694fa8945081")
+	)
+	(label "RT"
+		(at 153.41 117.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e1ed2489-31d7-4166-a543-178f2e682d78")
+	)
+	(wire
+		(pts
+			(xy 157.22 122.54) (xy 153.41 122.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f49a45a5-9656-46e5-9b15-657b28e33626")
+	)
+	(label "SLOPE"
+		(at 153.41 122.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d49100f0-cbb9-42d0-b8d8-4b4b2c76227f")
+	)
+	(wire
+		(pts
+			(xy 157.22 109.84) (xy 153.41 109.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dfdde72-dec1-4fc0-9fa4-6d53ec055c48")
+	)
+	(label "SS"
+		(at 153.41 109.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a6684e65-f126-4e0e-9f33-a891f922dafc")
+	)
+	(wire
+		(pts
+			(xy 157.22 112.38) (xy 153.41 112.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1299a8f6-6b20-4a26-a661-a84d4926bc07")
+	)
+	(label "COMP"
+		(at 153.41 112.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "09d3e7d6-d6a9-4039-8c00-ef80c91d78be")
+	)
+	(wire
+		(pts
+			(xy 167.38 145.4) (xy 167.38 149.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a4e6869-dd40-4188-a11d-287eed753016")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 167.38 149.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2b0790c-cc1e-456f-a295-b14735af21bc")
+		(property "Reference" "#PWR0302"
+			(at 167.38 155.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.38 153.528 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.38 149.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.38 149.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "11f02c02-09b1-47d0-bf67-9463bdf2ff1e")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "#PWR0302")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 192.78 120) (xy 196.59 120)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc6dc871-f387-40aa-a0c8-d00ab5e3f19a")
+	)
+	(label "FB"
+		(at 196.59 120 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c1f50cab-efaa-4beb-98a4-0a861fc3fff4")
+	)
+	(wire
+		(pts
+			(xy 192.78 107.3) (xy 196.59 107.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d058b8f6-e8dc-47cd-a01e-0bda7e89437c")
+	)
+	(label "12V"
+		(at 196.59 107.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2fe1eb1f-a04c-4791-9bcc-0f5b36b31c2d")
+	)
+	(wire
+		(pts
+			(xy 192.78 135.24) (xy 196.59 135.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13bbcf96-2141-445e-a35a-eb5fce7379f4")
+	)
+	(label "12V"
+		(at 196.59 135.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2342780d-0124-4a64-88f3-94f364877236")
+	)
+	(wire
+		(pts
+			(xy 192.78 137.78) (xy 196.59 137.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "115b6597-c1b0-4745-8949-59154353169a")
+	)
+	(label "12V"
+		(at 196.59 137.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b7359971-6205-4ee7-a0f8-29d5a565a6fa")
+	)
+	(wire
+		(pts
+			(xy 157.22 127.62) (xy 153.41 127.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b737d44b-efcc-478f-904a-a7adb4bdc22b")
+	)
+	(label "CSG"
+		(at 153.41 127.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0aad74f8-2f9d-474d-83ec-a91f7ff83032")
+	)
+	(wire
+		(pts
+			(xy 157.22 125.08) (xy 153.41 125.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "269c8f20-2783-4871-a1c2-b6274c365f97")
+	)
+	(label "CS"
+		(at 153.41 125.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "997841c0-6182-4d0f-af60-35f60e062906")
+	)
+	(wire
+		(pts
+			(xy 192.78 122.54) (xy 196.59 122.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8bb28e0-3aa0-4425-86e5-fcefa70c65b2")
+	)
+	(label "PG_12V"
+		(at 196.59 122.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "401078a7-bb11-482f-b6c2-57decc831ba1")
+	)
+	(wire
+		(pts
+			(xy 192.78 130.16) (xy 196.59 130.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7edbfc22-60e7-4434-adfd-04e0067099a9")
+	)
+	(label "SW2"
+		(at 196.59 130.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "200ae0cd-e14a-44c3-b874-d3d6357907c3")
+	)
+	(wire
+		(pts
+			(xy 192.78 125.08) (xy 196.59 125.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ced28f56-e325-48c2-91aa-701e9f399944")
+	)
+	(label "HDRV2"
+		(at 196.59 125.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3ddb3c7c-7e3b-45db-98f4-c3242b455358")
+	)
+	(wire
+		(pts
+			(xy 192.78 127.62) (xy 196.59 127.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f718659b-c0cc-44db-b16e-b1c2753e3374")
+	)
+	(label "BOOT2"
+		(at 196.59 127.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c9ba350-255c-4760-b7a6-be35965aa9e6")
+	)
+	(wire
+		(pts
+			(xy 192.78 132.7) (xy 196.59 132.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc63ebc3-5961-409b-b1bd-f916b7d340cb")
+	)
+	(label "LDRV2"
+		(at 196.59 132.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "066d9690-3a87-4d04-9126-28f4bbdb75f9")
+	)
+	(wire
+		(pts
+			(xy 169.92 145.4) (xy 169.92 149.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b892f48a-0ceb-44ed-8136-c3f0fda4e29f")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 169.92 149.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe0e5b76-1c42-4b2b-9940-5282eea75905")
+		(property "Reference" "#PWR0303"
+			(at 169.92 155.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 169.92 153.528 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 169.92 149.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 169.92 149.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "74caa9be-d7d8-4ac7-8c85-a6465c86465f")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "#PWR0303")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 192.78 102.22) (xy 196.59 102.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "306471a5-2ae7-4836-a3c0-e611d09c03a5")
+	)
+	(label "VCC_BB"
+		(at 196.59 102.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7a569149-d1a6-4ae6-a1a1-ba52e601e2ed")
+	)
+	(wire
+		(pts
+			(xy 192.78 104.76) (xy 196.59 104.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dfd99e1-47ad-4eaa-9427-478fe6d1f483")
+	)
+	(label "12V"
+		(at 196.59 104.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6966c43-286b-4d47-ba80-7a36bd95d610")
+	)
+	(wire
+		(pts
+			(xy 192.78 117.46) (xy 196.59 117.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6880c926-df43-41aa-bc90-aab3b0fa9bb9")
+	)
+	(label "LDRV1"
+		(at 196.59 117.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9425f2e2-8aae-49ef-9d03-5c8dc218d492")
+	)
+	(wire
+		(pts
+			(xy 192.78 112.38) (xy 196.59 112.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e53474f4-5332-4ac9-a49f-8e175252a58d")
+	)
+	(label "BOOT1"
+		(at 196.59 112.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "237cf3c1-406a-479e-bc28-cbd4253811ad")
+	)
+	(wire
+		(pts
+			(xy 192.78 109.84) (xy 196.59 109.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0061ab61-f341-4bc6-a40d-bd33f8224f1f")
+	)
+	(label "HDRV1"
+		(at 196.59 109.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9639c5ad-ff39-4692-8003-9f35c98de46a")
+	)
+	(wire
+		(pts
+			(xy 192.78 114.92) (xy 196.59 114.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f399a95e-542e-4c15-82c4-82f7ade52df2")
+	)
+	(label "SW1"
+		(at 196.59 114.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2d3c578c-4be4-4fc0-97a1-367860e51ddf")
+	)
+	(wire
+		(pts
+			(xy 172.46 145.4) (xy 172.46 149.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09a54591-4007-4a8d-bb01-78d18292b3be")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 172.46 149.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40d016c9-5385-4f64-b401-0e41fbf0cfbd")
+		(property "Reference" "#PWR0304"
+			(at 172.46 155.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.46 153.528 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.46 149.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.46 149.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d271b7d6-40eb-41fe-bfeb-1c74ac882154")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "#PWR0304")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Q_NMOS_GDS")
+		(at 240 60 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a4a1ff4c-bc3e-4461-88fc-7eba31eacbb6")
+		(property "Reference" "Q1"
+			(at 248.9 58.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NCE6050KA"
+			(at 248.9 61.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
+			(at 240 60 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240 60 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C96013"
+			(at 240 60 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "78b1a211-e5c9-47bb-9d22-4cbb03111509")
+		)
+		(pin "2"
+			(uuid "e7d5a269-3a33-4df5-b777-c7db2cdf52ba")
+		)
+		(pin "3"
+			(uuid "d0e48de3-77b4-40e8-8d7d-f78f8b2065bc")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 234.92 60) (xy 231.11 60)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4e2c871-9182-48c6-9d96-20df7355d9bc")
+	)
+	(label "HDRV1"
+		(at 231.11 60 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0ac6d162-e5ca-40a8-91af-01e3b54f3fe6")
+	)
+	(wire
+		(pts
+			(xy 242.54 54.92) (xy 242.54 51.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e000352b-fe61-4417-aa6b-96b7271a84a4")
+	)
+	(label "VIN"
+		(at 242.54 51.11 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af187977-c0dd-4229-a9bd-6a31cd617472")
+	)
+	(wire
+		(pts
+			(xy 242.54 65.08) (xy 242.54 68.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ee60c6a-2749-4671-80b2-c4d0bc92b7e4")
+	)
+	(label "SW1"
+		(at 242.54 68.89 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "916f95ee-fffe-4ff4-86ba-efc03de08747")
+	)
+	(symbol
+		(lib_id "Transistor_FET:Q_NMOS_GDS")
+		(at 240 105 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d240f249-d34d-4240-8ac8-5e92d3ba234c")
+		(property "Reference" "Q2"
+			(at 248.9 103.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NCE6050KA"
+			(at 248.9 106.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
+			(at 240 105 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240 105 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C96013"
+			(at 240 105 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "0ca649e9-15e0-4c6e-980c-79bcebbf2712")
+		)
+		(pin "2"
+			(uuid "b2dcbe07-5c5a-4528-9515-93b672d40e6b")
+		)
+		(pin "3"
+			(uuid "57e0211a-166b-4496-ace2-91f750eee0b8")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 234.92 105) (xy 231.11 105)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "844b400c-6669-4292-a686-705c86b78ccb")
+	)
+	(label "LDRV1"
+		(at 231.11 105 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d00027f6-3757-40ef-a2e7-5c0819ac430b")
+	)
+	(wire
+		(pts
+			(xy 242.54 99.92) (xy 242.54 96.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "999fdb40-a36a-4155-82d5-c9b116e05841")
+	)
+	(label "SW1"
+		(at 242.54 96.11 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "46400d6d-0268-4722-aebb-dcb7a2bc7560")
+	)
+	(wire
+		(pts
+			(xy 242.54 110.08) (xy 242.54 113.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8196bf9a-619e-48cd-b715-aa6a9a290440")
+	)
+	(label "CS_P"
+		(at 242.54 113.89 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b4faf36c-acfa-47f0-a45c-4a2d5f17e702")
+	)
+	(symbol
+		(lib_id "Transistor_FET:Q_NMOS_GDS")
+		(at 320 60 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2d89a4cd-79a8-4371-8716-927fe83e5d5e")
+		(property "Reference" "Q3"
+			(at 328.9 58.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NCE6050KA"
+			(at 328.9 61.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
+			(at 320 60 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 320 60 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C96013"
+			(at 320 60 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "b03871fb-290d-4f70-9ddf-06398c5cca49")
+		)
+		(pin "2"
+			(uuid "c315ec9e-9179-4dde-bd5d-b6d691f4f94a")
+		)
+		(pin "3"
+			(uuid "b8ff0650-6eee-4519-9dbf-aa9675c4ae0f")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 314.92 60) (xy 311.11 60)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e716073-3505-4eb7-be08-113ea1b6ea8b")
+	)
+	(label "HDRV2"
+		(at 311.11 60 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "30211a4c-4933-42df-8d64-b29b073e801f")
+	)
+	(wire
+		(pts
+			(xy 322.54 54.92) (xy 322.54 51.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04d57ce1-2b82-4923-bd85-d07a10a5501a")
+	)
+	(label "12V"
+		(at 322.54 51.11 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "750458f7-a165-459c-86f2-41c69546c231")
+	)
+	(wire
+		(pts
+			(xy 322.54 65.08) (xy 322.54 68.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3a8cc04-ce38-4451-9a6e-850220e239a6")
+	)
+	(label "SW2"
+		(at 322.54 68.89 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "328e5a6f-6f65-44bf-a6f7-1da0bc2fd403")
+	)
+	(symbol
+		(lib_id "Transistor_FET:Q_NMOS_GDS")
+		(at 320 105 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "47f07d40-7adf-4af2-9b9c-8d155c7aeaad")
+		(property "Reference" "Q4"
+			(at 328.9 103.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NCE6050KA"
+			(at 328.9 106.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
+			(at 320 105 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 320 105 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C96013"
+			(at 320 105 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "1a690c62-99ad-473f-9588-6b32febb400c")
+		)
+		(pin "2"
+			(uuid "0473998c-8dda-4dc5-9c67-179d80727652")
+		)
+		(pin "3"
+			(uuid "33d8ff78-69db-4744-a8a9-3d38419d4747")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 314.92 105) (xy 311.11 105)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1527e8e-3972-409c-9a9a-88645b2a8e89")
+	)
+	(label "LDRV2"
+		(at 311.11 105 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c4338a0b-ef0a-46f6-9818-29e58a1d7ca5")
+	)
+	(wire
+		(pts
+			(xy 322.54 99.92) (xy 322.54 96.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a303bce-d21f-4bbb-96bb-e5bbe88995ac")
+	)
+	(label "SW2"
+		(at 322.54 96.11 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a132c56c-8a24-48f9-95cb-79dbd3b2b3a0")
+	)
+	(wire
+		(pts
+			(xy 322.54 110.08) (xy 322.54 113.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e57b2ff-18bf-46d5-b6ad-619e59d8ebb8")
+	)
+	(label "CS_P"
+		(at 322.54 113.89 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "43e48b59-aaa7-437e-a023-29442d1130c8")
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 280 55 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "891ea342-ebe8-46c5-a584-5c75db0ea18c")
+		(property "Reference" "L10"
+			(at 283.4 53.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 283.4 56.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_12x12mm_H8mm"
+			(at 280 55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 280 55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C19268657"
+			(at 280 55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "b729189c-b9fb-476f-924d-c2168fca5281")
+		)
+		(pin "2"
+			(uuid "ce20bd3c-8baf-43bb-87b2-3fc9037cc179")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "L10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 276.19 55) (xy 272.38 55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "766e36d6-5855-422e-a3f4-b28588c64f76")
+	)
+	(label "SW1"
+		(at 272.38 55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "876ade61-abf0-4a39-8788-e316ee6834e3")
+	)
+	(wire
+		(pts
+			(xy 283.81 55) (xy 287.62 55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cff5af00-ee50-4b3d-9707-9d347d51b477")
+	)
+	(label "SW2"
+		(at 287.62 55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "026e9ac7-d745-4368-9df7-22f419397687")
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 280 150 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fce070fc-0d6e-42a4-b195-6b452d4ac004")
+		(property "Reference" "R70"
+			(at 283.4 148.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20m"
+			(at 283.4 151.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+			(at 280 150 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 280 150 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "4d2d8370-2b3a-4172-81ed-6cf7f3190fb7")
+		)
+		(pin "2"
+			(uuid "a62c3836-1f97-47d8-9e5a-a07f7d291427")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "R70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 280 146.19) (xy 280 142.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebd109ce-1843-4cf7-acb8-d1a6252439c8")
+	)
+	(label "CS_P"
+		(at 280 142.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ed6d611d-3f57-41cb-b668-936088c28f0b")
+	)
+	(wire
+		(pts
+			(xy 280 153.81) (xy 280 157.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ed914ec-4d4c-4ee1-aa1d-0a869696fda4")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 280 157.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9f51bc6-fcc4-43f7-843c-76902facabef")
+		(property "Reference" "#PWR0305"
+			(at 280 163.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 280 161.938 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 280 157.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 280 157.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "af63dea8-34c4-453a-8852-24b3f2cb69b0")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "#PWR0305")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 243 150 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8b74d518-6cb0-4e84-9081-418c08f7ff39")
+		(property "Reference" "D1"
+			(at 246.4 148.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54W"
+			(at 246.4 151.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 243 150 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243 150 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C32180"
+			(at 243 150 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "c524d9dc-a720-4f0b-8b95-0f311cad0e6f")
+		)
+		(pin "2"
+			(uuid "0b490869-fa4a-4e25-a50f-6492323e37ed")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 239.19 150) (xy 235.38 150)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06e46384-f378-4156-a452-924386db7b5a")
+	)
+	(label "BOOT1"
+		(at 235.38 150 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "51457eeb-5e51-424f-8b4a-0a04d3497245")
+	)
+	(wire
+		(pts
+			(xy 246.81 150) (xy 250.62 150)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b17b59e3-7a0a-4c00-baed-2205d3f944f3")
+	)
+	(label "VCC_BB"
+		(at 250.62 150 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "05d6d87a-bc8f-42e5-aac0-4d663c2372ff")
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 323 150 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "57c6f086-7bf2-4fe7-b6a9-ffe896b607d8")
+		(property "Reference" "D2"
+			(at 326.4 148.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54W"
+			(at 326.4 151.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 323 150 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 323 150 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C32180"
+			(at 323 150 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "c148fcf5-7449-4597-93fb-f98589d3eca7")
+		)
+		(pin "2"
+			(uuid "c4d8d8df-0adb-41ff-a1af-933c4239b3a6")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 319.19 150) (xy 315.38 150)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d12949d9-fa7b-464a-a382-a47044c11628")
+	)
+	(label "BOOT2"
+		(at 315.38 150 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "adc0d3a7-ecb0-44eb-b712-a4b1cddaf18e")
+	)
+	(wire
+		(pts
+			(xy 326.81 150) (xy 330.62 150)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64dde026-9705-4b1a-bda6-9b92b8cbc27e")
+	)
+	(label "VCC_BB"
+		(at 330.62 150 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "24d31c4a-a809-4445-a576-24cc74d900c0")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 255 150 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "42af7b74-634b-4a82-98f9-f3170bce7d72")
+		(property "Reference" "C75"
+			(at 258.4 148.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 258.4 151.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 255 150 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255 150 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 255 150 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "950b8ab7-3999-4a6f-935e-cbb95a830e7f")
+		)
+		(pin "2"
+			(uuid "69d0f4e5-b1a3-4aee-ae4d-5c4f062993f9")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "C75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 255 146.19) (xy 255 142.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "202783cd-c8a6-475b-a081-1b13cae62d27")
+	)
+	(label "BOOT1"
+		(at 255 142.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "972331a9-7490-44b7-8cde-1d5722bec6a1")
+	)
+	(wire
+		(pts
+			(xy 255 153.81) (xy 255 157.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ef78e55-1402-4356-915b-f865a59be1b0")
+	)
+	(label "SW1"
+		(at 255 157.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c3f67ea8-bce1-4909-a6fd-8db58ae0c68b")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 335 150 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "37223d19-cf32-4b2b-be29-b36c04e669d5")
+		(property "Reference" "C76"
+			(at 338.4 148.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 338.4 151.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 335 150 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 335 150 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 335 150 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2f24fe87-48f7-4c5c-96a5-ac85ddeb5a32")
+		)
+		(pin "2"
+			(uuid "9f109114-9145-42e5-b14e-7a6deb0ad9d6")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "C76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 335 146.19) (xy 335 142.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db988b5f-0757-42ed-b059-ea4daa1ce429")
+	)
+	(label "BOOT2"
+		(at 335 142.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aea774ac-dd23-40d1-8ea7-677a5d8aa287")
+	)
+	(wire
+		(pts
+			(xy 335 153.81) (xy 335 157.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0440ee6e-a306-48e1-9835-4341a8e5465d")
+	)
+	(label "SW2"
+		(at 335 157.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "162ea3b9-204a-48af-aa49-1fd385491aff")
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 300 140 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b5acd7fd-57c6-4605-b2a7-cb4628f08b35")
+		(property "Reference" "R78"
+			(at 303.4 138.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100R"
+			(at 303.4 141.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 300 140 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 300 140 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C22775"
+			(at 300 140 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "81320305-d0f5-4a8d-bf6f-c9d9a2751f75")
+		)
+		(pin "2"
+			(uuid "58432492-5fae-40c2-a8f5-4a44a64a1fad")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "R78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 300 136.19) (xy 300 132.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25c55ca7-4013-4c79-9071-6e8612c0ba6f")
+	)
+	(label "CS_P"
+		(at 300 132.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff0eae7f-bae8-4565-ae8a-0b8b201abdd3")
+	)
+	(wire
+		(pts
+			(xy 300 143.81) (xy 300 147.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b29df41-ea57-4061-87c3-b341c48b673b")
+	)
+	(label "CS"
+		(at 300 147.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2362a4b-8c13-4162-adf0-4b5e2cf297d2")
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 300 165 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ee603809-0f45-4680-a891-58b0f2eea9ce")
+		(property "Reference" "R79"
+			(at 303.4 163.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100R"
+			(at 303.4 166.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 300 165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 300 165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C22775"
+			(at 300 165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "914286fd-a5b3-4ca0-b3e7-9d2df09c7952")
+		)
+		(pin "2"
+			(uuid "91544093-acc3-414a-ab7b-ad8e2d4f35f6")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "R79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 300 161.19) (xy 300 157.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3652dafc-78e2-42f2-bed7-7f749b481594")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 300 157.38 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c75e77d-5fcd-4789-879b-3357d51e9bcd")
+		(property "Reference" "#PWR0306"
+			(at 300 163.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 300 161.698 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 300 157.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 300 157.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1000a566-5333-4f40-9fb5-64a480d802bc")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "#PWR0306")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 300 168.81) (xy 300 172.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "089a50ac-887f-4a3b-9148-ad5652fc64eb")
+	)
+	(label "CSG"
+		(at 300 172.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f203cbc1-b64a-4c21-8f32-3e9220491756")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 300 190 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d1f4cc54-fc79-48c9-9ab8-ca597fabfc1f")
+		(property "Reference" "C77"
+			(at 303.4 188.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47p"
+			(at 303.4 191.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 300 190 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 300 190 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C1671"
+			(at 300 190 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8c7bdc58-3abd-44a6-9697-ef431392095f")
+		)
+		(pin "2"
+			(uuid "f3832075-d308-41ae-b9c7-cd1d6ec0264b")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "C77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 300 186.19) (xy 300 182.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78da5dec-d024-4389-91e3-d5c1f8ed532c")
+	)
+	(label "CS"
+		(at 300 182.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c2f28c59-07db-4d40-8553-44629aa54c35")
+	)
+	(wire
+		(pts
+			(xy 300 193.81) (xy 300 197.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bf265e9-7a51-44be-9dee-63f3d3c3cd23")
+	)
+	(label "CSG"
+		(at 300 197.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "03f1affd-db10-414f-b54a-f93f54902aa2")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 30 60 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fdfa9d9b-5bf0-429c-bbc9-cff706982706")
+		(property "Reference" "C79"
+			(at 33.4 58.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u/50V"
+			(at 33.4 61.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 30 60 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30 60 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "89e2c8fa-25db-4a0e-87f1-bb6d5852c2cc")
+		)
+		(pin "2"
+			(uuid "12d409ad-f623-45f5-b382-bd6e34c93a9c")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "C79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 30 56.19) (xy 30 52.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddc52b3e-6015-40e6-b8a4-abae96c629fb")
+	)
+	(label "VIN"
+		(at 30 52.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5bac301a-f039-4dfa-8ed2-76c6add29e76")
+	)
+	(wire
+		(pts
+			(xy 30 63.81) (xy 30 67.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8862b4bc-5964-41fe-ba79-f1eb7f2e7c92")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 30 67.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1494241c-8f70-45af-a37f-3207ae85ecff")
+		(property "Reference" "#PWR0307"
+			(at 30 73.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 30 71.938 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30 67.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30 67.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1304a688-640d-4ab1-916a-d7a1f8fdf27a")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "#PWR0307")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 50 60 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4ce16cd8-a0b2-40bc-a149-a5240fce0de9")
+		(property "Reference" "C80"
+			(at 53.4 58.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u/50V"
+			(at 53.4 61.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 50 60 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50 60 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "847e73f8-656c-4235-a853-56fbb787ad28")
+		)
+		(pin "2"
+			(uuid "ff070050-936b-447e-8db4-98967a294b30")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "C80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 50 56.19) (xy 50 52.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a9caa17-e154-42ae-bab1-50dbd2681b75")
+	)
+	(label "VIN"
+		(at 50 52.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c72d8056-552b-4e14-a8ec-1034bc3f4eda")
+	)
+	(wire
+		(pts
+			(xy 50 63.81) (xy 50 67.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff270e10-fc29-49c6-8b6b-1aa49ce6e3e8")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50 67.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6843b05c-3bd4-4525-aab1-d0c2849284f8")
+		(property "Reference" "#PWR0308"
+			(at 50 73.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 50 71.938 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50 67.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50 67.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2e68e871-51ca-4bca-a775-c99ed61b4eaa")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "#PWR0308")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 70 60 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2530aad9-3001-4c22-9661-28a7deb68f83")
+		(property "Reference" "C81"
+			(at 73.4 58.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u/50V"
+			(at 73.4 61.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10.5"
+			(at 70 60 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 70 60 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "d4b73718-9614-4eee-914f-1850683b66d8")
+		)
+		(pin "2"
+			(uuid "f9bb5a50-9d9b-4a72-a1dd-77fb36005d7b")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "C81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 70 56.19) (xy 70 52.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04a6c44e-cec7-430e-b597-ca35744a8ca6")
+	)
+	(label "VIN"
+		(at 70 52.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab1ba12d-6bcf-4831-9fd4-db662a2eb71e")
+	)
+	(wire
+		(pts
+			(xy 70 63.81) (xy 70 67.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33aaec41-a93f-4d9f-a09f-f56c22a2c70c")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 70 67.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b9058a1-91fd-4259-93f6-b774feccf507")
+		(property "Reference" "#PWR0309"
+			(at 70 73.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 70 71.938 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 70 67.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 70 67.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "55f886db-da9d-43ae-84e6-8e173fc4e840")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "#PWR0309")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 95 55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "021e5e42-54b5-47be-ae28-cc871464f44a")
+		(property "Reference" "R80"
+			(at 98.4 53.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10R"
+			(at 98.4 56.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 95 55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95 55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C22859"
+			(at 95 55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5b0ff3c4-1f02-41e1-951f-7dc4a2b80935")
+		)
+		(pin "2"
+			(uuid "250da689-8b2c-4325-ba93-a7adc3749628")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "R80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 95 51.19) (xy 95 47.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6319e7d-103b-4620-a769-e7b76ef8176f")
+	)
+	(label "VIN"
+		(at 95 47.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9833f60c-11c9-4330-b1f6-b17e9827ae84")
+	)
+	(wire
+		(pts
+			(xy 95 58.81) (xy 95 62.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f669742-2774-4cf3-8031-dac4246f66e4")
+	)
+	(label "VIN_IC"
+		(at 95 62.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c58dde9b-95c6-4486-9640-bcda428ca159")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 95 80 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c1be7353-9dda-4716-b852-dcc52ce9e61c")
+		(property "Reference" "C78"
+			(at 98.4 78.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 98.4 81.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 95 80 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95 80 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 95 80 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f27f2d4e-4785-470d-84ae-7068d6c66b6d")
+		)
+		(pin "2"
+			(uuid "4ea32dda-5495-4b9c-9bfc-ae2cd3fb89b3")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "C78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 95 76.19) (xy 95 72.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b59d694-1585-4a2f-8cea-9cf2d5e9e1c5")
+	)
+	(label "VIN_IC"
+		(at 95 72.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aa33dc6b-73c9-4280-96d4-bb602dd2025e")
+	)
+	(wire
+		(pts
+			(xy 95 83.81) (xy 95 87.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f63d2077-67dc-4201-b8f5-5f875b7e324c")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 95 87.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5505948-2648-4046-98ef-5389c60039bf")
+		(property "Reference" "#PWR0310"
+			(at 95 93.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 95 91.938 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95 87.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95 87.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6bfd982d-df3d-4e7f-9c67-50b51784236c")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "#PWR0310")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 40 105 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5a4d7058-f28e-4ee5-b142-59ce1277575d")
+		(property "Reference" "R72"
+			(at 43.4 103.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "249k"
+			(at 43.4 106.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 40 105 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40 105 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "131097f5-d8cd-4321-bf40-f567589d5db8")
+		)
+		(pin "2"
+			(uuid "0dfa14b7-8db7-4646-98e9-89eea316c571")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "R72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 40 101.19) (xy 40 97.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5579447c-c390-4526-982a-c00857a28275")
+	)
+	(label "VIN"
+		(at 40 97.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc768b17-ead4-445c-bb44-a6b49e2bf7c0")
+	)
+	(wire
+		(pts
+			(xy 40 108.81) (xy 40 112.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68e5196b-81b1-44c5-8388-410518490132")
+	)
+	(label "UVLO"
+		(at 40 112.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "44e69fc5-fac1-486b-b972-769e64785003")
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 40 130 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c6cbc655-18f5-485d-bb42-c54ee0e343f8")
+		(property "Reference" "R73"
+			(at 43.4 128.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "44k2"
+			(at 43.4 131.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 40 130 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40 130 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "b26403f0-2a28-4658-99f5-1a9bb4940547")
+		)
+		(pin "2"
+			(uuid "f915f102-79a3-4c3e-b2bb-cdf3b4e90fba")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "R73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 40 126.19) (xy 40 122.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c745090-f9c2-4ac5-9aff-6b4b670ede7d")
+	)
+	(label "UVLO"
+		(at 40 122.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef9edaa9-658c-4bb6-84de-c557ef5537bc")
+	)
+	(wire
+		(pts
+			(xy 40 133.81) (xy 40 137.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da9ec84b-e53a-4e9c-9921-ff72706efd8a")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 40 137.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfd57509-2843-4d7d-91f2-800b129cfa19")
+		(property "Reference" "#PWR0311"
+			(at 40 143.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 40 141.938 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40 137.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40 137.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f146415b-0b20-4f06-850b-d5fcaf59ee7a")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "#PWR0311")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 70 105 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4680fae7-bd00-4045-a8d6-d30ba5fbd974")
+		(property "Reference" "R71"
+			(at 73.4 103.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "27k4"
+			(at 73.4 106.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 70 105 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 70 105 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "e383bd00-231e-498a-acae-6355268f6a52")
+		)
+		(pin "2"
+			(uuid "6b550339-9c08-4850-961d-16f67a0f1cc7")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "R71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 70 101.19) (xy 70 97.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5edc20da-4cab-424a-944d-8e17ee985f87")
+	)
+	(label "RT"
+		(at 70 97.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e16ce761-6830-466a-88e0-ff1ca274948d")
+	)
+	(wire
+		(pts
+			(xy 70 108.81) (xy 70 112.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41086abb-07fd-4198-b163-4f45cb9da6c9")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 70 112.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1795421-d972-4e35-bf2f-7470af14f405")
+		(property "Reference" "#PWR0312"
+			(at 70 118.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 70 116.938 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 70 112.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 70 112.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c53e72b6-5ba4-4efe-8259-6bcbce170e2e")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "#PWR0312")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 70 130 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "746e303b-d09d-4e18-a977-b2a79d3345e5")
+		(property "Reference" "R74"
+			(at 73.4 128.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "93k1"
+			(at 73.4 131.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 70 130 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 70 130 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "96f461e4-90f9-42ad-8e65-11ad07f40b6c")
+		)
+		(pin "2"
+			(uuid "943332b8-2e48-4410-94a6-712fe960dc06")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "R74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 70 126.19) (xy 70 122.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d92313c-42fe-4055-9a32-a5014f4819de")
+	)
+	(label "MODE"
+		(at 70 122.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "280f399e-97fa-422c-98d5-14df6b5d875f")
+	)
+	(wire
+		(pts
+			(xy 70 133.81) (xy 70 137.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef085c2b-8ab7-466c-99db-56c32e01c576")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 70 137.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb08a3c0-9ed0-447e-a02f-c74fc3951f13")
+		(property "Reference" "#PWR0313"
+			(at 70 143.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 70 141.938 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 70 137.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 70 137.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e27d4278-64b5-4bba-8847-e045b4057853")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "#PWR0313")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 100 105 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d41dd2d6-4e3d-4331-8b3b-be96bc5b4ae4")
+		(property "Reference" "C72"
+			(at 103.4 103.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "180p"
+			(at 103.4 106.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 100 105 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100 105 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "6b471393-f523-4824-b60a-a69bff8a8863")
+		)
+		(pin "2"
+			(uuid "2c279010-6aea-43b9-b9c0-5fa3eb979c09")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "C72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 100 101.19) (xy 100 97.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0336d9c3-89c1-489e-bee9-8b5372a4bfa8")
+	)
+	(label "SLOPE"
+		(at 100 97.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "72d0c5ce-9c6c-47b5-817e-0bbac618bc47")
+	)
+	(wire
+		(pts
+			(xy 100 108.81) (xy 100 112.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89d73a5d-eee7-4fa8-8b27-5f4e4f89c03d")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100 112.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4641013a-0dc9-4988-9283-00b62793fd9d")
+		(property "Reference" "#PWR0314"
+			(at 100 118.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 100 116.938 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100 112.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100 112.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4755cc25-218e-4130-8f09-a7b0074a3b9d")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "#PWR0314")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 100 130 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fa6f462c-2df5-401d-8895-43c71b7f7ad5")
+		(property "Reference" "C73"
+			(at 103.4 128.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 103.4 131.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 100 130 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100 130 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 100 130 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "06ba763f-4d22-4ba0-9380-17afd56d4d65")
+		)
+		(pin "2"
+			(uuid "14717f19-56cd-440c-9330-9b6436a6ffa9")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "C73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 100 126.19) (xy 100 122.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44840101-847c-4753-8045-cb1bc81b0638")
+	)
+	(label "SS"
+		(at 100 122.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2feee79c-a98c-4114-b38b-255213083c1d")
+	)
+	(wire
+		(pts
+			(xy 100 133.81) (xy 100 137.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "287a175f-16be-4e25-9b86-4300b2b585d3")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100 137.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39ab5962-f4ba-4e27-af27-a6be12f78ea3")
+		(property "Reference" "#PWR0315"
+			(at 100 143.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 100 141.938 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100 137.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100 137.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3669594b-07ea-4d80-85ba-ef1053d203db")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "#PWR0315")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 40 165 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c2182ea5-66cb-4faa-b437-b9471f7a76c0")
+		(property "Reference" "R81"
+			(at 43.4 163.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "15k"
+			(at 43.4 166.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 40 165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40 165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C22809"
+			(at 40 165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "31b5d702-c269-4308-814d-c35579a1506d")
+		)
+		(pin "2"
+			(uuid "d053c616-c273-44bd-82db-392194cca527")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "R81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 40 161.19) (xy 40 157.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c82d2d4-5311-41ac-b589-e1d61ab0bbf4")
+	)
+	(label "COMP"
+		(at 40 157.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e4344c04-b474-4b68-8697-c607963cb9ca")
+	)
+	(wire
+		(pts
+			(xy 40 168.81) (xy 40 172.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8227a587-21b9-47c3-ad70-533661bcd900")
+	)
+	(label "COMP_Z"
+		(at 40 172.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a33727ea-8f6e-43b4-8c2e-9dad87d147f0")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 40 190 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5c815f7b-704f-499a-acbe-143272782233")
+		(property "Reference" "C70"
+			(at 43.4 188.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "18n"
+			(at 43.4 191.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 40 190 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40 190 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "c2fa0bd7-c578-49d4-b4f9-4bd8cd2e3bac")
+		)
+		(pin "2"
+			(uuid "4bff0e93-d2ed-49f7-9d11-c2ab1a3003a5")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "C70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 40 186.19) (xy 40 182.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f918be3-1b86-430e-b853-964bffa5c1a1")
+	)
+	(label "COMP_Z"
+		(at 40 182.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b83e625a-9d50-4592-a211-62ff9fc6cd11")
+	)
+	(wire
+		(pts
+			(xy 40 193.81) (xy 40 197.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43a032fb-7dbf-423e-a5c6-7a92f529e1a6")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 40 197.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7b1101d-493d-4c32-a916-a5fa4ed7f173")
+		(property "Reference" "#PWR0316"
+			(at 40 203.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 40 201.938 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40 197.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40 197.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "848b1908-25f5-41d7-a41f-62c1d0c431ac")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "#PWR0316")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 70 165 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "931a3acc-2b26-4c2b-afd7-fe171bf2628e")
+		(property "Reference" "C71"
+			(at 73.4 163.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "150p"
+			(at 73.4 166.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 70 165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 70 165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C1594"
+			(at 70 165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1354f1b2-20ae-412c-b940-73d8b7c175df")
+		)
+		(pin "2"
+			(uuid "dcbadfb1-068a-4a97-a095-446b8cfef0f5")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "C71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 70 161.19) (xy 70 157.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53c907ff-fff2-4085-9c69-8b5692ba1863")
+	)
+	(label "COMP"
+		(at 70 157.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad0a438c-780f-4157-b279-eecb68cda5e2")
+	)
+	(wire
+		(pts
+			(xy 70 168.81) (xy 70 172.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b814c09e-463a-4ef3-9752-abdb51a8a030")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 70 172.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bde56f7b-6208-4dd5-ab65-559ef5e57b98")
+		(property "Reference" "#PWR0317"
+			(at 70 178.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 70 176.938 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 70 172.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 70 172.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7d4adfc1-c1ac-4533-97ea-411bcf6741cf")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "#PWR0317")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 100 165 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a66dab8b-1aab-4f58-8d14-17fa8519c993")
+		(property "Reference" "C74"
+			(at 103.4 163.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 103.4 166.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 100 165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100 165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 100 165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2f8d8f2d-6ad2-4ff6-94aa-045a4e739399")
+		)
+		(pin "2"
+			(uuid "95948c8c-040b-4504-b6f1-754f1cb554f5")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "C74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 100 161.19) (xy 100 157.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cfae02c-00bd-4b86-aa87-9238500b272f")
+	)
+	(label "VCC_BB"
+		(at 100 157.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "606f77f2-ba83-496e-a101-b69a3dfa4f44")
+	)
+	(wire
+		(pts
+			(xy 100 168.81) (xy 100 172.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11b0f97a-08eb-40b9-aed9-616c61c07988")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100 172.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a348421-5a86-4ee4-801e-f09c75c5d12b")
+		(property "Reference" "#PWR0318"
+			(at 100 178.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 100 176.938 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100 172.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100 172.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f94b6812-8cd1-41d0-bf9d-206b2d8e90c4")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "#PWR0318")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 130 165 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "077b59b8-9901-40dc-8e9f-c4e5fca737c4")
+		(property "Reference" "R77"
+			(at 133.4 163.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 133.4 166.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 130 165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130 165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 130 165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c50083b2-b071-4c80-88ba-6ef1cf7d423f")
+		)
+		(pin "2"
+			(uuid "ea11a299-3362-4185-a724-21253b8e02f5")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "R77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 130 161.19) (xy 130 157.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1760a062-97fd-4e6d-9f84-a55b1531ed84")
+	)
+	(label "VCC_BB"
+		(at 130 157.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7868527-e989-4b25-90cb-e5b381405ca6")
+	)
+	(wire
+		(pts
+			(xy 130 168.81) (xy 130 172.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "552e7039-0435-4aea-9e78-c80d75793dc3")
+	)
+	(label "PG_12V"
+		(at 130 172.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f20d054c-9cbb-4d09-bdc7-accd2854fc34")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 360 60 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d1ab08a8-018f-44be-9df5-4e544775d78c")
+		(property "Reference" "C82"
+			(at 363.4 58.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u/25V"
+			(at 363.4 61.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 360 60 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 360 60 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C45783"
+			(at 360 60 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e69d0e96-ea42-4595-a078-8ad9288509a8")
+		)
+		(pin "2"
+			(uuid "117e168e-57a1-461c-b120-38462bc3d1e2")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "C82")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 360 56.19) (xy 360 52.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2811269d-455a-4612-a065-cf075f327287")
+	)
+	(label "12V"
+		(at 360 52.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e8befb74-4d71-457e-a44c-b7b10aef2eb5")
+	)
+	(wire
+		(pts
+			(xy 360 63.81) (xy 360 67.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dd137ad-796c-4602-9316-909e81f497e1")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 360 67.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82c0fd56-6676-4009-af66-a6295eb6aaf1")
+		(property "Reference" "#PWR0319"
+			(at 360 73.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 360 71.938 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 360 67.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 360 67.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cf6284ea-0061-4b08-813f-97804d48acaf")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "#PWR0319")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 378 60 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e2cdafa3-6b95-41d9-b0bb-71e23047cc3e")
+		(property "Reference" "C83"
+			(at 381.4 58.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u/25V"
+			(at 381.4 61.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 378 60 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 378 60 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C45783"
+			(at 378 60 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "58214aca-b5f3-409b-9372-98a9541d9de9")
+		)
+		(pin "2"
+			(uuid "4a91b867-4993-44d5-b09a-df00b6930b1f")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "C83")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 378 56.19) (xy 378 52.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c06aa04-f37d-4e40-9db9-3617b5131315")
+	)
+	(label "12V"
+		(at 378 52.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7f6b104f-8705-4b74-976d-f21a384b8565")
+	)
+	(wire
+		(pts
+			(xy 378 63.81) (xy 378 67.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d37a7252-f349-4a3b-8c6c-c00514b25133")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 378 67.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "647e3b43-2ac4-47ba-b10f-7168085e46ea")
+		(property "Reference" "#PWR0320"
+			(at 378 73.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 378 71.938 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 378 67.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 378 67.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "04f8198b-8c65-40fc-8316-97619585a2d2")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "#PWR0320")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 396 60 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7558b216-244a-45c4-977f-bdc0f59a68c7")
+		(property "Reference" "C84"
+			(at 399.4 58.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u/25V"
+			(at 399.4 61.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 396 60 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 396 60 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C45783"
+			(at 396 60 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9b466db0-541d-460c-b8cf-924165e6c83e")
+		)
+		(pin "2"
+			(uuid "5406cc76-841d-4efd-9f26-f5e278b96f3c")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "C84")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 396 56.19) (xy 396 52.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56de1fec-e5e0-4339-80be-91e0d04d3070")
+	)
+	(label "12V"
+		(at 396 52.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "faeed5e8-473d-4c1b-9393-79e57e8dc368")
+	)
+	(wire
+		(pts
+			(xy 396 63.81) (xy 396 67.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4619a853-3e97-4e51-abc0-03883caa4461")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 396 67.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9bd69a28-a848-4dc2-8853-c44b4eecad6b")
+		(property "Reference" "#PWR0321"
+			(at 396 73.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 396 71.938 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 396 67.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 396 67.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c19cfedf-23e7-4082-98ed-75505f21c86b")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "#PWR0321")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 360 90 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "76c821e4-be58-4fc9-88d5-08eec072dc72")
+		(property "Reference" "C85"
+			(at 363.4 88.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u/25V"
+			(at 363.4 91.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 360 90 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 360 90 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C45783"
+			(at 360 90 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "db71c1e4-3c52-4b1a-b2fe-0223f29e17d9")
+		)
+		(pin "2"
+			(uuid "2f5db9ae-b224-4d38-b0d8-2a2d82d7badf")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "C85")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 360 86.19) (xy 360 82.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41908eb3-8d75-401d-ad29-69c6c8a80464")
+	)
+	(label "12V"
+		(at 360 82.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dae42099-3ef2-4763-8b7f-4b41840877bd")
+	)
+	(wire
+		(pts
+			(xy 360 93.81) (xy 360 97.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51b8292a-4048-4a78-8814-90cdf96d374a")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 360 97.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2c29d78-79c3-44ca-a858-fd3b72bf01b2")
+		(property "Reference" "#PWR0322"
+			(at 360 103.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 360 101.938 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 360 97.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 360 97.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0db4ff71-fee6-4129-9b24-a55476037145")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "#PWR0322")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 378 90 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b186d380-6f9f-403f-b017-73aa2b6e24cd")
+		(property "Reference" "C86"
+			(at 381.4 88.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u/25V"
+			(at 381.4 91.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
+			(at 378 90 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 378 90 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "3cedb097-8cd5-43fb-96e3-d83ddfab10a0")
+		)
+		(pin "2"
+			(uuid "851b45f7-7ea8-48e5-9ec7-a56cf6fbcb8e")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "C86")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 378 86.19) (xy 378 82.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c4cf2fa-1530-44d0-a44f-558158841afc")
+	)
+	(label "12V"
+		(at 378 82.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "baf65a66-df79-41d3-b076-a1fea26b87da")
+	)
+	(wire
+		(pts
+			(xy 378 93.81) (xy 378 97.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7690fcbf-69ee-4309-8d1a-c7e5e7c503f7")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 378 97.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "418a0377-bd86-44a8-b784-dc1a13f1719f")
+		(property "Reference" "#PWR0323"
+			(at 378 103.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 378 101.938 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 378 97.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 378 97.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5510b37f-04a5-40b9-82c4-f7fe7cfaa476")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "#PWR0323")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 396 90 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6c84bdeb-df17-43b6-8253-857355e9903a")
+		(property "Reference" "C87"
+			(at 399.4 88.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 399.4 91.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 396 90 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 396 90 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 396 90 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bfad329d-0d7c-4b4e-b628-e523ba8a8363")
+		)
+		(pin "2"
+			(uuid "d3eab808-7b20-472e-bfd3-0759cac431e4")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "C87")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 396 86.19) (xy 396 82.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee34370a-cedc-45a7-a874-b6637d204038")
+	)
+	(label "12V"
+		(at 396 82.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a67b1af3-74e6-4ac8-ad0e-f66ff826d2a5")
+	)
+	(wire
+		(pts
+			(xy 396 93.81) (xy 396 97.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7608548e-5867-419e-87f0-d6ed30664993")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 396 97.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d4d4aed-76c5-4746-b57e-9968708f80b7")
+		(property "Reference" "#PWR0324"
+			(at 396 103.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 396 101.938 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 396 97.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 396 97.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d296e9fe-5f59-4100-94cc-fbaf8f59ecfd")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "#PWR0324")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 360 130 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9bef8730-5245-4fd7-9b94-f0b47241bd24")
+		(property "Reference" "R75"
+			(at 363.4 128.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "280k"
+			(at 363.4 131.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 360 130 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 360 130 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "5b529e8c-4f8b-47d3-9edc-6e45e94241ea")
+		)
+		(pin "2"
+			(uuid "4b4525b7-acd9-4e5d-9bec-25db73c00267")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "R75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 360 126.19) (xy 360 122.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaaebca7-d432-4000-88c4-5db3de6d16a6")
+	)
+	(label "12V"
+		(at 360 122.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "48998f22-8ee0-4411-9f2e-2bdbe9e4b183")
+	)
+	(wire
+		(pts
+			(xy 360 133.81) (xy 360 137.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5f98892-4130-435f-98a4-b5caa4836d32")
+	)
+	(label "FB"
+		(at 360 137.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e0b1edf-e83d-470a-8b04-86a1cc827c1e")
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 360 155 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d53182e7-d40d-4bf7-8784-6d2bfed6a79f")
+		(property "Reference" "R76"
+			(at 363.4 153.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20k"
+			(at 363.4 156.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 360 155 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 360 155 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C4184"
+			(at 360 155 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f576c74e-ca41-488a-8a9d-baed79823f73")
+		)
+		(pin "2"
+			(uuid "70ed6b7c-0a53-4c7d-bf2e-c42bdd990d05")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "R76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 360 151.19) (xy 360 147.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b70ca250-1297-4c2a-8aa6-8b4947a99025")
+	)
+	(label "FB"
+		(at 360 147.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "01cb9b47-aec6-409d-a77f-e79e2cd1e60f")
+	)
+	(wire
+		(pts
+			(xy 360 158.81) (xy 360 162.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4da78365-03d9-49a0-a1c8-572cbe6f0572")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 360 162.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3259770e-29c3-4d87-8e1c-5f9f796e3289")
+		(property "Reference" "#PWR0325"
+			(at 360 168.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 360 166.938 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 360 162.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 360 162.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8d43bf99-b370-45c4-88fa-3979768e28e4")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "#PWR0325")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LM60430DRPKR:LM60430DRPKR")
+		(at 175 240 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "da18cf72-ce03-4498-9e99-9910a4509c65")
+		(property "Reference" "U21"
+			(at 175 210 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM60430DRPKR"
+			(at 175 212.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RPK0013A-MFG:RPK0013A-MFG"
+			(at 175 240 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175 240 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C2873217"
+			(at 175 240 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "f16b68ae-16ee-4e2d-9c20-5e87692feaf5")
+		)
+		(pin "2"
+			(uuid "993b4625-dea6-4da9-a3a7-6bf7c1f5cbd2")
+		)
+		(pin "3"
+			(uuid "6aad64aa-8ec6-40af-9bcd-45a7cd44cb02")
+		)
+		(pin "4"
+			(uuid "e700b9a4-23f2-4bde-939f-cbe7aa2def47")
+		)
+		(pin "5"
+			(uuid "0e5866d1-ab13-412c-a8fe-2e0d587adc39")
+		)
+		(pin "6"
+			(uuid "ae93689b-f80b-4766-ad21-5e83a0ef4d0d")
+		)
+		(pin "7"
+			(uuid "4cbb3b31-ef2c-4f05-87a6-54eb9562b6a3")
+		)
+		(pin "8"
+			(uuid "13f95d25-71f8-461c-9953-fc893542dc0c")
+		)
+		(pin "9"
+			(uuid "9814c8c3-d24f-4b01-86ef-e9c8ba060e5b")
+		)
+		(pin "10"
+			(uuid "c7691a1a-1741-4ac1-9ebb-5c1d3fd9747a")
+		)
+		(pin "11"
+			(uuid "5b057487-74ea-41a0-80be-430b79fed85e")
+		)
+		(pin "12"
+			(uuid "874b1286-d6b9-43a0-a1ef-1bf1a41539a3")
+		)
+		(pin "13"
+			(uuid "ca8e98de-91e4-49f5-8f26-b8d2e2f6b052")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "U21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 208.02 265.4) (xy 211.83 265.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29e7f060-c9dd-4de3-a14a-5e813c40fa9f")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 211.83 265.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a5008ef-94e4-43ab-8177-8a14d1bf0488")
+		(property "Reference" "#PWR0326"
+			(at 211.83 271.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 211.83 269.718 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 211.83 265.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 211.83 265.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9d7c214e-e3dc-4c09-a2ca-b9fd2d9d9d99")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "#PWR0326")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 169.92 240) (xy 166.11 240)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "712c3788-39cb-49f6-b91d-7a30d6959456")
+	)
+	(label "VIN"
+		(at 166.11 240 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b5df824a-c2ea-4d6d-a942-087e769d7506")
+	)
+	(wire
+		(pts
+			(xy 169.92 270.48) (xy 166.11 270.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0349112-700f-417c-b2a5-e3c50e6b36b9")
+	)
+	(label "NC_U21"
+		(at 166.11 270.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f3682eea-7a9b-4710-87f4-7bb8110167b8")
+	)
+	(wire
+		(pts
+			(xy 208.02 240) (xy 211.83 240)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd31f290-f854-4688-aae7-2e8fae1fb7b0")
+	)
+	(label "BOOT_5V"
+		(at 211.83 240 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f9c2bfcd-6c9e-4049-9501-76421cbeaaca")
+	)
+	(wire
+		(pts
+			(xy 169.92 247.62) (xy 166.11 247.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e4a47d4-ba44-4c9d-b85a-4f6caff05a83")
+	)
+	(label "VCC_5V"
+		(at 166.11 247.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b99d84f1-004f-47b4-b6d5-8c3bba0fc1ad")
+	)
+	(wire
+		(pts
+			(xy 208.02 262.86) (xy 211.83 262.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec8acaad-ede2-4452-8da3-9c4c6bf128d0")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 211.83 262.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "911a6e77-8f2c-4185-af6d-9dd9f85772e2")
+		(property "Reference" "#PWR0327"
+			(at 211.83 269.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 211.83 267.178 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 211.83 262.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 211.83 262.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6ca66643-2466-460f-b25f-a18a4593e2a6")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "#PWR0327")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 208.02 250.16) (xy 211.83 250.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c3a191d-d139-4494-8e56-787f94d5f8ad")
+	)
+	(label "FB_5V"
+		(at 211.83 250.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b5c1a964-0d50-428b-bf91-05261e2b33cd")
+	)
+	(wire
+		(pts
+			(xy 208.02 255.24) (xy 211.83 255.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c4842f6-540f-4a3a-bae8-fde4dba114b2")
+	)
+	(label "PG_5V"
+		(at 211.83 255.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4cbdfff3-1fbc-48b1-b8fa-65e72429b66c")
+	)
+	(wire
+		(pts
+			(xy 169.92 252.7) (xy 166.11 252.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f75817ef-edb4-4c3f-9b1a-312fbee88323")
+	)
+	(label "VIN"
+		(at 166.11 252.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4f270e79-edfd-46b6-8a5d-9a841df584d5")
+	)
+	(wire
+		(pts
+			(xy 169.92 242.54) (xy 166.11 242.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c64aa171-a8db-4e10-b452-228e97617c29")
+	)
+	(label "VIN"
+		(at 166.11 242.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7f9c2706-05a5-41b1-8d58-4e947401e0f3")
+	)
+	(wire
+		(pts
+			(xy 208.02 267.94) (xy 211.83 267.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ece038e-f185-4b1e-9d44-78135acee8c2")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 211.83 267.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92bad349-abe2-4039-8f53-b3758d201424")
+		(property "Reference" "#PWR0328"
+			(at 211.83 274.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 211.83 272.258 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 211.83 267.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 211.83 267.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6d64aa01-21e0-46c6-af71-5c9fca4d3e9b")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "#PWR0328")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 208.02 245.08) (xy 211.83 245.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fad0188-f6be-4930-b297-16c21be1c379")
+	)
+	(label "SW_5V"
+		(at 211.83 245.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "47ffef6e-cff6-4cc4-91a4-149e269c44c1")
+	)
+	(wire
+		(pts
+			(xy 208.02 270.48) (xy 211.83 270.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d66ebae-1555-4af3-bb03-2a8dac669014")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 211.83 270.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ba01c6c-7397-409c-8039-64d84ba1c0ad")
+		(property "Reference" "#PWR0329"
+			(at 211.83 276.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 211.83 274.798 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 211.83 270.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 211.83 270.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3f03448c-93cc-444e-8153-3f42d4370cd6")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "#PWR0329")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 60 235 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "58125852-ce82-453d-9f4c-433a07ed6dc6")
+		(property "Reference" "C88"
+			(at 63.4 233.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4u7"
+			(at 63.4 236.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 60 235 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60 235 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C29823"
+			(at 60 235 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8ef6d2ff-ac1a-45fd-925a-fa3ae2acce2a")
+		)
+		(pin "2"
+			(uuid "fae02890-f1b9-49d8-ab17-586638573161")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "C88")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 60 231.19) (xy 60 227.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82a75b97-7dc5-46ef-a193-e067c72475f3")
+	)
+	(label "VIN"
+		(at 60 227.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "be5d5772-f32c-48f0-a0fb-dd5c0cf1a25c")
+	)
+	(wire
+		(pts
+			(xy 60 238.81) (xy 60 242.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5a96d3e-2a68-4f70-b92e-2e4828a833cb")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60 242.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f65e901d-6182-41ba-986d-f7c1bdfc707c")
+		(property "Reference" "#PWR0330"
+			(at 60 248.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 60 246.938 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60 242.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60 242.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d65799c5-51d9-4a0e-bd04-7a0879228272")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "#PWR0330")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 80 235 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "81829fbd-26a5-4999-8e60-0be9d05aa541")
+		(property "Reference" "C89"
+			(at 83.4 233.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220n"
+			(at 83.4 236.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 80 235 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80 235 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C5378"
+			(at 80 235 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "07f2fc40-5c46-4dcc-9593-c3d79a185686")
+		)
+		(pin "2"
+			(uuid "3055b0b3-045d-4887-ae77-16d62a79540c")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "C89")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 80 231.19) (xy 80 227.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "300d8aa6-7942-4757-b998-41d75cd0a138")
+	)
+	(label "VIN"
+		(at 80 227.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "05ee2a5b-2fd0-4608-8008-bfdf6b1daaf0")
+	)
+	(wire
+		(pts
+			(xy 80 238.81) (xy 80 242.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8950ef67-c586-45e5-a9d0-0829a27c56b5")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 80 242.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63fd9933-82ee-4062-846f-9512e3613fe4")
+		(property "Reference" "#PWR0331"
+			(at 80 248.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 80 246.938 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80 242.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80 242.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "390ed0b6-33c6-47ce-9906-32319829241f")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "#PWR0331")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 105 235 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "53c160f1-fe99-4274-bab8-cf5d5ee3478a")
+		(property "Reference" "C90"
+			(at 108.4 233.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 108.4 236.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 105 235 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105 235 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 105 235 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d35c353d-4840-41ed-b6df-e6efdb865070")
+		)
+		(pin "2"
+			(uuid "b9d686c0-53b8-4eb9-ba33-4b8aaa703bc4")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "C90")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 105 231.19) (xy 105 227.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64a1338d-1c31-4562-aaa4-d0d5d3c84974")
+	)
+	(label "VCC_5V"
+		(at 105 227.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5dbc0274-9eba-423f-886e-c7b4b800746f")
+	)
+	(wire
+		(pts
+			(xy 105 238.81) (xy 105 242.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05371996-5d2d-4ad5-bda3-600df4f0521c")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 105 242.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3db38d1d-5d17-413f-9b72-de680c92900f")
+		(property "Reference" "#PWR0332"
+			(at 105 248.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 105 246.938 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105 242.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105 242.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7f1bc542-4d6e-42d4-862b-71e9d4cdb7ce")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "#PWR0332")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 255 235 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "34b5d31c-5782-43fb-afb0-5454261003f5")
+		(property "Reference" "C91"
+			(at 258.4 233.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 258.4 236.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 255 235 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255 235 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 255 235 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c58c0417-1013-4fd4-b50c-4613b332a099")
+		)
+		(pin "2"
+			(uuid "bf6ac24d-a8c0-46a4-b6c7-743852040d41")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "C91")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 255 231.19) (xy 255 227.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07690710-4d8d-426e-baa3-5f51fd30bd6b")
+	)
+	(label "BOOT_5V"
+		(at 255 227.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6f42f52-734b-4e4c-a2e1-1f2219da0af1")
+	)
+	(wire
+		(pts
+			(xy 255 238.81) (xy 255 242.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9a0985c-263a-43c7-b73e-6119e6cc0336")
+	)
+	(label "SW_5V"
+		(at 255 242.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0de2b964-bf22-4261-bf6a-1f76f60309ee")
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 285 225 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ffe6654b-48e4-4177-8c74-37c1eb192b5d")
+		(property "Reference" "L11"
+			(at 288.4 223.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3u8"
+			(at 288.4 226.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_7.3x7.3_H4.5"
+			(at 285 225 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 285 225 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "0417764a-987d-4391-9e3c-de1fffb92f0f")
+		)
+		(pin "2"
+			(uuid "a8f5a621-56b4-421b-9c6d-867106100483")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "L11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 281.19 225) (xy 277.38 225)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbcf2761-a188-42d6-b92c-889d0a059174")
+	)
+	(label "SW_5V"
+		(at 277.38 225 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c9e4bfca-42c9-4080-81d3-975502419c88")
+	)
+	(wire
+		(pts
+			(xy 288.81 225) (xy 292.62 225)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28e53859-b384-4bba-b795-9428a1573efe")
+	)
+	(label "5V"
+		(at 292.62 225 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d4adce77-10e6-4f7e-beee-cbf8a812d58b")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 310 235 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3a01b434-fb07-441d-bc0e-5814be45c3bf")
+		(property "Reference" "C92"
+			(at 313.4 233.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47u"
+			(at 313.4 236.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 310 235 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 310 235 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C96123"
+			(at 310 235 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8ff17e16-10dc-4f69-9423-4da03f5dbc32")
+		)
+		(pin "2"
+			(uuid "edbc3139-11c5-4172-bcc6-ac9c24a8ab65")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "C92")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 310 231.19) (xy 310 227.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc119847-50fb-4725-8934-ddf097835c4f")
+	)
+	(label "5V"
+		(at 310 227.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "142d5b75-b8e1-4589-8826-71958bf53f51")
+	)
+	(wire
+		(pts
+			(xy 310 238.81) (xy 310 242.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a6a5339-ab7b-4751-aaa4-a719c2cd5ad6")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 310 242.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba2b7b69-445c-4ebe-90f9-1e862a7c6ed0")
+		(property "Reference" "#PWR0333"
+			(at 310 248.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 310 246.938 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 310 242.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 310 242.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9f508c11-005e-42e7-b356-17a10d7472d4")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "#PWR0333")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 340 225 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "98c0a660-47e9-4ff1-9c5c-a43356d22e3d")
+		(property "Reference" "R82"
+			(at 343.4 223.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 343.4 226.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 340 225 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 340 225 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C25803"
+			(at 340 225 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d3b3d2f4-5fb3-4297-8140-9597e4f2140f")
+		)
+		(pin "2"
+			(uuid "9a462b15-ccc0-4aac-9c33-82d158619050")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "R82")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 340 221.19) (xy 340 217.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92978bd8-fa29-47de-891e-99dcb32d5a56")
+	)
+	(label "5V"
+		(at 340 217.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d9eccba-a152-4e1c-85e4-73d8f2873e07")
+	)
+	(wire
+		(pts
+			(xy 340 228.81) (xy 340 232.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec3b93ec-1c23-4109-8153-5a9d32f7e34d")
+	)
+	(label "FB_5V"
+		(at 340 232.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fd8dd2c6-9a4b-48a1-8f94-d190541c5c0a")
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 340 250 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "813d6387-faa3-4bad-941f-1c1f36cbd942")
+		(property "Reference" "R83"
+			(at 343.4 248.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "24k9"
+			(at 343.4 251.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 340 250 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 340 250 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "470abe6a-ab54-43ae-949c-fe3d653f8992")
+		)
+		(pin "2"
+			(uuid "c768cc4f-1b1a-4399-9d3a-e1810e35660f")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "R83")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 340 246.19) (xy 340 242.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c61da91c-6779-4243-a9cd-ccf0ab565a39")
+	)
+	(label "FB_5V"
+		(at 340 242.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e1bf900b-8aad-4cdd-a38f-8646999f7a9d")
+	)
+	(wire
+		(pts
+			(xy 340 253.81) (xy 340 257.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e1261a8-cbd8-4e82-a935-68dcf6b9b029")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 340 257.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33fefa8d-faca-48c7-869e-84ae0919dc86")
+		(property "Reference" "#PWR0334"
+			(at 340 263.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 340 261.938 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 340 257.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 340 257.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "35b5d667-ea5e-4eeb-b5f8-431ff453a1a3")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "#PWR0334")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 365 225 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fe6ba5a8-1335-4db6-b11f-b60aa5af0fd6")
+		(property "Reference" "C93"
+			(at 368.4 223.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5p1"
+			(at 368.4 226.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 365 225 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 365 225 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "94202cd2-2d26-4d04-bc14-3f57976f6525")
+		)
+		(pin "2"
+			(uuid "81bb1cf8-6d6a-4f7d-97e7-9114bae75353")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "C93")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 365 221.19) (xy 365 217.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16c4b6ca-2a2d-4d01-a6a9-f638bb0b06a9")
+	)
+	(label "5V"
+		(at 365 217.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e31e12b4-77de-4f93-9f8b-180f128cea14")
+	)
+	(wire
+		(pts
+			(xy 365 228.81) (xy 365 232.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe17a57e-c07d-469f-8411-7ddfe46c9b6a")
+	)
+	(label "FB_5V"
+		(at 365 232.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb87bc0f-7d2c-457b-b6b0-41e15b5f13b7")
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 385 225 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8ad6f47e-1183-4da8-b8da-7a827991c92e")
+		(property "Reference" "R84"
+			(at 388.4 223.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 388.4 226.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 385 225 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 385 225 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C25803"
+			(at 385 225 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3bb2d089-8f8f-43dd-8187-e13062e4c418")
+		)
+		(pin "2"
+			(uuid "1ebabaa2-f090-41c3-a512-7afb62561187")
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0/0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e"
+					(reference "R84")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 385 221.19) (xy 385 217.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09b9a076-d1c5-45bc-bb03-a92587d62100")
+	)
+	(label "5V"
+		(at 385 217.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7740a0bf-f909-4e20-90a8-ae41f792c7ce")
+	)
+	(wire
+		(pts
+			(xy 385 228.81) (xy 385 232.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6900b0f-db70-418e-a38a-f3a91667f364")
+	)
+	(label "PG_5V"
+		(at 385 232.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d131fedd-7d5e-4f7a-baa3-341def80b5f4")
+	)
+	(wire
+		(pts
+			(xy 25 40) (xy 28.81 40)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c08eb87-10e9-4cdf-a82d-2a42adf27722")
+	)
+	(label "VIN"
+		(at 28.81 40 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a34df62-383e-422b-8f01-8026bc1f23a9")
+	)
+	(hierarchical_label "VIN"
+		(shape input)
+		(at 25 40 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "04b339aa-abfe-4861-a23d-0695dbfb1d52")
+	)
+	(wire
+		(pts
+			(xy 410 40) (xy 406.19 40)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09185e5d-a44b-4701-af7e-498276fe7a1b")
+	)
+	(label "12V"
+		(at 406.19 40 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3be99cc3-ed6e-4e23-9150-6bcbb453c681")
+	)
+	(hierarchical_label "12V"
+		(shape output)
+		(at 410 40 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c9431114-5576-4803-826a-cb980ca61647")
+	)
+	(wire
+		(pts
+			(xy 410 215) (xy 406.19 215)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5313c09-c6f2-4c8e-9e0c-5742c7deda18")
+	)
+	(label "5V"
+		(at 406.19 215 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d9731c6b-2501-4c87-973d-b2c0b7c23d5d")
+	)
+	(hierarchical_label "5V"
+		(shape output)
+		(at 410 215 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "70325cfb-e610-4b7a-9177-364d70d3649a")
+	)
+)

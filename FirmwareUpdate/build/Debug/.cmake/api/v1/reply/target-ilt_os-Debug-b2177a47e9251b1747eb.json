@@ -1,0 +1,386 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "ILT_OS/CMakeFiles/ilt_os.dir/./Lib/Thread.cpp.obj"
+		},
+		{
+			"path" : "ILT_OS/CMakeFiles/ilt_os.dir/./Lib/Kernel.cpp.obj"
+		},
+		{
+			"path" : "ILT_OS/CMakeFiles/ilt_os.dir/./Lib/Mutex.cpp.obj"
+		},
+		{
+			"path" : "ILT_OS/CMakeFiles/ilt_os.dir/./Lib/Semaphore.cpp.obj"
+		},
+		{
+			"path" : "ILT_OS/CMakeFiles/ilt_os.dir/./Lib/Queue.cpp.obj"
+		},
+		{
+			"path" : "ILT_OS/CMakeFiles/ilt_os.dir/./Lib/EventFlags.cpp.obj"
+		},
+		{
+			"path" : "ILT_OS/CMakeFiles/ilt_os.dir/./Lib/Timer.cpp.obj"
+		},
+		{
+			"path" : "ILT_OS/CMakeFiles/ilt_os.dir/./Lib/Net/NetworkStack.cpp.obj"
+		},
+		{
+			"path" : "ILT_OS/CMakeFiles/ilt_os.dir/./Lib/Net/HttpServer.cpp.obj"
+		},
+		{
+			"path" : "ILT_OS/CMakeFiles/ilt_os.dir/./Lib/Net/StreamServer.cpp.obj"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"target_compile_definitions"
+		],
+		"files" : 
+		[
+			"ILT_OS/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 25,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 38,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 40,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++17"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-fno-rtti"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-fno-threadsafe-statics"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-fno-use-cxa-atexit"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-g3"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-gdwarf-2"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-mcpu=cortex-m7"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-mfpu=fpv5-d16"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-mfloat-abi=hard"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "ILT_HTTP_MAX_ROUTES=12"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "ILT_HTTP_RENDER_BUFFERS=2"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "ILT_HTTP_RENDER_BYTES=1024"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "ILT_RIG_SIMULATED=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "ILT_STREAM_MAX_CLIENTS=4"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "ILT_STREAM_POOL_DEPTH=4"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "ILT_STREAM_RECORD_BYTES=192"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "ILT_WEBSITE_SECTION"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "STM32F767xx"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "USE_HAL_DRIVER"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/BSP/Include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/BSP/Boards/NucleoF767ZI/Core/Inc"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/BSP/Boards/NucleoF767ZI/Drivers/STM32F7xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/BSP/Boards/NucleoF767ZI/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/BSP/Boards/NucleoF767ZI/Drivers/CMSIS/Device/ST/STM32F7xx/Include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/BSP/Boards/NucleoF767ZI/Drivers/CMSIS/Include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/BSP/Boards/NucleoF767ZI/Drivers/BSP/Components/lan8742"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/BSP/Boards/NucleoF767ZI/LWIP/App"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/BSP/Boards/NucleoF767ZI/LWIP/Target"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/FreeRTOS/Source/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/LwIP/src/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/LwIP/src/include/lwip"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/LwIP/src/include/lwip/apps"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/LwIP/src/include/lwip/priv"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/LwIP/src/include/lwip/prot"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/LwIP/src/include/netif"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/LwIP/src/include/netif/ppp"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/LwIP/system"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/LwIP/system/arch"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/ILT_OS/Lib"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9
+			]
+		}
+	],
+	"id" : "ilt_os::@5cb00e956067003c72c5",
+	"name" : "ilt_os",
+	"paths" : 
+	{
+		"build" : "ILT_OS",
+		"source" : "ILT_OS"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ILT_OS/Lib/Thread.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ILT_OS/Lib/Kernel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ILT_OS/Lib/Mutex.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ILT_OS/Lib/Semaphore.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ILT_OS/Lib/Queue.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ILT_OS/Lib/EventFlags.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ILT_OS/Lib/Timer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ILT_OS/Lib/Net/NetworkStack.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ILT_OS/Lib/Net/HttpServer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ILT_OS/Lib/Net/StreamServer.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

@@ -1,0 +1,833 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "BSP/Boards/NucleoF767ZI/CMakeFiles/ilt_bsp.dir/./Core/Src/freertos.c.obj"
+		},
+		{
+			"path" : "BSP/Boards/NucleoF767ZI/CMakeFiles/ilt_bsp.dir/./Core/Src/gpio.c.obj"
+		},
+		{
+			"path" : "BSP/Boards/NucleoF767ZI/CMakeFiles/ilt_bsp.dir/./Core/Src/main.c.obj"
+		},
+		{
+			"path" : "BSP/Boards/NucleoF767ZI/CMakeFiles/ilt_bsp.dir/./Core/Src/stm32f7xx_hal_msp.c.obj"
+		},
+		{
+			"path" : "BSP/Boards/NucleoF767ZI/CMakeFiles/ilt_bsp.dir/./Core/Src/stm32f7xx_hal_timebase_tim.c.obj"
+		},
+		{
+			"path" : "BSP/Boards/NucleoF767ZI/CMakeFiles/ilt_bsp.dir/./Core/Src/stm32f7xx_it.c.obj"
+		},
+		{
+			"path" : "BSP/Boards/NucleoF767ZI/CMakeFiles/ilt_bsp.dir/./Core/Src/syscalls.c.obj"
+		},
+		{
+			"path" : "BSP/Boards/NucleoF767ZI/CMakeFiles/ilt_bsp.dir/./Core/Src/sysmem.c.obj"
+		},
+		{
+			"path" : "BSP/Boards/NucleoF767ZI/CMakeFiles/ilt_bsp.dir/./Core/Src/system_stm32f7xx.c.obj"
+		},
+		{
+			"path" : "BSP/Boards/NucleoF767ZI/CMakeFiles/ilt_bsp.dir/./Core/Src/usart.c.obj"
+		},
+		{
+			"path" : "BSP/Boards/NucleoF767ZI/CMakeFiles/ilt_bsp.dir/./Core/Src/usb_otg.c.obj"
+		},
+		{
+			"path" : "BSP/Boards/NucleoF767ZI/CMakeFiles/ilt_bsp.dir/./Drivers/BSP/Components/lan8742/lan8742.c.obj"
+		},
+		{
+			"path" : "BSP/Boards/NucleoF767ZI/CMakeFiles/ilt_bsp.dir/./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.obj"
+		},
+		{
+			"path" : "BSP/Boards/NucleoF767ZI/CMakeFiles/ilt_bsp.dir/./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.obj"
+		},
+		{
+			"path" : "BSP/Boards/NucleoF767ZI/CMakeFiles/ilt_bsp.dir/./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.obj"
+		},
+		{
+			"path" : "BSP/Boards/NucleoF767ZI/CMakeFiles/ilt_bsp.dir/./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c.obj"
+		},
+		{
+			"path" : "BSP/Boards/NucleoF767ZI/CMakeFiles/ilt_bsp.dir/./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_eth.c.obj"
+		},
+		{
+			"path" : "BSP/Boards/NucleoF767ZI/CMakeFiles/ilt_bsp.dir/./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.c.obj"
+		},
+		{
+			"path" : "BSP/Boards/NucleoF767ZI/CMakeFiles/ilt_bsp.dir/./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c.obj"
+		},
+		{
+			"path" : "BSP/Boards/NucleoF767ZI/CMakeFiles/ilt_bsp.dir/./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c.obj"
+		},
+		{
+			"path" : "BSP/Boards/NucleoF767ZI/CMakeFiles/ilt_bsp.dir/./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.obj"
+		},
+		{
+			"path" : "BSP/Boards/NucleoF767ZI/CMakeFiles/ilt_bsp.dir/./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c.obj"
+		},
+		{
+			"path" : "BSP/Boards/NucleoF767ZI/CMakeFiles/ilt_bsp.dir/./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c.obj"
+		},
+		{
+			"path" : "BSP/Boards/NucleoF767ZI/CMakeFiles/ilt_bsp.dir/./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c.obj"
+		},
+		{
+			"path" : "BSP/Boards/NucleoF767ZI/CMakeFiles/ilt_bsp.dir/./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c.obj"
+		},
+		{
+			"path" : "BSP/Boards/NucleoF767ZI/CMakeFiles/ilt_bsp.dir/./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.obj"
+		},
+		{
+			"path" : "BSP/Boards/NucleoF767ZI/CMakeFiles/ilt_bsp.dir/./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.obj"
+		},
+		{
+			"path" : "BSP/Boards/NucleoF767ZI/CMakeFiles/ilt_bsp.dir/./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.obj"
+		},
+		{
+			"path" : "BSP/Boards/NucleoF767ZI/CMakeFiles/ilt_bsp.dir/./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.obj"
+		},
+		{
+			"path" : "BSP/Boards/NucleoF767ZI/CMakeFiles/ilt_bsp.dir/./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj"
+		},
+		{
+			"path" : "BSP/Boards/NucleoF767ZI/CMakeFiles/ilt_bsp.dir/./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.obj"
+		},
+		{
+			"path" : "BSP/Boards/NucleoF767ZI/CMakeFiles/ilt_bsp.dir/./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.obj"
+		},
+		{
+			"path" : "BSP/Boards/NucleoF767ZI/CMakeFiles/ilt_bsp.dir/./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart_ex.c.obj"
+		},
+		{
+			"path" : "BSP/Boards/NucleoF767ZI/CMakeFiles/ilt_bsp.dir/./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c.obj"
+		},
+		{
+			"path" : "BSP/Boards/NucleoF767ZI/CMakeFiles/ilt_bsp.dir/./LWIP/Target/ethernetif.c.obj"
+		},
+		{
+			"path" : "BSP/Boards/NucleoF767ZI/CMakeFiles/ilt_bsp.dir/./Board.cpp.obj"
+		},
+		{
+			"path" : "BSP/Boards/NucleoF767ZI/CMakeFiles/ilt_bsp.dir/./BoardEthernet.cpp.obj"
+		},
+		{
+			"path" : "BSP/Boards/NucleoF767ZI/CMakeFiles/ilt_bsp.dir/./__/__/Shared/RigSimulation.cpp.obj"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"BSP/Boards/NucleoF767ZI/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 82,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 89,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu11"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-g3"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-gdwarf-2"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-mcpu=cortex-m7"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-mfpu=fpv5-d16"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-mfloat-abi=hard"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "ILT_RIG_SIMULATED=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "ILT_WEBSITE_SECTION"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "STM32F767xx"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "USE_HAL_DRIVER"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/BSP/Include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/BSP/Boards/NucleoF767ZI/Core/Inc"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/BSP/Boards/NucleoF767ZI/Drivers/STM32F7xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/BSP/Boards/NucleoF767ZI/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/BSP/Boards/NucleoF767ZI/Drivers/CMSIS/Device/ST/STM32F7xx/Include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/BSP/Boards/NucleoF767ZI/Drivers/CMSIS/Include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/BSP/Boards/NucleoF767ZI/Drivers/BSP/Components/lan8742"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/BSP/Boards/NucleoF767ZI/LWIP/App"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/BSP/Boards/NucleoF767ZI/LWIP/Target"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/FreeRTOS/Source/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/LwIP/src/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/LwIP/src/include/lwip"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/LwIP/src/include/lwip/apps"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/LwIP/src/include/lwip/priv"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/LwIP/src/include/lwip/prot"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/LwIP/src/include/netif"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/LwIP/src/include/netif/ppp"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/LwIP/system"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/LwIP/system/arch"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/ILT_OS/Lib"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++17"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-fno-rtti"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-fno-threadsafe-statics"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-fno-use-cxa-atexit"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-g3"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-gdwarf-2"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-mcpu=cortex-m7"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-mfpu=fpv5-d16"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-mfloat-abi=hard"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "ILT_RIG_SIMULATED=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "ILT_WEBSITE_SECTION"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "STM32F767xx"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "USE_HAL_DRIVER"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/BSP/Include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/BSP/Boards/NucleoF767ZI/Core/Inc"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/BSP/Boards/NucleoF767ZI/Drivers/STM32F7xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/BSP/Boards/NucleoF767ZI/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/BSP/Boards/NucleoF767ZI/Drivers/CMSIS/Device/ST/STM32F7xx/Include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/BSP/Boards/NucleoF767ZI/Drivers/CMSIS/Include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/BSP/Boards/NucleoF767ZI/Drivers/BSP/Components/lan8742"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/BSP/Boards/NucleoF767ZI/LWIP/App"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/BSP/Boards/NucleoF767ZI/LWIP/Target"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/FreeRTOS/Source/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/LwIP/src/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/LwIP/src/include/lwip"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/LwIP/src/include/lwip/apps"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/LwIP/src/include/lwip/priv"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/LwIP/src/include/lwip/prot"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/LwIP/src/include/netif"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/LwIP/src/include/netif/ppp"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/LwIP/system"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/Middlewares/Third_Party/LwIP/system/arch"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/ILT_OS/Lib"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				35,
+				36,
+				37
+			]
+		}
+	],
+	"id" : "ilt_bsp::@8a807277ae5fb0f163c5",
+	"name" : "ilt_bsp",
+	"paths" : 
+	{
+		"build" : "BSP/Boards/NucleoF767ZI",
+		"source" : "BSP/Boards/NucleoF767ZI"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "BSP/Boards/NucleoF767ZI/Core/Src/freertos.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "BSP/Boards/NucleoF767ZI/Core/Src/gpio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "BSP/Boards/NucleoF767ZI/Core/Src/main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "BSP/Boards/NucleoF767ZI/Core/Src/stm32f7xx_hal_msp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "BSP/Boards/NucleoF767ZI/Core/Src/stm32f7xx_hal_timebase_tim.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "BSP/Boards/NucleoF767ZI/Core/Src/stm32f7xx_it.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "BSP/Boards/NucleoF767ZI/Core/Src/syscalls.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "BSP/Boards/NucleoF767ZI/Core/Src/sysmem.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "BSP/Boards/NucleoF767ZI/Core/Src/system_stm32f7xx.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "BSP/Boards/NucleoF767ZI/Core/Src/usart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "BSP/Boards/NucleoF767ZI/Core/Src/usb_otg.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "BSP/Boards/NucleoF767ZI/Drivers/BSP/Components/lan8742/lan8742.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "BSP/Boards/NucleoF767ZI/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "BSP/Boards/NucleoF767ZI/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "BSP/Boards/NucleoF767ZI/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "BSP/Boards/NucleoF767ZI/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "BSP/Boards/NucleoF767ZI/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_eth.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "BSP/Boards/NucleoF767ZI/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "BSP/Boards/NucleoF767ZI/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "BSP/Boards/NucleoF767ZI/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "BSP/Boards/NucleoF767ZI/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "BSP/Boards/NucleoF767ZI/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "BSP/Boards/NucleoF767ZI/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "BSP/Boards/NucleoF767ZI/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "BSP/Boards/NucleoF767ZI/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "BSP/Boards/NucleoF767ZI/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "BSP/Boards/NucleoF767ZI/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "BSP/Boards/NucleoF767ZI/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "BSP/Boards/NucleoF767ZI/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "BSP/Boards/NucleoF767ZI/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "BSP/Boards/NucleoF767ZI/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "BSP/Boards/NucleoF767ZI/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "BSP/Boards/NucleoF767ZI/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "BSP/Boards/NucleoF767ZI/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "BSP/Boards/NucleoF767ZI/LWIP/Target/ethernetif.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "BSP/Boards/NucleoF767ZI/Board.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "BSP/Boards/NucleoF767ZI/BoardEthernet.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "BSP/Shared/RigSimulation.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

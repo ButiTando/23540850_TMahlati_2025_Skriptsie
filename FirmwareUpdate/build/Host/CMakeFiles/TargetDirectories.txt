@@ -1,0 +1,17 @@
+/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/build/Host/CMakeFiles/FirmwareUpdate.dir
+/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/build/Host/CMakeFiles/edit_cache.dir
+/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/build/Host/CMakeFiles/rebuild_cache.dir
+/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/build/Host/BSP/CMakeFiles/edit_cache.dir
+/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/build/Host/BSP/CMakeFiles/rebuild_cache.dir
+/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/build/Host/BSP/Boards/Host/CMakeFiles/ilt_bsp.dir
+/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/build/Host/BSP/Boards/Host/CMakeFiles/edit_cache.dir
+/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/build/Host/BSP/Boards/Host/CMakeFiles/rebuild_cache.dir
+/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/build/Host/Middlewares/CMakeFiles/ilt_middlewares.dir
+/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/build/Host/Middlewares/CMakeFiles/edit_cache.dir
+/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/build/Host/Middlewares/CMakeFiles/rebuild_cache.dir
+/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/build/Host/ILT_OS/CMakeFiles/ilt_os.dir
+/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/build/Host/ILT_OS/CMakeFiles/edit_cache.dir
+/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/build/Host/ILT_OS/CMakeFiles/rebuild_cache.dir
+/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/build/Host/ILT_OS/Applications/ILT_TESTRIG/CMakeFiles/ilt_app.dir
+/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/build/Host/ILT_OS/Applications/ILT_TESTRIG/CMakeFiles/edit_cache.dir
+/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/build/Host/ILT_OS/Applications/ILT_TESTRIG/CMakeFiles/rebuild_cache.dir

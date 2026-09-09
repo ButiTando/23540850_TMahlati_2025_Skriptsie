@@ -1,0 +1,164 @@
+/*
+ * Palette roles. The six channel colours are the validated categorical slots
+ * 1-6; the dark column is the same six hues re-stepped for the dark surface,
+ * not an automatic flip. Both sets were checked with the palette validator:
+ * light passes every gate with a contrast WARN on aqua/yellow/magenta, which is
+ * why every chart here ships direct labels and a table view (the relief rule).
+ */
+:root {
+  color-scheme: light;
+
+  --surface-0: #f4f4f2;
+  --surface-1: #fcfcfb;
+  --surface-2: #eeeeea;
+  --border:    #dcdcd6;
+  --border-strong: #c4c4bc;
+
+  --text-primary:   #0b0b0b;
+  --text-secondary: #52514e;
+  --text-muted:     #78776f;
+
+  --series-1: #2a78d6;
+  --series-2: #eb6834;
+  --series-3: #1baf7a;
+  --series-4: #eda100;
+  --series-5: #e87ba4;
+  --series-6: #008300;
+
+  /* Reserved status colours - never reused as a series. */
+  --status-good:     #1a7f42;
+  --status-warning:  #eda100;
+  --status-serious:  #eb6834;
+  --status-critical: #d13438;
+
+  --beam: #eb6834;
+
+  /* The lens the carousel is currently driving to. */
+  --target: #0f7a46;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-theme='light'])) {
+    color-scheme: dark;
+
+    --surface-0: #121211;
+    --surface-1: #1a1a19;
+    --surface-2: #242422;
+    --border:    #35352f;
+    --border-strong: #4a4a42;
+
+    --text-primary:   #ffffff;
+    --text-secondary: #c3c2b7;
+    --text-muted:     #93928a;
+
+    --series-1: #3987e5;
+    --series-2: #d95926;
+    --series-3: #199e70;
+    --series-4: #c98500;
+    --series-5: #d55181;
+    --series-6: #008300;
+
+    --status-good:     #3aa564;
+    --status-warning:  #c98500;
+    --status-serious:  #d95926;
+    --status-critical: #e66767;
+
+    --beam: #d95926;
+    --target: #35b06e;
+  }
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --surface-0: #121211;
+  --surface-1: #1a1a19;
+  --surface-2: #242422;
+  --border:    #35352f;
+  --border-strong: #4a4a42;
+  --text-primary:   #ffffff;
+  --text-secondary: #c3c2b7;
+  --text-muted:     #93928a;
+  --series-1: #3987e5;
+  --series-2: #d95926;
+  --series-3: #199e70;
+  --series-4: #c98500;
+  --series-5: #d55181;
+  --series-6: #008300;
+  --status-good:     #3aa564;
+  --status-warning:  #c98500;
+  --status-serious:  #d95926;
+  --status-critical: #e66767;
+  --beam: #d95926;
+  --target: #35b06e;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--surface-0);
+  color: var(--text-primary);
+  font: 14px/1.55 system-ui, -apple-system, 'Segoe UI', sans-serif;
+  font-variant-numeric: tabular-nums;
+}
+
+.app { max-width: 74rem; margin: 0 auto; padding: 1.5rem 1.25rem 4rem; }
+
+header.masthead {
+  display: flex; align-items: baseline; gap: 0.75rem;
+  flex-wrap: wrap; margin-bottom: 1.25rem;
+}
+header.masthead h1 { font-size: 1.15rem; margin: 0; letter-spacing: -0.01em; }
+header.masthead .sub { color: var(--text-secondary); font-size: 0.85rem; }
+
+.card {
+  background: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: 0.6rem;
+  padding: 1rem 1.1rem;
+  margin-bottom: 1rem;
+}
+.card > h2 {
+  font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.07em;
+  color: var(--text-secondary); margin: 0 0 0.85rem; font-weight: 600;
+}
+.card-head {
+  display: flex; align-items: baseline; justify-content: space-between;
+  gap: 1rem; margin-bottom: 0.85rem; flex-wrap: wrap;
+}
+.card-head h2 { margin: 0; }
+
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+@media (max-width: 60rem) { .grid-2 { grid-template-columns: 1fr; } }
+
+dl.kv { display: grid; grid-template-columns: auto 1fr; gap: 0.35rem 1rem; margin: 0; }
+dl.kv dt { color: var(--text-secondary); }
+dl.kv dd { margin: 0; }
+
+.pill {
+  display: inline-flex; align-items: center; gap: 0.4rem;
+  border: 1px solid var(--border-strong); border-radius: 999px;
+  padding: 0.1rem 0.6rem; font-size: 0.8rem;
+}
+.dot { width: 0.55em; height: 0.55em; border-radius: 50%; flex: none; }
+
+button {
+  font: inherit; color: var(--text-primary);
+  background: var(--surface-2); border: 1px solid var(--border-strong);
+  border-radius: 0.4rem; padding: 0.35rem 0.85rem; cursor: pointer;
+}
+button:hover:not(:disabled) { border-color: var(--text-muted); }
+button:disabled { opacity: 0.5; cursor: not-allowed; }
+button.primary { background: var(--series-1); border-color: var(--series-1); color: #fff; }
+
+table.data { border-collapse: collapse; width: 100%; font-size: 0.85rem; }
+table.data th, table.data td {
+  text-align: right; padding: 0.3rem 0.5rem; border-bottom: 1px solid var(--border);
+}
+table.data th:first-child, table.data td:first-child { text-align: left; }
+table.data th { color: var(--text-secondary); font-weight: 600; font-size: 0.75rem; }
+
+.muted { color: var(--text-muted); }
+.warn  { color: var(--status-serious); }
+.legend { display: flex; flex-wrap: wrap; gap: 0.4rem 1rem; font-size: 0.8rem; }
+.legend span { display: inline-flex; align-items: center; gap: 0.35rem; }

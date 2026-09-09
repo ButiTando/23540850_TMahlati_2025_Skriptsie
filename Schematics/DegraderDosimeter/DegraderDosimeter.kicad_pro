@@ -901,7 +901,7 @@
         "uuid": "f3c83d46-b432-4960-ae55-27eb620ca6d0"
       }
     ],
-    "used_designators": "SW1,U1-15,J1-10,Y1-2,#PWR1-90,#PWR203-205,FB1-2,C1-66,R1-64,TP1-30,L1-3,RV1-6",
+    "used_designators": "SW1,U1-15,J1-10,Y1-2,#PWR1-90,#PWR203-205,#PWR312,#PWR326,#PWR333,FB1-2,C1-66,R1-64,TP1-30,L1-3,RV1-6",
     "variants": []
   },
   "sheets": [
@@ -948,6 +948,22 @@
     [
       "9ad00133-e13c-465e-ad59-297593e6d3f6",
       "Degrader"
+    ],
+    [
+      "0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e",
+      "MotorSupply"
+    ],
+    [
+      "c212794e-4918-4b3d-a36e-9b32209575fa",
+      "Debugger"
+    ],
+    [
+      "7b3a1c40-9d52-4e18-b6a7-2f0c5e9a4d31",
+      "StepperDrivers"
+    ],
+    [
+      "3e6b91d7-52a4-4c0b-8f13-a7d905c81b62",
+      "ADC_I2C"
     ]
   ],
   "text_variables": {},

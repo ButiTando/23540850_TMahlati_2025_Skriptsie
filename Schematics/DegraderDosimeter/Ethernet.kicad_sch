@@ -10116,6 +10116,16 @@
 		)
 		(uuid "5ad099ac-1b5c-4875-a07f-0d35f2ad74c2")
 	)
+	(label "ETH_BOB_SMITH"
+		(at 193.806 131.064 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "65ef8194-0ef2-4267-a394-e6ba7d3cd962")
+	)
 	(label "TD_P"
 		(at 118.364 63.754 0)
 		(effects
@@ -10186,6 +10196,16 @@
 		)
 		(uuid "836ad680-cddc-4c53-9284-2931fdcdcb6f")
 	)
+	(label "LED2_RTN"
+		(at 249.686 91.948 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "845ef491-4e3b-4658-bcf4-f98f4cc7a601")
+	)
 	(label "ETH_VDDA"
 		(at 99.822 34.036 0)
 		(effects
@@ -10235,6 +10255,16 @@
 			(justify left bottom)
 		)
 		(uuid "c63cd537-e0ca-4109-842a-597e1da34721")
+	)
+	(label "LED1_RTN"
+		(at 247.146 107.188 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cd6f62eb-631a-49a3-bdea-8a9a39d65f3b")
 	)
 	(label "TX_N"
 		(at 219.964 91.948 0)
@@ -10667,7 +10697,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 33.528 65.024 0)
 			(hide yes)
 			(show_name no)
@@ -10690,6 +10720,17 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 33.528 65.024 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23140"
 			(at 33.528 65.024 0)
 			(hide yes)
 			(show_name no)
@@ -10746,7 +10787,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 195.072 126.492 0)
 			(hide yes)
 			(show_name no)
@@ -10769,6 +10810,17 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 195.072 126.492 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C4275"
 			(at 195.072 126.492 0)
 			(hide yes)
 			(show_name no)
@@ -10903,7 +10955,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 63.5 39.8272 0)
 			(hide yes)
 			(show_name no)
@@ -10926,6 +10978,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 67.31 38.862 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15849"
 			(at 67.31 38.862 0)
 			(hide yes)
 			(show_name no)
@@ -10982,7 +11045,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 158.242 34.544 0)
 			(hide yes)
 			(show_name no)
@@ -11005,6 +11068,17 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 158.242 34.544 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23185"
 			(at 158.242 34.544 0)
 			(hide yes)
 			(show_name no)
@@ -11139,7 +11213,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 63.5 20.0152 0)
 			(hide yes)
 			(show_name no)
@@ -11162,6 +11236,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 67.31 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
 			(at 67.31 19.05 0)
 			(hide yes)
 			(show_name no)
@@ -11218,7 +11303,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 37.592 117.3988 0)
 			(hide yes)
 			(show_name no)
@@ -11373,7 +11458,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 37.592 137.2108 0)
 			(hide yes)
 			(show_name no)
@@ -11618,7 +11703,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 33.528 68.072 0)
 			(hide yes)
 			(show_name no)
@@ -11641,6 +11726,17 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 33.528 68.072 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23140"
 			(at 33.528 68.072 0)
 			(hide yes)
 			(show_name no)
@@ -11775,7 +11871,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 47.498 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -11798,6 +11894,17 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 47.498 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 47.498 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -12137,7 +12244,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 40.386 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -12160,6 +12267,17 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 40.386 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 40.386 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -12545,7 +12663,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 33.782 72.898 0)
 			(hide yes)
 			(show_name no)
@@ -12568,6 +12686,17 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 33.782 72.898 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23140"
 			(at 33.782 72.898 0)
 			(hide yes)
 			(show_name no)
@@ -12624,7 +12753,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 264.414 109.982 0)
 			(hide yes)
 			(show_name no)
@@ -12647,6 +12776,17 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 264.414 109.982 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 264.414 109.982 0)
 			(hide yes)
 			(show_name no)
@@ -12703,7 +12843,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 54.864 73.914 0)
 			(hide yes)
 			(show_name no)
@@ -12726,6 +12866,17 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 54.864 73.914 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 54.864 73.914 0)
 			(hide yes)
 			(show_name no)
@@ -12782,7 +12933,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 137.16 34.798 0)
 			(hide yes)
 			(show_name no)
@@ -12805,6 +12956,17 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 137.16 34.798 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23185"
 			(at 137.16 34.798 0)
 			(hide yes)
 			(show_name no)
@@ -12861,7 +13023,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 116.332 78.994 0)
 			(hide yes)
 			(show_name no)
@@ -12940,7 +13102,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 151.638 34.544 0)
 			(hide yes)
 			(show_name no)
@@ -12963,6 +13125,17 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 151.638 34.544 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23185"
 			(at 151.638 34.544 0)
 			(hide yes)
 			(show_name no)
@@ -13175,7 +13348,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 20.32 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -13198,6 +13371,17 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 20.32 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22843"
 			(at 20.32 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -13254,7 +13438,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 63.5 30.1752 0)
 			(hide yes)
 			(show_name no)
@@ -13277,6 +13461,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 67.31 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1620"
 			(at 67.31 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -13333,7 +13528,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 102.8192 44.958 0)
 			(hide yes)
 			(show_name no)
@@ -13356,6 +13551,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 101.854 41.148 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
 			(at 101.854 41.148 0)
 			(hide yes)
 			(show_name no)
@@ -13412,7 +13618,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 187.452 126.492 0)
 			(hide yes)
 			(show_name no)
@@ -13435,6 +13641,17 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 187.452 126.492 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C4275"
 			(at 187.452 126.492 0)
 			(hide yes)
 			(show_name no)
@@ -13569,7 +13786,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 250.952 107.188 0)
 			(hide yes)
 			(show_name no)
@@ -13592,6 +13809,17 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 250.952 107.188 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22966"
 			(at 250.952 107.188 0)
 			(hide yes)
 			(show_name no)
@@ -13648,7 +13876,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 122.8852 44.958 0)
 			(hide yes)
 			(show_name no)
@@ -13671,6 +13899,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 121.92 41.148 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
 			(at 121.92 41.148 0)
 			(hide yes)
 			(show_name no)
@@ -13727,7 +13966,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 112.9792 44.704 0)
 			(hide yes)
 			(show_name no)
@@ -13750,6 +13989,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 112.014 40.894 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
 			(at 112.014 40.894 0)
 			(hide yes)
 			(show_name no)
@@ -13884,7 +14134,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 20.32 97.282 0)
 			(hide yes)
 			(show_name no)
@@ -13907,6 +14157,17 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 20.32 97.282 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 20.32 97.282 0)
 			(hide yes)
 			(show_name no)
@@ -14041,7 +14302,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 36.576 105.664 0)
 			(hide yes)
 			(show_name no)
@@ -14064,6 +14325,17 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 36.576 105.664 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23140"
 			(at 36.576 105.664 0)
 			(hide yes)
 			(show_name no)
@@ -14198,7 +14470,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 253.492 91.948 0)
 			(hide yes)
 			(show_name no)
@@ -14221,6 +14493,17 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 253.492 91.948 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22966"
 			(at 253.492 91.948 0)
 			(hide yes)
 			(show_name no)
@@ -14277,7 +14560,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 144.526 34.798 0)
 			(hide yes)
 			(show_name no)
@@ -14300,6 +14583,17 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 144.526 34.798 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23185"
 			(at 144.526 34.798 0)
 			(hide yes)
 			(show_name no)
@@ -14435,7 +14729,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 54.102 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -14458,6 +14752,17 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 54.102 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 54.102 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -14492,7 +14797,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f707f3d3-5d93-43a6-94fb-abad3a3f1984")
 		(property "Reference" "J1"
 			(at 239.776 110.998 0)
@@ -14627,7 +14932,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 221.4372 35.306 0)
 			(hide yes)
 			(show_name no)
@@ -14650,6 +14955,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 220.472 31.496 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
 			(at 220.472 31.496 0)
 			(hide yes)
 			(show_name no)
@@ -14753,34 +15069,4 @@
 			)
 		)
 	)
-	(label "ETH_BOB_SMITH"
-		(at 193.806 131.064 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "65ef8194-0ef2-4267-a394-e6ba7d3cd962")
-	)
-	(label "LED1_RTN"
-		(at 247.146 107.188 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cd6f62eb-631a-49a3-bdea-8a9a39d65f3b")
-	)
-	(label "LED2_RTN"
-		(at 249.686 91.948 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "845ef491-4e3b-4658-bcf4-f98f4cc7a601")
-	)
-	)
+)

@@ -1,7 +1,11 @@
 /**
   ******************************************************************************
   * @file    BlinkyApp.cpp
-  * @brief   Blinks an LED from an ilt::Thread.
+  * @brief   Blinks a board LED from an ilt::Thread.
+  *
+  * The smoke test: if this blinks, the clocks, the scheduler and the BSP are
+  * all working. It names the LED by role rather than by port and pin, so it
+  * builds unchanged for any board under BSP/Boards.
   *
   * Everything configurable here arrives as a -D from this application's
   * CMakeLists.txt; see the flags documented there.
@@ -11,11 +15,11 @@
 #include "Application.h"
 #include "Thread.h"
 
-#include "main.h" /* LDx_Pin / LDx_GPIO_Port, HAL_GPIO_* */
+#include "Bsp/Led.h"
 
 /* Defaults, so the translation unit still compiles if built without CMake. */
 #ifndef BLINKY_LED
-#define BLINKY_LED LD2
+#define BLINKY_LED Status
 #endif
 #ifndef BLINKY_PERIOD_MS
 #define BLINKY_PERIOD_MS 500
@@ -24,16 +28,9 @@
 #define BLINKY_STACK_BYTES 512
 #endif
 
-/* BLINKY_LED arrives as a bare token (LD2), which is pasted onto the pin and
-   port macro names that CubeMX generates in main.h. Two levels of indirection
-   are needed so BLINKY_LED is expanded before the ## is applied. */
-#define ILT_PASTE_(a, b) a##b
-#define ILT_PASTE(a, b) ILT_PASTE_(a, b)
-
-#define BLINKY_PIN ILT_PASTE(BLINKY_LED, _Pin)
-#define BLINKY_PORT ILT_PASTE(BLINKY_LED, _GPIO_Port)
-
 namespace {
+
+constexpr bsp::Led kLed = bsp::Led::BLINKY_LED;
 
 class BlinkyThread : public ilt::StaticThread<BLINKY_STACK_BYTES>
 {
@@ -52,14 +49,14 @@ protected:
             /* Two short pulses, then hold off for the rest of the period. */
             for (int i = 0; i < 2; ++i)
             {
-                HAL_GPIO_WritePin(BLINKY_PORT, BLINKY_PIN, GPIO_PIN_SET);
+                bsp::ledSet(kLed, true);
                 sleep(BLINKY_PERIOD_MS / 8U);
-                HAL_GPIO_WritePin(BLINKY_PORT, BLINKY_PIN, GPIO_PIN_RESET);
+                bsp::ledSet(kLed, false);
                 sleep(BLINKY_PERIOD_MS / 8U);
             }
             sleep(BLINKY_PERIOD_MS);
 #else
-            HAL_GPIO_TogglePin(BLINKY_PORT, BLINKY_PIN);
+            bsp::ledToggle(kLed);
             sleep(BLINKY_PERIOD_MS);
 #endif
         }

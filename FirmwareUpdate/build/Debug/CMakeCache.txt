@@ -14,18 +14,6 @@
 # EXTERNAL cache entries
 ########################
 
-//Two short flashes per period instead of an even square wave
-BLINKY_DOUBLE_FLASH:BOOL=OFF
-
-//LED to blink: LD1 (green, PB0), LD2 (blue, PB7), LD3 (red, PB14)
-BLINKY_LED:STRING=LD2
-
-//Milliseconds the LED holds each state
-BLINKY_PERIOD_MS:STRING=500
-
-//Thread stack in bytes (must be a multiple of 4)
-BLINKY_STACK_BYTES:STRING=512
-
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/opt/st/stm32cubeclt_1.20.0/GNU-tools-for-STM32/bin/arm-none-eabi-addr2line
 
@@ -239,7 +227,7 @@ CMAKE_STRIP:FILEPATH=/opt/st/stm32cubeclt_1.20.0/GNU-tools-for-STM32/bin/arm-non
 CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 
 //No help, variable specified on the command line.
-CMAKE_TOOLCHAIN_FILE:UNINITIALIZED=/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/cmake/arm-none-eabi-gcc.cmake
+CMAKE_TOOLCHAIN_FILE:FILEPATH=/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/cmake/arm-none-eabi-gcc.cmake
 
 //If this value is on, makefiles will be generated without the
 // .SILENT directive, and all commands will be echoed to the console
@@ -257,7 +245,57 @@ FirmwareUpdate_IS_TOP_LEVEL:STATIC=ON
 FirmwareUpdate_SOURCE_DIR:STATIC=/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate
 
 //Application under ILT_OS/Applications to build into the image
-ILT_APP:STRING=Blinky
+ILT_APP:STRING=ILT_TESTRIG
+
+//Board under BSP/Boards to build for
+ILT_BOARD:STRING=NucleoF767ZI
+
+//Maximum pages HttpServer can serve
+ILT_HTTP_MAX_ROUTES:STRING=12
+
+//Concurrent dynamic-page renders; one buffer is held per in-flight
+// request
+ILT_HTTP_RENDER_BUFFERS:STRING=2
+
+//Bytes a dynamic page may render into
+ILT_HTTP_RENDER_BYTES:STRING=1024
+
+//Simulate the degrader and dosimeter instead of driving real hardware
+ILT_SIMULATE_RIG:BOOL=ON
+
+//Simultaneous clients on the live data stream
+ILT_STREAM_MAX_CLIENTS:STRING=4
+
+//Records that may be in flight to tcpip_thread at once
+ILT_STREAM_POOL_DEPTH:STRING=4
+
+//Longest single stream record, including the newline
+ILT_STREAM_RECORD_BYTES:STRING=192
+
+//How long to wait for a DHCP lease before taking the fallback
+// address
+TESTRIG_DHCP_TIMEOUT_MS:STRING=15000
+
+//Fallback gateway
+TESTRIG_FALLBACK_GATEWAY:STRING=192.168.1.1
+
+//Fallback IPv4 address
+TESTRIG_FALLBACK_IP:STRING=192.168.1.200
+
+//Fallback netmask
+TESTRIG_FALLBACK_NETMASK:STRING=255.255.255.0
+
+//DHCP client hostname; what a router shows in its lease list
+TESTRIG_HOSTNAME:STRING=ilt-testrig
+
+//Supervisor thread stack in bytes (must be a multiple of 4)
+TESTRIG_STACK_BYTES:STRING=1536
+
+//TCP port clients connect to for the live data stream
+TESTRIG_STREAM_PORT:STRING=5000
+
+//Ask for an address by DHCP, falling back to the static one below
+TESTRIG_USE_DHCP:BOOL=ON
 
 //Directory containing arm-none-eabi-* binaries (with trailing
 // slash)
@@ -268,8 +306,6 @@ TOOLCHAIN_PREFIX:STRING=
 # INTERNAL cache entries
 ########################
 
-//STRINGS property for variable: BLINKY_LED
-BLINKY_LED-STRINGS:INTERNAL=LD1;LD2;LD3
 //ADVANCED property for variable: CMAKE_ADDR2LINE
 CMAKE_ADDR2LINE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_AR
@@ -377,7 +413,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -423,5 +459,15 @@ CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //STRINGS property for variable: ILT_APP
-ILT_APP-STRINGS:INTERNAL=Blinky
+ILT_APP-STRINGS:INTERNAL=Blinky;ILT_TESTRIG;WebServer
+//STRINGS property for variable: ILT_BOARD
+ILT_BOARD-STRINGS:INTERNAL=Host;NucleoF767ZI
+//FreeRTOS portable subdirectory for the selected board
+ILT_FREERTOS_PORT_DIR:INTERNAL=GCC/ARM_CM7/r0p1
+//Linker script for the selected board
+ILT_LINKER_SCRIPT:INTERNAL=/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/BSP/Boards/NucleoF767ZI/STM32F767XX_FLASH.ld
+//Board-neutral rig simulation
+ILT_RIG_SIMULATION_SOURCE:INTERNAL=/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/BSP/Shared/RigSimulation.cpp
+//Startup assembly for the selected board
+ILT_STARTUP_SOURCE:INTERNAL=/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/BSP/Boards/NucleoF767ZI/startup_stm32f767xx.s
 

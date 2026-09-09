@@ -1,0 +1,182 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3,
+						4
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "BSP",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-BSP-Debug-3ef7298c9e3d415d5ca5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "BSP"
+				},
+				{
+					"build" : "BSP/Boards/NucleoF767ZI",
+					"jsonFile" : "directory-BSP.Boards.NucleoF767ZI-Debug-8c85585ccbb07b8a95f4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "BSP/Boards/NucleoF767ZI",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "Middlewares",
+					"jsonFile" : "directory-Middlewares-Debug-f34ad8a16f84e66dc127.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Middlewares",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "ILT_OS",
+					"childIndexes" : 
+					[
+						5
+					],
+					"jsonFile" : "directory-ILT_OS-Debug-a7170655e7ae5b9cece4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "ILT_OS",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "ILT_OS/Applications/ILT_TESTRIG",
+					"jsonFile" : "directory-ILT_OS.Applications.ILT_TESTRIG-Debug-0aab1582d021dc233d68.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 0,
+					"source" : "ILT_OS/Applications/ILT_TESTRIG",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "FirmwareUpdate",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "FirmwareUpdate.elf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FirmwareUpdate.elf-Debug-2a78b0d4df62cfcccf12.json",
+					"name" : "FirmwareUpdate.elf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ilt_app::@0f42137eb8a763319091",
+					"jsonFile" : "target-ilt_app-Debug-4e4e4078a7f9c76c4163.json",
+					"name" : "ilt_app",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ilt_bsp::@8a807277ae5fb0f163c5",
+					"jsonFile" : "target-ilt_bsp-Debug-5870cb61c056cd6af5f4.json",
+					"name" : "ilt_bsp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ilt_middlewares::@5befd97ae422393b252e",
+					"jsonFile" : "target-ilt_middlewares-Debug-47b7e0cf11f17bc8e876.json",
+					"name" : "ilt_middlewares",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ilt_os::@5cb00e956067003c72c5",
+					"jsonFile" : "target-ilt_os-Debug-b2177a47e9251b1747eb.json",
+					"name" : "ilt_os",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/build/Debug",
+		"source" : "/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
