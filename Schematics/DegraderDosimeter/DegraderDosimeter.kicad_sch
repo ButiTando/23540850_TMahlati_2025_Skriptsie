@@ -37,7 +37,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "PulseShaper1.kicad_sch"
+		(property "Sheetfile" "PulseShaper.kicad_sch"
 			(at 40.072 118.8106 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -249,7 +249,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "PulseShaper1.kicad_sch"
+		(property "Sheetfile" "PulseShaper.kicad_sch"
 			(at 90.394 118.6246 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -315,7 +315,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "PulseShaper1.kicad_sch"
+		(property "Sheetfile" "PulseShaper.kicad_sch"
 			(at 40.356 155.7086 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -355,7 +355,7 @@
 		)
 	)
 	(sheet
-		(at 148.496 67.124)
+		(at 133.982 28.086)
 		(size 47 27)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -371,7 +371,7 @@
 		)
 		(uuid "596b959a-2521-47dc-a05e-2cfbc5d24db0")
 		(property "Sheetname" "MCU_H723"
-			(at 148.496 66.4124 0)
+			(at 133.982 27.3744 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -382,7 +382,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU_H723.kicad_sch"
-			(at 148.496 94.7086 0)
+			(at 133.982 55.6706 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -396,6 +396,52 @@
 			(project "DegraderDosimeter"
 				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 196 100)
+		(size 80 55)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "9ad00133-e13c-465e-ad59-297593e6d3f6")
+		(property "Sheetname" "Degrader"
+			(at 196 99.2884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Degrader.kicad_sch"
+			(at 196 155.5846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DegraderDosimeter"
+				(path "/f3c83d46-b432-4960-ae55-27eb620ca6d0"
+					(page "11")
 				)
 			)
 		)
@@ -427,7 +473,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "PulseShaper1.kicad_sch"
+		(property "Sheetfile" "PulseShaper.kicad_sch"
 			(at 90.394 155.7086 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -579,7 +625,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "PulseShaper1.kicad_sch"
+		(property "Sheetfile" "PulseShaper.kicad_sch"
 			(at 40.102 136.9126 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -645,7 +691,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "PulseShaper1.kicad_sch"
+		(property "Sheetfile" "PulseShaper.kicad_sch"
 			(at 90.14 136.4046 0)
 			(show_name no)
 			(do_not_autoplace no)

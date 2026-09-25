@@ -4,4 +4,7 @@
 	(lib (name "RPK0013A-MFG") (type "KiCad") (uri "${KIPRJMOD}/Libs/LM60430DRPKR/KiCADv6/footprints.pretty") (options "") (descr ""))
 	(lib (name "ADA4891-2ARZ-R7") (type "KiCad") (uri "${KIPRJMOD}/Libs/ADA4891-2ARZ-R7") (options "") (descr ""))
 	(lib (name "TC1262-33") (type "KiCad") (uri "${KIPRJMOD}/Libs/TC1262-3.3VDB") (options "") (descr ""))
+	(lib (name "DRIVER-A4988SETTR-T_QFN28_") (type "KiCad") (uri "${KIPRJMOD}/Libs/A4988SETTR_T") (options "") (descr ""))
+	(lib (name "DE15") (type "KiCad") (uri "${KIPRJMOD}/Libs/L717HDE15P/KiCADv6/footprints.pretty") (options "") (descr ""))
+	(lib (name "KRJ-CB4.2GYZNL") (type "KiCad") (uri "${KIPRJMOD}/Libs/KRJ-CB4.2GYZNL") (options "") (descr ""))
 )

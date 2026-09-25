@@ -661,7 +661,7 @@
         "uuid": "f3c83d46-b432-4960-ae55-27eb620ca6d0"
       }
     ],
-    "used_designators": "SW1,U1-4,U6-13,J1-7,Y1-2,#PWR1-16,#PWR18-77,FB1-2,C1-11,C13-56,R1-58,L1-3,RV1-6",
+    "used_designators": "SW1,U1-14,J1-9,Y1-2,#PWR1-89,FB1-2,C1-64,R1-64,L1-3,RV1-6",
     "variants": []
   },
   "sheets": [
@@ -704,6 +704,10 @@
     [
       "a40a36e8-4c2c-4a22-8762-1534ef4f419c",
       "PulseShaper6"
+    ],
+    [
+      "9ad00133-e13c-465e-ad59-297593e6d3f6",
+      "Degrader"
     ]
   ],
   "text_variables": {},

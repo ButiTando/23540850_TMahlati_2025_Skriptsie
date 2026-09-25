@@ -27,4 +27,9 @@
   )
   (fp_line (start 0.0 -3.81) (end 1.27 -3.81) (layer F.SilkS) (width 0.127))
   (fp_line (start 1.27 -3.81) (end 1.27 -5.08) (layer F.SilkS) (width 0.127))
+  (model "${KIPRJMOD}/Libs/ADA4891-2ARZ-R7/ADA4891-2ARZ-R7.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
