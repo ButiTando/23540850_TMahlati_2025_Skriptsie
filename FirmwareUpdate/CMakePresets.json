@@ -1,6 +1,10 @@
 {
     "version": 3,
-    "cmakeMinimumRequired": { "major": 3, "minor": 22, "patch": 0 },
+    "cmakeMinimumRequired": {
+        "major": 3,
+        "minor": 22,
+        "patch": 0
+    },
     "configurePresets": [
         {
             "name": "base",
@@ -16,17 +20,47 @@
             "name": "Debug",
             "displayName": "Debug (-Og -g3)",
             "inherits": "base",
-            "cacheVariables": { "CMAKE_BUILD_TYPE": "Debug" }
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Debug"
+            }
         },
         {
             "name": "Release",
             "displayName": "Release (-Os)",
             "inherits": "base",
-            "cacheVariables": { "CMAKE_BUILD_TYPE": "Release" }
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Release"
+            }
+        },
+        {
+            "name": "Host",
+            "displayName": "Host (native Linux, POSIX + TAP)",
+            "generator": "Ninja",
+            "binaryDir": "${sourceDir}/build/Host",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Debug",
+                "CMAKE_EXPORT_COMPILE_COMMANDS": "ON",
+                "ILT_BOARD": "Host",
+                "ILT_APP": "ILT_TESTRIG",
+                "TESTRIG_USE_DHCP": "OFF",
+                "TESTRIG_FALLBACK_IP": "192.168.7.2",
+                "TESTRIG_FALLBACK_NETMASK": "255.255.255.0",
+                "TESTRIG_FALLBACK_GATEWAY": "192.168.7.1"
+            }
         }
     ],
     "buildPresets": [
-        { "name": "Debug",   "configurePreset": "Debug" },
-        { "name": "Release", "configurePreset": "Release" }
+        {
+            "name": "Debug",
+            "configurePreset": "Debug"
+        },
+        {
+            "name": "Release",
+            "configurePreset": "Release"
+        },
+        {
+            "name": "Host",
+            "configurePreset": "Host"
+        }
     ]
 }

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ILT_OS/Applications/ILT_TESTRIG",
+		"source" : "ILT_OS/Applications/ILT_TESTRIG"
+	}
+}

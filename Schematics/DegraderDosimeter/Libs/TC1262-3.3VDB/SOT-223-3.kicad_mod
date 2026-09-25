@@ -1,24 +1,132 @@
-
-(footprint SOT-223-3 (layer F.Cu) (tedit 6A9C974E)
-  (descr "")
-  (attr smd)
-  (fp_text reference REF** (at 7.675 -7.135 0) (layer F.SilkS)
-    (effects (font (size 1.0 1.0) (thickness 0.15)))
-  )
-  (fp_text value SOT-223-3 (at 11.465 -1.135 0) (layer F.Fab)
-    (effects (font (size 1.0 1.0) (thickness 0.15)))
-  )
-  (pad 1 smd rect (at 0.5 -0.95) (size 0.95 1.9) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (pad 2 smd rect (at 2.8 -0.95) (size 0.95 1.9) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (pad 3 smd rect (at 5.1 -0.95) (size 0.95 1.9) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (pad 2 smd rect (at 2.75 -6.95) (size 3.25 1.9) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (fp_line (start -0.5 -5.75) (end -0.5 -2.0) (layer F.SilkS) (width 0.127))
-  (fp_line (start -0.5 -2.0) (end 6.125 -2.0) (layer F.SilkS) (width 0.127))
-  (fp_line (start 6.125 -2.0) (end 6.125 -5.75) (layer F.SilkS) (width 0.127))
-  (fp_line (start 6.125 -5.75) (end -0.5 -5.75) (layer F.SilkS) (width 0.127))
-  (model "${KIPRJMOD}/Libs/TC1262-3.3VDB/TC1262-3.3VDB.step"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "SOT-223-3"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 7.675 -7.135 0)
+		(layer "F.SilkS")
+		(uuid "a3b3b631-6615-4e0b-ae0e-a33aa2a05e3c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOT-223-3"
+		(at 11.465 -1.135 0)
+		(layer "F.Fab")
+		(uuid "3da69eb4-d030-423c-a445-e41933a476a0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "894e00c5-a2d9-40ae-9b80-02fb095964bb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "99be1fc1-50b4-4911-a993-afda6490309b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.5 -5.75)
+		(end -0.5 -2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c7db04de-1275-4bf2-b1be-3622e0bec9b1")
+	)
+	(fp_line
+		(start -0.5 -2)
+		(end 6.125 -2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "917bca30-3550-4340-bef8-de29ae56efd4")
+	)
+	(fp_line
+		(start 6.125 -5.75)
+		(end -0.5 -5.75)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "30220d4d-cf7f-41ab-8bdb-e5fd1cca2561")
+	)
+	(fp_line
+		(start 6.125 -2)
+		(end 6.125 -5.75)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fe3ba7bb-8817-48f1-9cdd-7d89f6e0c6fa")
+	)
+	(pad "1" smd rect
+		(at 0.5 -0.95)
+		(size 0.95 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "2052dd21-b70b-429c-8d28-90b68e2e1288")
+	)
+	(pad "2" smd rect
+		(at 2.75 -6.95)
+		(size 3.25 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "deaee5b7-791e-4336-8054-7d51bc78a0f3")
+	)
+	(pad "2" smd rect
+		(at 2.8 -0.95)
+		(size 0.95 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "184a7036-b509-4562-9478-318e09ba723b")
+	)
+	(pad "3" smd rect
+		(at 5.1 -0.95)
+		(size 0.95 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "ac56c299-a832-4554-9ae3-a87cdc8a55f7")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libs/TC1262-3.3VDB/TC1262-3.3VDB.step"
+		(offset
+			(xyz 2.8 4 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
 )

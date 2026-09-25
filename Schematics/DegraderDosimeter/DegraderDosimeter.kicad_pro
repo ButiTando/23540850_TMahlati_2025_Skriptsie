@@ -511,6 +511,101 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.25,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "ANALOG",
+        "pcb_color": "rgb(46, 160, 120)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.3,
+        "diff_pair_via_gap": 0.3,
+        "diff_pair_width": 0.15,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "ETH_DIFF_100R",
+        "pcb_color": "rgb(224, 52, 52)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.15,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "ETH_RMII",
+        "pcb_color": "rgb(235, 143, 52)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.3,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "MOTOR",
+        "pcb_color": "rgb(150, 60, 180)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.8,
+        "tuning_profile": "",
+        "via_diameter": 1.0,
+        "via_drill": 0.5,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.25,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "POWER",
+        "pcb_color": "rgb(196, 46, 46)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -518,7 +613,152 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "ETH_DIFF_100R",
+        "pattern": "/Ethernet/TD_P"
+      },
+      {
+        "netclass": "ETH_DIFF_100R",
+        "pattern": "/Ethernet/TD_N"
+      },
+      {
+        "netclass": "ETH_DIFF_100R",
+        "pattern": "/Ethernet/RD_P"
+      },
+      {
+        "netclass": "ETH_DIFF_100R",
+        "pattern": "/Ethernet/RD_N"
+      },
+      {
+        "netclass": "ETH_DIFF_100R",
+        "pattern": "/Ethernet/TX_P"
+      },
+      {
+        "netclass": "ETH_DIFF_100R",
+        "pattern": "/Ethernet/TX_N"
+      },
+      {
+        "netclass": "ETH_DIFF_100R",
+        "pattern": "/Ethernet/RX_P"
+      },
+      {
+        "netclass": "ETH_DIFF_100R",
+        "pattern": "/Ethernet/RX_N"
+      },
+      {
+        "netclass": "ETH_RMII",
+        "pattern": "/Ethernet/RMII_*"
+      },
+      {
+        "netclass": "ETH_RMII",
+        "pattern": "/Ethernet/PHY_*"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "+3.3V"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "VDD"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "VDDA"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/Degrader/5V"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/Degrader/12V"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/Power supply/VCC"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/Power supply/5V"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/Power supply/3V3"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/Power supply/3.3V_MCU"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/Power supply/VIN_FLT1"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/Power supply/VIN_FLT2"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/Power supply/BUCK_VIN"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/Power supply/BUCK_SW"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/PulseShaper*/3.3V"
+      },
+      {
+        "netclass": "MOTOR",
+        "pattern": "/Degrader/OUT1A"
+      },
+      {
+        "netclass": "MOTOR",
+        "pattern": "/Degrader/OUT1B"
+      },
+      {
+        "netclass": "MOTOR",
+        "pattern": "/Degrader/OUT2A"
+      },
+      {
+        "netclass": "MOTOR",
+        "pattern": "/Degrader/OUT2B"
+      },
+      {
+        "netclass": "MOTOR",
+        "pattern": "/Degrader/DC_MOTOR_DIR1_OUT"
+      },
+      {
+        "netclass": "MOTOR",
+        "pattern": "/Degrader/DC_MOTOR_DIR2_OUT"
+      },
+      {
+        "netclass": "ANALOG",
+        "pattern": "/PulseShaper*/PULSE_IN"
+      },
+      {
+        "netclass": "ANALOG",
+        "pattern": "/PulseShaper*/STAGE1_*"
+      },
+      {
+        "netclass": "ANALOG",
+        "pattern": "/PulseShaper*/STAGE2_*"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/Ethernet/ETH_VDD*"
+      },
+      {
+        "netclass": "ANALOG",
+        "pattern": "/MCU_H723/PULSE_*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -661,7 +901,7 @@
         "uuid": "f3c83d46-b432-4960-ae55-27eb620ca6d0"
       }
     ],
-    "used_designators": "SW1,U1-14,J1-9,Y1-2,#PWR1-89,FB1-2,C1-64,R1-64,L1-3,RV1-6",
+    "used_designators": "SW1,U1-15,J1-10,Y1-2,#PWR1-90,#PWR203-205,#PWR312,#PWR326,#PWR333,FB1-2,C1-66,R1-64,TP1-30,L1-3,RV1-6",
     "variants": []
   },
   "sheets": [
@@ -708,6 +948,22 @@
     [
       "9ad00133-e13c-465e-ad59-297593e6d3f6",
       "Degrader"
+    ],
+    [
+      "0d0fa89c-4c5e-4fb8-bcdc-333a9989f36e",
+      "MotorSupply"
+    ],
+    [
+      "c212794e-4918-4b3d-a36e-9b32209575fa",
+      "Debugger"
+    ],
+    [
+      "7b3a1c40-9d52-4e18-b6a7-2f0c5e9a4d31",
+      "StepperDrivers"
+    ],
+    [
+      "3e6b91d7-52a4-4c0b-8f13-a7d905c81b62",
+      "ADC_I2C"
     ]
   ],
   "text_variables": {},

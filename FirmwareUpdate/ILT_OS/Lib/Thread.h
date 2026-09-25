@@ -134,36 +134,61 @@ private:
 };
 
 /**
+ * @brief Smallest stack this platform will actually accept.
+ *
+ * On a Cortex-M target this is just the kernel's own minimum. On the host build
+ * it is much larger and the difference matters: the FreeRTOS POSIX port hands
+ * the task's stack straight to pthread_attr_setstack(), so anything under
+ * glibc's PTHREAD_STACK_MIN makes pthread_create() fail and the port abort.
+ *
+ * Applications should keep sizing their threads for the real hardware;
+ * StaticThread quietly rounds up to this floor so the same code runs natively
+ * without every thread having to carry a host-specific number.
+ */
+#ifndef ILT_MIN_THREAD_STACK_BYTES
+#define ILT_MIN_THREAD_STACK_BYTES (configMINIMAL_STACK_SIZE * sizeof(StackType_t))
+#endif
+
+/**
  * @brief A Thread whose control block and stack are members, not heap.
  *
- * configTOTAL_HEAP_SIZE is only 15360 bytes in this project, so allocating
- * thread stacks dynamically exhausts it quickly. StaticThread moves them into
- * .bss, where an overcommit is a link-time failure rather than a start()
- * returning false at runtime.
+ * The FreeRTOS heap is small on the target boards, so allocating thread stacks
+ * dynamically exhausts it quickly. StaticThread moves them into .bss, where an
+ * overcommit is a link-time failure rather than a start() returning false at
+ * runtime.
  *
- * @tparam StackBytes Stack size in bytes; multiple of sizeof(StackType_t).
+ * @tparam StackBytes Requested stack size in bytes; multiple of
+ *         sizeof(StackType_t). Raised to ILT_MIN_THREAD_STACK_BYTES if that is
+ *         larger, so the request is a floor rather than an exact size.
  */
 template <std::size_t StackBytes>
 class StaticThread : public Thread
 {
     static_assert(StackBytes % sizeof(StackType_t) == 0,
                   "StackBytes must be a multiple of sizeof(StackType_t)");
-    static_assert(StackBytes >= configMINIMAL_STACK_SIZE * sizeof(StackType_t),
-                  "StackBytes is below configMINIMAL_STACK_SIZE");
+
+    /** The size actually reserved: never below the platform's floor. */
+    static constexpr std::size_t kStackBytes =
+        (StackBytes > static_cast<std::size_t>(ILT_MIN_THREAD_STACK_BYTES))
+            ? StackBytes
+            : static_cast<std::size_t>(ILT_MIN_THREAD_STACK_BYTES);
 
 public:
     explicit StaticThread(const char *name,
                           osPriority_t priority = osPriorityNormal) noexcept
-        : Thread(name, static_cast<uint32_t>(StackBytes), priority)
+        : Thread(name, static_cast<uint32_t>(kStackBytes), priority)
     {
         useStaticStorage(&controlBlock_, sizeof(controlBlock_),
                          stack_, static_cast<uint32_t>(sizeof(stack_)));
     }
 
+    /** @brief Bytes actually reserved, which may exceed StackBytes. */
+    static constexpr std::size_t stackBytes() noexcept { return kStackBytes; }
+
 private:
     StaticTask_t controlBlock_{};
-    /* The Cortex-M AAPCS wants an 8-byte-aligned stack. */
-    alignas(8) StackType_t stack_[StackBytes / sizeof(StackType_t)]{};
+    /* The Cortex-M AAPCS wants an 8-byte-aligned stack; so does the host. */
+    alignas(8) StackType_t stack_[kStackBytes / sizeof(StackType_t)]{};
 };
 
 } // namespace ilt

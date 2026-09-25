@@ -39,7 +39,17 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/build/Debug/ILT_OS/Applications/Blinky/cmake_install.cmake")
+  include("/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/build/Debug/BSP/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/build/Debug/Middlewares/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/build/Debug/ILT_OS/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

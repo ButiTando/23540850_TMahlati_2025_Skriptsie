@@ -1,12 +1,12 @@
-# Blinky -- blinks one of the NUCLEO-F767ZI user LEDs from an ilt::Thread.
+# Blinky -- blinks one board LED from an ilt::Thread.
 #
 # Configure-time flags. Override on the command line:
-#   cmake --preset Debug -DBLINKY_LED=LD3 -DBLINKY_PERIOD_MS=100
+#   cmake --preset Debug -DILT_APP=Blinky -DBLINKY_LED=Fault -DBLINKY_PERIOD_MS=100
 # or from a preset's cacheVariables.
 
-set(BLINKY_LED "LD2" CACHE STRING
-    "LED to blink: LD1 (green, PB0), LD2 (blue, PB7), LD3 (red, PB14)")
-set_property(CACHE BLINKY_LED PROPERTY STRINGS LD1 LD2 LD3)
+set(BLINKY_LED "Status" CACHE STRING
+    "LED to blink, named by role: Status, Activity or Fault (see Bsp/Led.h)")
+set_property(CACHE BLINKY_LED PROPERTY STRINGS Status Activity Fault)
 
 set(BLINKY_PERIOD_MS "500" CACHE STRING
     "Milliseconds the LED holds each state")
@@ -17,10 +17,11 @@ set(BLINKY_STACK_BYTES "512" CACHE STRING
 option(BLINKY_DOUBLE_FLASH
     "Two short flashes per period instead of an even square wave" OFF)
 
-# Reject a bad LED here rather than letting the token paste fail later with an
-# unhelpful "LD9_Pin was not declared" from the preprocessor.
-if(NOT BLINKY_LED MATCHES "^LD[123]$")
-    message(FATAL_ERROR "BLINKY_LED must be LD1, LD2 or LD3 (got '${BLINKY_LED}')")
+# Reject a bad role here rather than letting it fail later as an unhelpful
+# "'Purple' is not a member of 'bsp::Led'".
+if(NOT BLINKY_LED MATCHES "^(Status|Activity|Fault)$")
+    message(FATAL_ERROR
+            "BLINKY_LED must be Status, Activity or Fault (got '${BLINKY_LED}')")
 endif()
 
 # OBJECT rather than STATIC: the application is reached only through
@@ -29,8 +30,6 @@ endif()
 add_library(ilt_app OBJECT
     BlinkyApp.cpp
 )
-
-target_include_directories(ilt_app PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 
 # Carries the MCU flags, include paths and USE_HAL_DRIVER/STM32F767xx, so the
 # application is compiled exactly as the firmware is.
