@@ -17,7 +17,7 @@
 rule ASM_COMPILER__FirmwareUpdate.2eelf_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = ${LAUNCHER}${CODE_CHECK}/opt/st/stm32cubeclt_1.20.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ${LAUNCHER}${CODE_CHECK}C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building ASM object $out
 
 
@@ -27,7 +27,7 @@ rule ASM_COMPILER__FirmwareUpdate.2eelf_unscanned_Debug
 rule C_COMPILER__FirmwareUpdate.2eelf_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = ${LAUNCHER}${CODE_CHECK}/opt/st/stm32cubeclt_1.20.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ${LAUNCHER}${CODE_CHECK}C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -37,7 +37,7 @@ rule C_COMPILER__FirmwareUpdate.2eelf_unscanned_Debug
 rule CXX_COMPILER__FirmwareUpdate.2eelf_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = ${LAUNCHER}${CODE_CHECK}/opt/st/stm32cubeclt_1.20.0/GNU-tools-for-STM32/bin/arm-none-eabi-g++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ${LAUNCHER}${CODE_CHECK}C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building CXX object $out
 
 
@@ -45,8 +45,10 @@ rule CXX_COMPILER__FirmwareUpdate.2eelf_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__FirmwareUpdate.2eelf_Debug
-  command = $PRE_LINK && /opt/st/stm32cubeclt_1.20.0/GNU-tools-for-STM32/bin/arm-none-eabi-g++ $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe $FLAGS $LINK_FLAGS @$RSP_FILE -o $TARGET_FILE  && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
+  rspfile = $RSP_FILE
+  rspfile_content = $in $LINK_PATH $LINK_LIBRARIES
   restat = $RESTAT
 
 
@@ -64,7 +66,7 @@ rule CUSTOM_COMMAND
 rule CXX_COMPILER__ilt_app_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = ${LAUNCHER}${CODE_CHECK}/opt/st/stm32cubeclt_1.20.0/GNU-tools-for-STM32/bin/arm-none-eabi-g++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ${LAUNCHER}${CODE_CHECK}C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building CXX object $out
 
 
@@ -72,7 +74,7 @@ rule CXX_COMPILER__ilt_app_unscanned_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /opt/st/stm32cubeclt_1.20.0/CMake/bin/cmake --regenerate-during-build -S/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate -B/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/build/Debug
+  command = C:\ST\STM32CubeCLT_1.17.0\CMake\bin\cmake.exe --regenerate-during-build -S"C:\Users\Tando Mahlati\23540850_TMahlati_2025_Skriptsie\FirmwareUpdate" -B"C:\Users\Tando Mahlati\23540850_TMahlati_2025_Skriptsie\FirmwareUpdate\build\Debug"
   description = Re-running CMake...
   generator = 1
 
@@ -81,7 +83,7 @@ rule RERUN_CMAKE
 # Rule for re-checking globbed directories.
 
 rule VERIFY_GLOBS
-  command = /opt/st/stm32cubeclt_1.20.0/CMake/bin/cmake -P /home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/build/Debug/CMakeFiles/VerifyGlobs.cmake
+  command = C:\ST\STM32CubeCLT_1.17.0\CMake\bin\cmake.exe -P "C:\Users\Tando Mahlati\23540850_TMahlati_2025_Skriptsie\FirmwareUpdate\build\Debug\CMakeFiles\VerifyGlobs.cmake"
   description = Re-checking globbed directories...
   generator = 1
 
@@ -90,7 +92,7 @@ rule VERIFY_GLOBS
 # Rule for cleaning all built files.
 
 rule CLEAN
-  command = /opt/st/stm32cubeclt_1.20.0/Ninja/bin/ninja $FILE_ARG -t clean $TARGETS
+  command = C:\ST\STM32CubeCLT_1.17.0\Ninja\bin\ninja.exe $FILE_ARG -t clean $TARGETS
   description = Cleaning all built files...
 
 
@@ -98,6 +100,6 @@ rule CLEAN
 # Rule for printing all primary targets available.
 
 rule HELP
-  command = /opt/st/stm32cubeclt_1.20.0/Ninja/bin/ninja -t targets
+  command = C:\ST\STM32CubeCLT_1.17.0\Ninja\bin\ninja.exe -t targets
   description = All primary targets available:
 

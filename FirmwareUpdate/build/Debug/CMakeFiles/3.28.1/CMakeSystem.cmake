@@ -1,9 +1,9 @@
-set(CMAKE_HOST_SYSTEM "Linux-6.8.0-60-generic")
-set(CMAKE_HOST_SYSTEM_NAME "Linux")
-set(CMAKE_HOST_SYSTEM_VERSION "6.8.0-60-generic")
-set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
+set(CMAKE_HOST_SYSTEM "Windows-10.0.26200")
+set(CMAKE_HOST_SYSTEM_NAME "Windows")
+set(CMAKE_HOST_SYSTEM_VERSION "10.0.26200")
+set(CMAKE_HOST_SYSTEM_PROCESSOR "AMD64")
 
-include("/home/tando/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/cmake/arm-none-eabi-gcc.cmake")
+include("C:/Users/Tando Mahlati/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/cmake/arm-none-eabi-gcc.cmake")
 
 set(CMAKE_SYSTEM "Generic")
 set(CMAKE_SYSTEM_NAME "Generic")

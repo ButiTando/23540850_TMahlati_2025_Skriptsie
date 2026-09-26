@@ -33,7 +33,10 @@
                 "USE_HAL_DRIVER",
                 "STM32F767xx"
             ],
-            "compilerPath": "/opt/st/stm32cubeclt_1.20.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc",
+            // Host-specific: must match the toolchain that generated compileCommands
+            // above. Windows/STM32CubeCLT 1.18.0 (GCC 13.3.1). On another host,
+            // point this at that machine's arm-none-eabi-gcc.
+            "compilerPath": "C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc.exe",
             "compilerArgs": [
                 "-mcpu=cortex-m7",
                 "-mthumb",
@@ -42,7 +45,7 @@
             ],
             "cStandard": "gnu11",
             "cppStandard": "gnu++17",
-            "intelliSenseMode": "linux-gcc-arm"
+            "intelliSenseMode": "windows-gcc-arm"
         }
     ]
 }
