@@ -1,6 +1,0 @@
-C:/Users/Tando Mahlati/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/build/Debug/CMakeFiles/FirmwareUpdate.elf.dir
-C:/Users/Tando Mahlati/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/build/Debug/CMakeFiles/edit_cache.dir
-C:/Users/Tando Mahlati/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/build/Debug/CMakeFiles/rebuild_cache.dir
-C:/Users/Tando Mahlati/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/build/Debug/ILT_OS/Applications/Blinky/CMakeFiles/ilt_app.dir
-C:/Users/Tando Mahlati/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/build/Debug/ILT_OS/Applications/Blinky/CMakeFiles/edit_cache.dir
-C:/Users/Tando Mahlati/23540850_TMahlati_2025_Skriptsie/FirmwareUpdate/build/Debug/ILT_OS/Applications/Blinky/CMakeFiles/rebuild_cache.dir

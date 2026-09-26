@@ -1,0 +1,11 @@
+# VS Code Local History extension
+.history/
+
+# KiCad backups and autosaves
+_restore_backup_*/
+*-backups/
+*.kicad_prl
+fp-info-cache
+
+# CMake / Ninja build output
+FirmwareUpdate/build/

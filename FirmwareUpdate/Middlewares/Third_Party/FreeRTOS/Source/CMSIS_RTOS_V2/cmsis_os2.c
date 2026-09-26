@@ -29,7 +29,14 @@
 #include "FreeRTOS.h"                   // ARM.FreeRTOS::RTOS:Core
 #include "task.h"                       // ARM.FreeRTOS::RTOS:Core
 #include "event_groups.h"               // ARM.FreeRTOS::RTOS:Event Groups
-#include "semphr.h"                     // ARM.FreeRTOS::RTOS:Core
+#include "semphr.h"
+
+/* ILT: the mutex id carries a "recursive" flag in bit 0, and upstream masks it
+   with (uint32_t) casts. That is lossless only while a pointer is 32 bits. On
+   the 64-bit host build it truncates the handle and the next dereference
+   segfaults, so the casts below are uintptr_t -- identical on Cortex-M, correct
+   everywhere. Re-apply if CubeMX regenerates this file. */
+                     // ARM.FreeRTOS::RTOS:Core
 
 /*---------------------------------------------------------------------------*/
 #ifndef __ARM_ARCH_6M__
@@ -1293,7 +1300,7 @@ osMutexId_t osMutexNew (const osMutexAttr_t *attr) {
       #endif
 
       if ((hMutex != NULL) && (rmtx != 0U)) {
-        hMutex = (SemaphoreHandle_t)((uint32_t)hMutex | 1U);
+        hMutex = (SemaphoreHandle_t)((uintptr_t)hMutex | 1U);
       }
     }
   }
@@ -1306,9 +1313,9 @@ osStatus_t osMutexAcquire (osMutexId_t mutex_id, uint32_t timeout) {
   osStatus_t stat;
   uint32_t rmtx;
 
-  hMutex = (SemaphoreHandle_t)((uint32_t)mutex_id & ~1U);
+  hMutex = (SemaphoreHandle_t)((uintptr_t)mutex_id & ~(uintptr_t)1U);
 
-  rmtx = (uint32_t)mutex_id & 1U;
+  rmtx = (uint32_t)((uintptr_t)mutex_id & 1U);
 
   stat = osOK;
 
@@ -1347,9 +1354,9 @@ osStatus_t osMutexRelease (osMutexId_t mutex_id) {
   osStatus_t stat;
   uint32_t rmtx;
 
-  hMutex = (SemaphoreHandle_t)((uint32_t)mutex_id & ~1U);
+  hMutex = (SemaphoreHandle_t)((uintptr_t)mutex_id & ~(uintptr_t)1U);
 
-  rmtx = (uint32_t)mutex_id & 1U;
+  rmtx = (uint32_t)((uintptr_t)mutex_id & 1U);
 
   stat = osOK;
 
@@ -1379,7 +1386,7 @@ osThreadId_t osMutexGetOwner (osMutexId_t mutex_id) {
   SemaphoreHandle_t hMutex;
   osThreadId_t owner;
 
-  hMutex = (SemaphoreHandle_t)((uint32_t)mutex_id & ~1U);
+  hMutex = (SemaphoreHandle_t)((uintptr_t)mutex_id & ~(uintptr_t)1U);
 
   if (IS_IRQ() || (hMutex == NULL)) {
     owner = NULL;
@@ -1395,7 +1402,7 @@ osStatus_t osMutexDelete (osMutexId_t mutex_id) {
 #ifndef USE_FreeRTOS_HEAP_1
   SemaphoreHandle_t hMutex;
 
-  hMutex = (SemaphoreHandle_t)((uint32_t)mutex_id & ~1U);
+  hMutex = (SemaphoreHandle_t)((uintptr_t)mutex_id & ~(uintptr_t)1U);
 
   if (IS_IRQ()) {
     stat = osErrorISR;
